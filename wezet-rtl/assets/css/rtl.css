@@ -1,0 +1,745 @@
+.home-sliders .home-item .main-banner-content::before {
+    right: 18%;
+    left: auto;
+    margin-right: -145px;
+    margin-left: 0;
+}
+.home-sliders .banner-image {
+    left: 0;
+    right: auto;
+    text-align: left;
+}
+.wezet-nav .navbar .navbar-nav {
+    margin-right: auto;
+    margin-left: 0;
+}
+.wezet-nav .navbar .others-options {
+    margin-right: 100px;
+    margin-left: 0;
+}
+.navbar-brand {
+    margin-right: 0;
+}
+.wezet-nav .navbar .navbar-nav .nav-item:first-child a {
+    margin-right: 0;
+    margin-left: 14px;
+}
+.wezet-nav .navbar .navbar-nav .nav-item:last-child a {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+.wezet-nav .navbar .others-options .burger-menu {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.wezet-nav .navbar .others-options .burger-menu span:nth-child(3) {
+    margin-right: auto;
+    margin-left: 0;
+}
+.wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    right: -255px;
+    left: auto;
+}
+.search-overlay.search-popup {
+    left: 0;
+    right: auto;
+}
+.search-overlay.search-popup .search-form .search-input {
+    padding-right: 10px;
+    margin-left: 0;
+}
+.search-overlay.search-popup .search-form .search-button {
+    left: 0;
+    right: auto;
+}
+.sidebar-modal.active .sidebar-modal-inner {
+    left: 0;
+    right: auto;
+}
+.sidebar-modal .sidebar-modal-inner {
+    left: -100%;
+    right: auto;
+}
+.sidebar-modal .sidebar-modal-inner .close-btn {
+    left: 35px;
+    right: auto;
+}
+.sidebar-modal .sidebar-instagram-feed ul {
+    padding-right: 0;
+}
+.sidebar-modal .sidebar-contact-area .contact-info .contact-info-content .social {
+    padding-right: 0;
+}
+.about-area-content {
+    padding-right: 100px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: 0;
+}
+.about-area-content .about-list {
+    padding-right: 0;
+}
+.about-shape .shape-1 {
+    left: 20px !important;
+    right: auto !important;
+}
+.about-shape .shape-2 {
+    left: 20px !important;
+    right: auto !important;
+}
+.about-shape .shape-3 {
+    right: 0;
+    left: auto;
+}
+.coming-soon-area .coming-soon-content #timer div:first-child {
+    margin-right: 0;
+    margin-left: 35px;
+}
+.coming-soon-area .coming-soon-content #timer div:last-child {
+    margin-left: 0;
+    margin-right: 35px;
+}
+.schedule-list-tab .tabs {
+    padding-right: 0;
+}
+.schedule-list-tab .tabs li {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.schedule-list-tab .tabs li:last-child {
+    margin-left: 0;
+}
+.schedule-list-tab .tab_content .tabs_item .schedule-content::after {
+    left: -8px;
+    right: auto;
+}
+.schedule-list-tab .tab_content .tabs_item .schedule-content::before {
+    border-left: 1px solid #e8c7fc;
+    border-right: none;
+}
+.schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title {
+    padding: 0 25px 16px 60px;
+}
+.schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title i {
+    left: 20px;
+    right: auto;
+}
+.schedule-list-tab .tab_content .tabs_item .schedule-faq::before {
+    right: -35px;
+    left: 0;
+}
+.experience-content .experience-btn .optional-btn {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.experience-image img {
+    border-radius: 0 0 50px 0;
+}
+.experience-section .row.bg-color {
+    border-radius: 0 0 50px 0;
+}
+.experience-shape .shape-2 {
+    right: 40px !important;
+    left: auto !important;
+}
+.experience-shape .shape-1 {
+    right: 7% !important;
+    left: auto !important;
+}
+.experience-shape .shape-4 {
+    left: 5%;
+    right: auto;
+}
+.experience-shape .shape-3 {
+    left: 10%;
+    right: auto;
+}
+.pr-0, .px-0 {
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+}
+.pl-0, .px-0 {
+    padding-right: 0 !important;
+    padding-left: 10px !important;
+}
+.blog-image .date {
+    right: 20px;
+    left: auto;
+}
+.pricing-slider .pricing-item .pricing-list {
+    padding-right: 0;
+}
+.pricing-slider .pricing-item .price-shape {
+    left: 0;
+    right: auto;
+}
+.register-form .form-group .list-unstyled {
+    padding-right: 0;
+    text-align: right;
+}
+.register-form .text-danger {
+    text-align: right !important;
+}
+.sponsorship-list .sponsorship-item:nth-child(6) {
+    margin-right: 20%;
+    margin-left: 0;
+}
+.footer-area-content .footer-list {
+    padding-right: 0;
+}
+.copy-right-area .copy-right-list {
+    padding-right: 0;
+}
+.footer-area-content .footer-list li {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.footer-area-content .footer-list li:last-child {
+    margin-left: 0;
+}
+.copy-right-area .copy-right-list li {
+    margin-left: 30px;
+    margin-right: 0;
+}
+.copy-right-area .copy-right-list li:last-child {
+    margin-left: 0;
+}
+.copy-right-area .copy-right-text.text-two {
+    text-align: right;
+}
+.copy-right-area .copy-right-text ul {
+    padding-right: 0;
+    text-align: left;
+}
+.copy-right-area .copy-right-text ul li:last-child {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.copy-right-area .copy-right-text ul li:first-child {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.copy-right-area .copy-right-text ul li::before {
+    left: -13px;
+    right: auto;
+}
+.newsletter-form #validator-newsletter {
+    text-align: center;
+}
+.go-top {
+    left: 15px;
+    right: auto;
+}
+.wezet-nav .nav-btn {
+    margin-right: 30px;
+    margin-left: 0;
+}
+.coming-soon-area .coming-soon-content-two #timer div:first-child {
+    margin-right: 0;
+    margin-left: 35px;
+}
+.coming-soon-area .coming-soon-content-two #timer div:last-child {
+    margin-left: 0;
+    margin-right: 35px;
+}
+.register-section.register-two .pricing-slider .pricing-item .pricing-list {
+    text-align: right;
+}
+.pricing-slider .pricing-item .pricing-list i {
+    margin-left: 5px;
+    padding-right: 0;
+    float: right;
+}
+.news-item .content ul {
+    padding-right: 0;
+}
+.news-item .content ul li:first-child {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.news-item .content ul li:last-child {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.news-item .content ul li::before {
+    left: -12px;
+    right: auto;
+}
+.about-area .about-area-content .about-btn .location-btn-one {
+    margin-right: 15px;
+    margin-left: 0;
+}
+.preloader .preloader {
+    text-align: right;
+    right: 50%;
+    left: auto;
+}
+.schedule-section {
+    overflow: hidden;
+}
+.schedule-list-tab-two .tab_content .tabs_item .schedule-area .schedule-content .dots::before {
+    left: -120px;
+    right: auto;
+}
+.schedule-list-tab-two .tab_content .tabs_item .schedule-area .schedule-image-content .dots::before {
+    left: 85px;
+    right: auto;
+}
+.single-pricing .pricing-list {
+    padding-right: 0;
+}
+.single-pricing .price-shape {
+    left: 5px;
+    right: auto;
+}
+.single-pricing .pricing-list i {
+    margin-left: 5px;
+    padding-right: 0;
+    float: right;
+	position: relative;
+	top: 3px;
+}
+.news-item .image .date {
+    right: 20px;
+    left: auto;
+}
+.main-banner-three .banner-image {
+    left: 0;
+    right: auto;
+    text-align: left;
+}
+.main-banner-three .main-banner-content .banner-btn .location-btn-one {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.schedule-list-tab-two .tabs {
+    padding-right: 0;
+}
+.schedule-list-tab-two .tabs li {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.schedule-list-tab-two .tabs li:last-child {
+    margin-left: 0;
+}
+.main-banner-four .main-banner-content .banner-btn .location-btn-one {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.main-banner-four .coming-soon-content #timer div:first-child {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.main-banner-four .coming-soon-content #timer div:last-child {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.about-area .about-area-content h2::before {
+    right: 0;
+    left: auto;
+}
+.schedule-list-tab-three .tabs {
+    padding-right: 0;
+}
+.schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title .list {
+    padding-right: 0;
+}
+.schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title .list li {
+    margin-left: 80px;
+    margin-right: 0;
+}
+.schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title .list li:last-child {
+    margin-left: 0;
+}
+.schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion {
+    padding-right: 0;
+}
+.schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title i {
+    left: 0;
+    right: auto;
+}
+.schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-content::after {
+    right: 0;
+    left: auto;
+}
+.schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion {
+    padding-right: 0;
+}
+.mission-section .single-fun-fact {
+    text-align: right;
+}
+.testimonial-slider .testimonial-items .testimonial-content {
+    padding-right: 20px;
+    padding-left: 50px;
+}
+.main-banner-five .main-banner-content {
+    margin-right: auto;
+    margin-left: 0;
+}
+.main-banner-five .main-banner-content .banner-btn .location-btn-one {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.main-banner-five .coming-soon-content #timer div:first-child {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.main-banner-five .coming-soon-content #timer div:last-child {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.main-banner-eight .banner-form form .form-control {
+    padding: 0 15px 0 0;
+}
+.main-banner-nine .main-banner-content .banner-btn .location-btn-one {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.main-banner-nine .coming-soon-content #timer div:first-child {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.main-banner-nine .coming-soon-content #timer div:last-child {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.page-title-content ul {
+    padding-right: 0;
+}
+.page-title-content ul li::before {
+    left: -15px;
+    right: auto;
+}
+.widget-area .widget_search form button {
+    left: 0;
+    right: auto;
+}
+.widget-area .widget .widget-title::before {
+    right: 0;
+    left: auto;
+}
+.widget-area .widget_wezet_posts_thumb .item .thumb {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+.widget-area .widget_categories ul {
+    padding-right: 0;
+}
+.widget-area .widget_categories ul li {
+    padding-right: 14px;
+    padding-left: 0;
+}
+.widget-area .widget_categories ul li::before {
+    right: 0;
+    left: auto;
+}
+.widget-area .widget_recent_entries ul {
+    padding-right: 0;
+}
+.widget-area .widget_recent_entries ul li {
+    padding-right: 14px;
+    padding-left: 0;
+}
+.widget-area .widget_recent_entries ul li::before {
+    right: 0;
+    left: auto;
+}
+.widget-area .widget_meta ul {
+    padding-right: 0;
+}
+.widget-area .widget_meta ul li {
+    padding-right: 14px;
+    padding-left: 0;
+}
+.widget-area .widget_meta ul li::before {
+    right: 0;
+    left: auto;
+}
+.widget-area .widget_archive ul {
+    padding-right: 0;
+}
+.widget-area .widget_archive ul li {
+    padding-right: 14px;
+    padding-left: 0;
+}
+.widget-area .widget_archive ul li::before {
+    right: 0;
+    left: auto;
+}
+.events-details-desc .events-details-content .entry-meta ul {
+    padding-right: 0;
+}
+.events-details-desc .events-details-footer .article-share .social {
+    padding-right: 0;
+    text-align: left;
+}
+.widget-area .widget_recent_comments ul {
+    padding-right: 0;
+}
+.widget-area .widget_recent_comments ul li {
+    padding-right: 14px;
+    padding-left: 0;
+}
+.widget-area .widget_recent_comments ul li::before {
+    right: 0;
+    left: auto;
+}
+.blog-details-desc .article-content .entry-meta ul {
+    padding-right: 0;
+}
+.blog-details-desc .article-content .entry-meta ul li {
+    margin-left: 21px;
+    margin-right: 0;
+}
+.blog-details-desc .article-content .entry-meta ul li:last-child {
+    margin-left: 0;
+}
+.blog-details-desc .article-content .entry-meta ul li::before {
+    left: -15px;
+    right: auto;
+}
+blockquote::after, .blockquote::after {
+    right: 0;
+    left: auto;
+}
+.blog-details-desc .article-content .wp-block-gallery.columns-3 {
+    padding-right: 0;
+}
+.blog-details-desc .article-content .features-list {
+    padding-right: 0;
+}
+.blog-details-desc .article-content .features-list li {
+    padding-right: 34px;
+    padding-left: 0;
+}
+.blog-details-desc .article-content .features-list li i {
+    right: 0;
+    left: auto;
+}
+.blog-details-desc .article-footer .article-share .social {
+    padding-right: 0;
+    text-align: left;
+}
+.blog-details-desc .article-footer .article-share .social li span {
+    margin-left: 2px;
+    margin-right: 0;
+}
+.post-navigation .navigation-links .nav-next {
+    text-align: left;
+}
+.comments-area .comment-body {
+    padding-right: 65px;
+    padding-left: 0;
+}
+.comments-area .comment-author .avatar {
+    right: -65px;
+    left: auto;
+}
+.comments-area .comment-respond .comment-form-cookies-consent {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.comments-area .comment-respond .comment-form-cookies-consent input {
+    right: 0;
+    left: auto;
+}
+.contact-form .with-errors ul {
+    padding-right: 0;
+}
+.contact-info .contact-info-content .social {
+    padding-right: 0;
+}
+.faq-accordion-content .accordion {
+    padding-right: 0;
+}
+.faq-accordion-content .accordion .accordion-title {
+    padding: 18px 55px 18px 20px;
+}
+.faq-accordion-content .accordion .accordion-title i {
+    right: 0;
+    left: auto;
+}
+.faq-contact-form form .help-block ul li {
+    text-align: right;
+}
+.faq-contact-form form .help-block ul {
+    padding-right: 0;
+}
+.text-right {
+    text-align: left !important;
+}
+.form-check-input {
+    margin-right: -1.25rem;
+    margin-left: 0;
+}
+.form-check {
+    padding-right: 1.25rem;
+    padding-left: 0;
+}
+.schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-content {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.single-pricing {
+    border-radius: 50px 0 50px 0;
+}
+.faq-accordion-content {
+    padding: 20px;
+}
+.login-form .forgot-password {
+    text-align: left;
+}
+.form-check .form-check-input {
+    float: right;
+    margin-right: -1.5em;
+    margin-left: 0;
+}
+.schedule-list-tab-three .tabs li {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.schedule-list-tab-three .tabs li:last-child {
+    margin-left: 0;
+}
+
+/*
+Responsive CSS
+============================*/
+@media only screen and (max-width: 767px) {
+    .mean-container a.meanmenu-reveal {
+        left: 0 !important;
+        right: auto !important;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 90%;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left;
+        left: 0;
+        right: auto;
+    }
+    
+    .mean-container .mean-nav ul li a {
+        text-align: right;
+    }
+    .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title {
+        padding: 0 0 16px 0 !important;
+    }
+    .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-content {
+        padding-right: 0 !important;
+    }
+    .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title i {
+        left: 0 !important;
+        right: auto !important;
+    }
+    .main-banner-three .main-banner-content .banner-btn .location-btn-one {
+        margin-right: 8px !important;
+        margin-left: 0 !important;
+    }
+    .schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title i {
+        left: 0 !important;
+        right: auto !important;
+    }
+    .schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title .list li {
+        margin-left: 10px !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mean-container a.meanmenu-reveal {
+        left: 0 !important;
+        right: auto !important;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 90%;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left;
+        left: 0;
+        right: auto;
+    }
+    .mean-container .mean-nav ul li a {
+        text-align: right;
+    }
+    .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title {
+        padding: 0 0 16px 0 !important;
+    }
+    .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-content {
+        padding-right: 0 !important;
+    }
+    .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title i {
+        left: 0 !important;
+        right: auto !important;
+    }
+    .register-form {
+        margin-bottom: 30px;
+    }
+    .coming-soon-area .coming-soon-content-two {
+        text-align: right !important;
+    }
+    .coming-soon-area .coming-soon-content {
+        text-align: right !important;
+    }
+    .schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title .list li {
+        margin-left: 10px !important;
+        margin-right: 0 !important;
+    }
+    .schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title i {
+        left: 0 !important;
+        right: auto !important;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .wezet-nav .navbar .others-options {
+        margin-right: 30px !important; 
+        margin-left: 0 !important;
+    }
+    .schedule-list-tab-two .tab_content .tabs_item .schedule-area::before {
+        left: -835px !important;
+    }
+    .schedule-list-tab-two .tab_content .tabs_item .schedule-area .schedule-content .dots::before {
+        left: -100px !important;
+        right: auto !important;
+    }
+    .schedule-list-tab-two .tab_content .tabs_item .schedule-area .schedule-image-content .dots::before {
+        left: 45px !important;
+    }
+    .single-pricing .pricing-list li {
+        font-size: 14px;
+    }
+    .schedule-list-tab-three .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title .list li {
+        margin-left: 30px !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    .about-shape .shape-1 {
+        left: 10% !important;
+        right: auto !important;
+    }
+    .about-shape .shape-2 {
+        left: 10% !important;
+        right: auto !important;
+    }
+    .experience-shape .shape-2 {
+        right: 13% !important;
+        left: auto !important;
+    }
+    .experience-shape .shape-1 {
+        right: 15% !important;
+        left: auto !important;
+    }
+}
