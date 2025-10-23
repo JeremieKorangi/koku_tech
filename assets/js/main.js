@@ -313,7 +313,7 @@ jQuery(function ($) {
 	
 	// Count Time 
 	function makeTimer() {
-		var endTime = new Date("April 30, 2028 17:00:00 PDT");
+		var endTime = new Date("november 01, 2025 17:00:00 PDT");
 		var endTime = (Date.parse(endTime)) / 1000;
 		var now = new Date();
 		var now = (Date.parse(now) / 1000);
@@ -325,10 +325,10 @@ jQuery(function ($) {
 		if (hours < "10") { hours = "0" + hours; }
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
-		$("#days").html(days + "<span>Days</span>");
-		$("#hour").html(hours + "<span>Hours</span>");
-		$("#minu").html(minutes + "<span>minutes</span>");
-		$("#seco").html(seconds + "<span>seconds</span>");
+		$("#days").html(days + "<span>Jours</span>");
+		$("#hour").html(hours + "<span>Heures</span>");
+		$("#minu").html(minutes + "<span>Minutes</span>");
+		$("#seco").html(seconds + "<span>Secondes</span>");
 	}
 	setInterval(function() { makeTimer(); }, 300);
     
