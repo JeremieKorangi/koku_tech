@@ -76,7 +76,8 @@ a {
 }
 
 a:hover, a:focus {
-  color: #c974fb;
+  color: #f48907;
+
   text-decoration: none;
 }
 
@@ -172,7 +173,8 @@ img {
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 2px;
@@ -240,8 +242,10 @@ img {
 
 .optional-btn:hover, .optional-btn:focus {
   color: #ffffff !important;
-  background-color: #c974fb;
-  border: 1px solid #c974fb;
+  background-color: #f48907;
+
+  border: 1px solid #f48907;
+
 }
 
 .section-title {
@@ -362,7 +366,7 @@ Preloader Area CSS
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background-color: #c974fb !important;
+  background-color: #f48907; !important;
   -webkit-animation: preloader 1.3s linear infinite;
   animation: preloader 1.3s linear infinite;
 }
@@ -463,7 +467,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item a:hover, .wezet-nav .navbar .navbar-nav .nav-item a:focus, .wezet-nav .navbar .navbar-nav .nav-item a.active {
-  color: #c974fb;
+  color: #f48907;
+
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -487,7 +492,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item:hover a, .wezet-nav .navbar .navbar-nav .nav-item.active a {
-  color: #c974fb;
+  color: #f48907;
+
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -533,7 +539,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #c974fb;
+  color: #f48907;
+
   letter-spacing: 1px;
 }
 
@@ -553,7 +560,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -568,7 +576,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -583,7 +592,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -598,7 +608,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -613,7 +624,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -628,11 +640,13 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -642,7 +656,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -652,7 +667,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -662,7 +678,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -672,7 +689,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -682,7 +700,8 @@ Navbar Area CSS
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .wezet-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -812,7 +831,8 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar .navbar-nav .nav-item a.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .navbar-area.is-sticky .navbar .others-options .option-item {
@@ -832,7 +852,8 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .navbar .others-options .burger-menu:hover span {
-  background: #c974fb;
+  background: #f48907;
+
 }
 
 .search-overlay {
@@ -871,7 +892,8 @@ Navbar Area CSS
 }
 
 .search-overlay.search-popup .search-form .search-input:focus {
-  border-color: #c974fb;
+  border-color: #f48907;
+
 }
 
 .search-overlay.search-popup .search-form .search-button {
@@ -890,7 +912,8 @@ Navbar Area CSS
 }
 
 .search-overlay.search-popup .search-form .search-button:hover, .search-overlay.search-popup .search-form .search-button:focus {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .sidebar-modal {
@@ -1030,7 +1053,8 @@ Navbar Area CSS
 
 .sidebar-modal .sidebar-contact-area .contact-info .contact-info-content h2 a {
   display: inline-block;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .sidebar-modal .sidebar-contact-area .contact-info .contact-info-content h2 a:hover {
@@ -1042,7 +1066,8 @@ Navbar Area CSS
 }
 
 .sidebar-modal .sidebar-contact-area .contact-info .contact-info-content h2 a:not(:first-child):hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .sidebar-modal .sidebar-contact-area .contact-info .contact-info-content h2 span {
@@ -1083,8 +1108,10 @@ Navbar Area CSS
 
 .sidebar-modal .sidebar-contact-area .contact-info .contact-info-content .social li a:hover {
   color: #ffffff;
-  border-color: #c974fb;
-  background-color: #c974fb;
+  border-color: #f48907;
+
+  background-color: #f48907;
+
 }
 
 .sidebar-modal.active {
@@ -1107,7 +1134,8 @@ Navbar Area CSS
     font-size: 15px;
   }
   .wezet-responsive-nav .wezet-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #c974fb;
+    color: #f48907;
+
   }
   .wezet-responsive-nav .wezet-responsive-menu.mean-container .mean-nav ul li a i {
     display: none;
@@ -1290,7 +1318,8 @@ Banner Area CSS
 }
 
 .home-sliders.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
   color: #ffffff;
 }
 
@@ -1314,7 +1343,8 @@ Banner Area CSS
 }
 
 .home-sliders.owl-theme .owl-dots .owl-dot:hover span, .home-sliders.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .home-sliders.owl-theme .owl-dots .owl-dot.active span {
@@ -1476,7 +1506,8 @@ About Area CSS
 .about-area .about-area-content .about-btn .location-btn-one {
   display: inline-block;
   font-size: 16px;
-  color: #c974fb;
+  color: #f48907;
+
   -webkit-transition: 0.5s;
   transition: 0.5s;
   position: relative;
@@ -1828,7 +1859,8 @@ Offer Area CSS
 
 .offer-content:hover::before {
   opacity: 0.7;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .offer-content:hover h3 {
@@ -1912,7 +1944,8 @@ Event Area CSS
 }
 
 .event-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
   color: #ffffff;
 }
 
@@ -1936,7 +1969,8 @@ Event Area CSS
 }
 
 .event-slider.owl-theme .owl-dots .owl-dot:hover span, .event-slider.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .event-slider.owl-theme .owl-dots .owl-dot.active span {
@@ -2048,7 +2082,8 @@ Coming Soon Area CSS
 
 .coming-soon-area .coming-soon-content-two #timer div {
   display: inline-block;
-  color: #c974fb;
+  color: #f48907;
+
   position: relative;
   margin-left: 35px;
   margin-right: 35px;
@@ -2202,7 +2237,8 @@ Schedule Area CSS
 }
 
 .schedule-list-tab .tabs li.current, .schedule-list-tab .tabs li:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .schedule-list-tab .tabs li.current a, .schedule-list-tab .tabs li:hover a {
@@ -2346,7 +2382,8 @@ Schedule Area CSS
 }
 
 .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title.active {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .schedule-list-tab .tab_content .tabs_item .schedule-faq .faq-accordion .accordion .accordion-title.active i {
@@ -2402,7 +2439,8 @@ Schedule Area CSS
   left: 0;
   width: 6px;
   height: 6px;
-  background: #c974fb;
+  background: #f48907;
+
   border-radius: 50%;
 }
 
@@ -2447,7 +2485,8 @@ Schedule Area CSS
 }
 
 .schedule-list-tab-two .tabs li.current, .schedule-list-tab-two .tabs li:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .schedule-list-tab-two .tabs li.current a, .schedule-list-tab-two .tabs li:hover a {
@@ -2510,7 +2549,8 @@ Schedule Area CSS
   content: "";
   height: 110px;
   width: 110px;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   left: 290px;
   bottom: 68px;
   border-radius: 50%;
@@ -2559,7 +2599,8 @@ Schedule Area CSS
 
 .schedule-list-tab-two .tab_content .tabs_item .schedule-area .schedule-content h3 {
   font-size: 25px;
-  color: #c974fb;
+  color: #f48907;
+
   margin: 5px 0 10px 0;
 }
 
@@ -2620,11 +2661,13 @@ Schedule Area CSS
 }
 
 .schedule-list-tab-three .tabs li.current, .schedule-list-tab-three .tabs li:hover {
-  border-bottom: 1px solid #c974fb;
+  border-bottom: 1px solid #f48907;
+
 }
 
 .schedule-list-tab-three .tabs li.current a, .schedule-list-tab-three .tabs li:hover a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .schedule-list-tab-three .tab_content {
@@ -2853,7 +2896,8 @@ Experience Area CSS
 }
 
 .experience-content .experience-btn .default-btn {
-  border: 1px solid #c974fb;
+  border: 1px solid #f48907;
+
 }
 
 .experience-shape .shape-1 {
@@ -2986,7 +3030,8 @@ Speaker Area CSS
 
 .speaker-slider .speaker-item .image .social li a:hover {
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .speaker-slider .speaker-item .image .social li:nth-child(1) {
@@ -3041,7 +3086,8 @@ Speaker Area CSS
 
 .speaker-slider .speaker-item .image .content span {
   display: block;
-  color: #c974fb;
+  color: #f48907;
+
   font-size: 16px;
   margin-top: 10px;
 }
@@ -3124,7 +3170,8 @@ Speaker Area CSS
 
 .speaker-slider .speaker-item-two .image .social li a:hover {
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .speaker-slider .speaker-item-two .image .social li:nth-child(1) {
@@ -3312,7 +3359,8 @@ Speaker Area CSS
 
 .single-team .image .social li a:hover {
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .single-team .image .social li:nth-child(1) {
@@ -3485,7 +3533,8 @@ Speaker Area CSS
 
 .speaker-item-three .image .social li a:hover {
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .speaker-item-three .image .social li:nth-child(1) {
@@ -3538,7 +3587,8 @@ Speaker Area CSS
 
 .speaker-item-three .image .content span {
   display: block;
-  color: #c974fb;
+  color: #f48907;
+
   font-size: 16px;
   margin-top: 10px;
 }
@@ -3592,7 +3642,8 @@ Register Area CSS
 }
 
 .register-section.register-two .pricing-slider .pricing-item .pricing-header h3 {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .register-section-two {
@@ -3737,7 +3788,8 @@ Register Area CSS
 }
 
 .pricing-slider .pricing-item .price-btn .default-btn {
-  border: 1px solid #c974fb;
+  border: 1px solid #f48907;
+
 }
 
 .pricing-slider .pricing-item .price-shape {
@@ -3904,7 +3956,8 @@ Pricing Area CSS
 }
 
 .single-pricing .price-btn .default-btn {
-  border: 1px solid #c974fb;
+  border: 1px solid #f48907;
+
 }
 
 .single-pricing .price-shape {
@@ -4064,7 +4117,8 @@ Main Banner Area Three CSS
 }
 
 .main-banner-three .main-banner-content .banner-btn .location-btn-one:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .main-banner-three .banner-image {
@@ -4141,7 +4195,8 @@ Main Banner Area Four CSS
 }
 
 .main-banner-four .main-banner-content .banner-btn .location-btn-one:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .main-banner-four .image-shape {
@@ -4296,7 +4351,8 @@ Main Banner Area Five CSS
 }
 
 .main-banner-five .main-banner-content .banner-btn .location-btn-one:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .main-banner-five .banner-image {
@@ -4499,7 +4555,8 @@ Main Banner Area Six CSS
 }
 
 .main-banner-six .home-sliders.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
   color: #ffffff;
 }
 
@@ -4523,7 +4580,8 @@ Main Banner Area Six CSS
 }
 
 .main-banner-six .home-sliders.owl-theme .owl-dots .owl-dot:hover span, .main-banner-six .home-sliders.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .main-banner-six .home-sliders.owl-theme .owl-dots .owl-dot.active span {
@@ -4649,7 +4707,8 @@ Main Banner Area Eight CSS
 }
 
 .main-banner-eight .banner-form form .form-control:focus {
-  border-color: #c974fb;
+  border-color: #f48907;
+
 }
 
 .main-banner-eight .banner-form form textarea.form-control {
@@ -4662,9 +4721,11 @@ Main Banner Area Eight CSS
   width: 100%;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   padding: 14px 25px;
-  border: 1px solid #c974fb;
+  border: 1px solid #f48907;
+
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-transform: capitalize;
@@ -4674,8 +4735,10 @@ Main Banner Area Eight CSS
 }
 
 .main-banner-eight .banner-form form button:hover {
-  border-color: #c974fb;
-  color: #c974fb;
+  border-color: #f48907;
+
+  color: #f48907;
+
   background-color: transparent;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.02);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.02);
@@ -4757,7 +4820,8 @@ Main Banner Area Nine CSS
 }
 
 .main-banner-nine .main-banner-content .banner-btn .location-btn-one:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .main-banner-nine .coming-soon-content {
@@ -4913,7 +4977,8 @@ We Are Area CSS
   font-size: 25px;
   border-radius: 50px;
   margin-top: -5px;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .we-are-item .icon.left-icon i {
@@ -4949,10 +5014,12 @@ We Are Area CSS
 .we-are-item .we-content .we-area-btn .we-area-btn-one {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   color: #ffffff;
   border-radius: 2px;
-  border: 1px solid #c974fb;
+  border: 1px solid #f48907;
+
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -4960,7 +5027,8 @@ We Are Area CSS
 
 .we-are-item .we-content .we-area-btn .we-area-btn-one:hover {
   background-color: #ffffff;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .we-are-item .we-content .we-area-btn .we-area-btn-one i {
@@ -5060,7 +5128,8 @@ Features Area CSS
 }
 
 .features-slider .features-item:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .features-slider .features-item:hover h3 {
@@ -5233,7 +5302,8 @@ News Area CSS
   top: 0;
   text-align: center;
   left: 20px;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   padding: 10px;
   border-radius: 2px;
 }
@@ -5261,7 +5331,8 @@ News Area CSS
 
 .news-item .content ul li {
   display: inline-block;
-  color: #c974fb;
+  color: #f48907;
+
   font-size: 14px;
   position: relative;
   margin-left: 10px;
@@ -5270,7 +5341,8 @@ News Area CSS
 
 .news-item .content ul li a {
   display: inline-block;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .news-item .content ul li a:hover {
@@ -5284,7 +5356,8 @@ News Area CSS
   right: -12px;
   width: 1px;
   height: 14px;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .news-item .content ul li:last-child {
@@ -5318,7 +5391,8 @@ News Area CSS
 }
 
 .news-item:hover h3 a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 /*================================================
@@ -5622,7 +5696,8 @@ Counter Area CSS
   text-align: center;
   position: relative;
   margin-bottom: 30px;
-  border: 1px solid #c974fb;
+  border: 1px solid #f48907;
+
   height: 255px;
   width: 255px;
   border-radius: 100%;
@@ -5767,7 +5842,8 @@ Mission Area CSS
 
 .mission-section .single-fun-fact p {
   line-height: initial;
-  color: #c974fb;
+  color: #f48907;
+
   margin: 0 0 0 0;
   font-size: 18px;
 }
@@ -5898,7 +5974,8 @@ Testimonial Area CSS
 }
 
 .testimonial-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
   color: #ffffff;
 }
 
@@ -5922,7 +5999,8 @@ Testimonial Area CSS
 }
 
 .testimonial-slider.owl-theme .owl-dots .owl-dot:hover span, .testimonial-slider.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .testimonial-slider.owl-theme .owl-dots .owl-dot.active span {
@@ -6029,7 +6107,8 @@ Page Title Area CSS
 }
 
 .page-title-content ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .page-title-content ul li::before {
@@ -6040,7 +6119,8 @@ Page Title Area CSS
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .page-title-content ul li:last-child::before {
@@ -6071,7 +6151,8 @@ Pagination Area CSS
 }
 
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
-  background: #c974fb;
+  background: #f48907;
+
   color: #ffffff;
   -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
           box-shadow: 0 2px 10px 0 #d8dde6;
@@ -6124,7 +6205,8 @@ Faq Area CSS
   width: 40px;
   text-align: center;
   height: 100%;
-  background: #c974fb;
+  background: #f48907;
+
   color: #ffffff;
 }
 
@@ -6267,7 +6349,8 @@ Login In CSS
 }
 
 .login-form form .form-control:focus {
-  border-color: #c974fb;
+  border-color: #f48907;
+
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -6311,8 +6394,10 @@ Login In CSS
 .login-form form .send-btn .default-btn-one {
   display: inline-block;
   padding: 12px 30px;
-  background: #c974fb;
-  border: 1px solid #c974fb;
+  background: #f48907;
+
+  border: 1px solid #f48907;
+
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -6323,7 +6408,8 @@ Login In CSS
 .login-form form .send-btn .default-btn-one:hover {
   text-decoration: none;
   background-color: #ffffff;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .login-form form span {
@@ -6332,7 +6418,8 @@ Login In CSS
 }
 
 .login-form form span a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .login-form .forgot-password {
@@ -6346,7 +6433,8 @@ Login In CSS
 }
 
 .login-form .forgot-password a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 /*================================================
@@ -6389,7 +6477,8 @@ Sign Up CSS
 }
 
 .signup-form form .form-control:focus {
-  border-color: #c974fb;
+  border-color: #f48907;
+
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -6426,8 +6515,10 @@ Sign Up CSS
 .signup-form form .send-btn .default-btn-one {
   display: inline-block;
   padding: 12px 30px;
-  background: #c974fb;
-  border: 1px solid #c974fb;
+  background: #f48907;
+
+  border: 1px solid #f48907;
+
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -6438,7 +6529,8 @@ Sign Up CSS
 .signup-form form .send-btn .default-btn-one:hover {
   text-decoration: none;
   background-color: #ffffff;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .signup-form form span {
@@ -6447,7 +6539,8 @@ Sign Up CSS
 }
 
 .signup-form form span a {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 /*================================================
@@ -6506,7 +6599,8 @@ Events Details Area CSS
 
 .events-details-desc .events-details-content .entry-meta ul li span {
   display: inline-block;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .events-details-desc .events-details-content .entry-meta ul li a {
@@ -6580,11 +6674,13 @@ Events Details Area CSS
 }
 
 .events-details-desc .events-details-footer .article-tags a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .events-details-desc .events-details-footer .article-tags i {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .events-details-desc .events-details-footer .article-share {
@@ -6609,7 +6705,8 @@ Events Details Area CSS
   display: inline-block;
   margin-right: 2px;
   font-weight: 500;
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .events-details-desc .events-details-footer .article-share .social li a {
@@ -6674,7 +6771,8 @@ Sidebar Widget Area CSS
 .widget-area .widget .widget-title::before {
   content: '';
   position: absolute;
-  background: #c974fb;
+  background: #f48907;
+
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -6714,7 +6812,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_search form .search-field:focus {
-  border-color: #c974fb;
+  border-color: #f48907;
+
 }
 
 .widget-area .widget_search form button {
@@ -6727,7 +6826,8 @@ Sidebar Widget Area CSS
   z-index: 1;
   border: none;
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6828,7 +6928,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_entries ul li::before {
-  background: #c974fb;
+  background: #f48907;
+
   position: absolute;
   height: 7px;
   width: 7px;
@@ -6843,7 +6944,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_entries ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .widget-area .widget_recent_entries ul li .post-date {
@@ -6874,7 +6976,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_comments ul li::before {
-  background: #c974fb;
+  background: #f48907;
+
   position: absolute;
   height: 7px;
   width: 7px;
@@ -6889,7 +6992,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_comments ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .widget-area .widget_archive ul {
@@ -6912,7 +7016,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_archive ul li::before {
-  background: #c974fb;
+  background: #f48907;
+
   height: 7px;
   width: 7px;
   content: '';
@@ -6927,7 +7032,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_archive ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .widget-area .widget_categories ul {
@@ -6950,7 +7056,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_categories ul li::before {
-  background: #c974fb;
+  background: #f48907;
+
   height: 7px;
   width: 7px;
   content: '';
@@ -6965,7 +7072,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_categories ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .widget-area .widget_categories ul li .post-count {
@@ -6992,7 +7100,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_meta ul li::before {
-  background: #c974fb;
+  background: #f48907;
+
   height: 7px;
   width: 7px;
   content: '';
@@ -7007,7 +7116,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_meta ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .widget-area .widget_tag_cloud .widget-title {
@@ -7027,8 +7137,10 @@ Sidebar Widget Area CSS
 
 .widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
   color: #ffffff;
-  background-color: #c974fb;
-  border-color: #c974fb;
+  background-color: #f48907;
+
+  border-color: #f48907;
+
 }
 
 .widget-area .widget_event_details ul {
@@ -7065,7 +7177,8 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_event_details ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 /*================================================
@@ -7104,11 +7217,13 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .blog-details-desc .article-content .entry-meta ul li i {
-  color: #c974fb;
+  color: #f48907;
+
   margin-right: 2px;
 }
 
@@ -7119,7 +7234,8 @@ Blog Details Area CSS
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #c974fb;
+  background: #f48907;
+
 }
 
 .blog-details-desc .article-content .entry-meta ul li:last-child {
@@ -7186,7 +7302,8 @@ Blog Details Area CSS
   text-align: center;
   border-radius: 40px;
   background-color: #faf5f5;
-  color: #c974fb;
+  color: #f48907;
+
   -webkit-transition: 0.5s;
   transition: 0.5s;
   display: inline-block;
@@ -7197,7 +7314,8 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .features-list li:hover i {
-  background-color: #c974fb;
+  background-color: #f48907;
+
   color: #ffffff;
 }
 
@@ -7237,7 +7355,8 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-footer .article-tags a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .blog-details-desc .article-footer .article-share {
@@ -7267,7 +7386,8 @@ Blog Details Area CSS
 
 .blog-details-desc .article-footer .article-share .social li a {
   display: block;
-  color: #c974fb;
+  color: #f48907;
+
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -7279,7 +7399,8 @@ Blog Details Area CSS
 
 .blog-details-desc .article-footer .article-share .social li a:hover {
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
@@ -7319,7 +7440,8 @@ blockquote::after, .blockquote::after {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -7436,8 +7558,10 @@ blockquote::after, .blockquote::after {
 
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #c974fb;
-  border-color: #c974fb;
+  background-color: #f48907;
+
+  border-color: #f48907;
+
 }
 
 .comments-area .comment-author {
@@ -7479,7 +7603,8 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-metadata a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .comments-area .comment-respond {
@@ -7532,7 +7657,8 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-respond input[type="date"]:focus, .comments-area .comment-respond input[type="time"]:focus, .comments-area .comment-respond input[type="datetime-local"]:focus, .comments-area .comment-respond input[type="week"]:focus, .comments-area .comment-respond input[type="month"]:focus, .comments-area .comment-respond input[type="text"]:focus, .comments-area .comment-respond input[type="email"]:focus, .comments-area .comment-respond input[type="url"]:focus, .comments-area .comment-respond input[type="password"]:focus, .comments-area .comment-respond input[type="search"]:focus, .comments-area .comment-respond input[type="tel"]:focus, .comments-area .comment-respond input[type="number"]:focus, .comments-area .comment-respond textarea:focus {
-  border-color: #c974fb;
+  border-color: #f48907;
+
 }
 
 .comments-area .comment-respond .comment-form-author {
@@ -7584,7 +7710,8 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-respond .form-submit input {
-  background: #c974fb;
+  background: #f48907;
+
   border: none;
   color: #ffffff;
   padding: 10px 30px;
@@ -7657,7 +7784,8 @@ Contact Area CSS
 }
 
 .contact-form form .form-control:focus {
-  border-color: #c974fb;
+  border-color: #f48907;
+
 }
 
 .contact-form form .form-control::-webkit-input-placeholder {
@@ -7728,7 +7856,8 @@ Contact Area CSS
 
 .contact-info .contact-info-content h2 a {
   display: inline-block;
-  color: #c974fb;
+  color: #f48907;
+
   text-transform: lowercase;
 }
 
@@ -7741,7 +7870,8 @@ Contact Area CSS
 }
 
 .contact-info .contact-info-content h2 a:not(:first-child):hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .contact-info .contact-info-content h2 span {
@@ -7789,8 +7919,10 @@ Contact Area CSS
 
 .contact-info .contact-info-content .social li a:hover {
   color: #ffffff;
-  border-color: #c974fb;
-  background-color: #c974fb;
+  border-color: #f48907;
+
+  background-color: #f48907;
+
 }
 
 /*================================================
@@ -7888,7 +8020,8 @@ Footer Area CSS
 }
 
 .copy-right-area .copy-right-list a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .copy-right-area .copy-right-text {
@@ -7908,7 +8041,8 @@ Footer Area CSS
 }
 
 .copy-right-area .copy-right-text a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .copy-right-area .copy-right-text ul {
@@ -7933,7 +8067,8 @@ Footer Area CSS
 }
 
 .copy-right-area .copy-right-text ul li a:hover {
-  color: #c974fb;
+  color: #f48907;
+
 }
 
 .copy-right-area .copy-right-text ul li::before {
@@ -7943,7 +8078,8 @@ Footer Area CSS
   right: -13px;
   width: 1px;
   height: 14px;
-  background-color: #c974fb;
+  background-color: #f48907;
+
 }
 
 .copy-right-area .copy-right-text ul li:last-child {
@@ -7985,7 +8121,8 @@ Go Top CSS
   top: 0;
   right: 15px;
   color: #ffffff;
-  background-color: #c974fb;
+  background-color: #f48907;
+
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -7996,7 +8133,8 @@ Go Top CSS
   -webkit-transition: .9s;
   transition: .9s;
   border-radius: 50%;
-  border: 1px solid #c974fb;
+  border: 1px solid #f48907;
+
 }
 
 .go-top.active {
@@ -8091,7 +8229,8 @@ Buy Now Btn
 }
 
 .buy-now-btn:hover {
-  background-color: #c974fb;
+  background-color: #f48907;
+
   color: #ffffff !important;
 }
 
