@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site en construction - FIKIN</title>
+
+  <style>
+    /* ---- Reset ---- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #f48907, #c974fb);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* ---- Particules animées ---- */
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    /* ---- Contenu principal ---- */
+    .container {
+      text-align: center;
+      z-index: 2;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      animation: slideDown 1.5s ease;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      animation: fadeIn 3s ease;
+    }
+
+    .dots {
+      font-weight: bold;
+      color: #fff;
+      font-size: 1.5rem;
+      margin-top: 15px;
+      display: inline-block;
+      min-width: 40px;
+    }
+
+    /* ---- Bouton Retour ---- */
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      background: #fff;
+      color: #f48907;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .btn:hover {
+      background: #f48907;
+      color: #fff;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.7);
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="bgCanvas"></canvas>
+
+  <div class="container">
+    <!-- 🔹 Mets ici le chemin de ton logo FIKIN -->
+    <img src="assets/img/logo.png" alt="Logo FIKIN" class="logo" />
+
+    <h1>Site en cours de construction</h1>
+    <p>Notre équipe travaille activement sur cette section.  
+      Le lien sera disponible très bientôt.</p>
+    <div class="dots">...</div>
+
+    <!-- 🔙 Bouton retour -->
+    <br>
+    <a href="index.html" class="btn">← Retour à l'accueil</a>
+  </div>
+
+  <footer>
+    © 2025 Foire Internationale du Congo Kinshasa – Tous droits réservés
+  </footer>
+
+  <script>
+    // ---- Animation des points "..." ----
+    const dots = document.querySelector('.dots');
+    let count = 0;
+    setInterval(() => {
+      count = (count + 1) % 4;
+      dots.textContent = '.'.repeat(count);
+    }, 500);
+
+    // ---- Animation de fond (particules) ----
+    const canvas = document.getElementById('bgCanvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+
+    window.addEventListener('resize', resize);
+    resize();
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 2 + 1;
+        this.speedX = Math.random() * 0.8 - 0.4;
+        this.speedY = Math.random() * 0.8 - 0.4;
+      }
+
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+        if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+      }
+
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255,255,255,0.7)';
+        ctx.fill();
+      }
+    }
+
+    function initParticles() {
+      particles = [];
+      for (let i = 0; i < 80; i++) {
+        particles.push(new Particle());
+      }
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+        p.update();
+        p.draw();
+      });
+      requestAnimationFrame(animate);
+    }
+
+    initParticles();
+    animate();
+  </script>
+</body>
+</html>
