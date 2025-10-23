@@ -1851,6 +1851,7 @@ Event Area CSS
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  bottom: -0.67px;
 }
 
 .event-slider .event-item .event-shape img {
@@ -2103,8 +2104,8 @@ Coming Soon Area CSS
 
 .coming-soon-shape .shape-1 {
   position: absolute;
-  left: 8%;
-  top: 10%;
+  left: 1%; /* Modif */
+  top: 0%;
   z-index: -1;
   -webkit-animation: moveScale 3s linear infinite;
           animation: moveScale 3s linear infinite;
