@@ -1250,80 +1250,73 @@
                 </div>
 
                 <div class="row">
-                     <div class="col-lg-4 col-md-6">
-                         <div class="news-item">
-                             <div class="image">
-                                   <!-- Vidéo miniature, clic ouvre lightbox -->
-                                   <video id="videoThumb1" autoplay muted loop playsinline poster="assets/img/blog/stand-1.jpg">
-                                       <source src="assets/img/blog/salon25_pub.mp4" type="video/mp4">
-                                             Votre navigateur ne supporte pas la vidéo.
-                                   </video>
-                             </div>
+            <div class="col-lg-4 col-md-6">
+  <div class="news-item">
+    <div class="image">
+      <video class="video-thumb" autoplay muted loop playsinline poster="assets/img/blog/stand-1.jpg">
+        <source src="assets/img/blog/salon25_pub.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
 
-                             <div class="content">
-                                 <ul>
-                                     <li>18 octobre 2025</li>
-                                     <li><a href="future.html">Culture & Organisation</a></li>
-                                 </ul>
+    <div class="content">
+      <ul>
+        <li>24 octobre 2025</li>
+        <li><a href="future.html">Culture & Organisation</a></li>
+      </ul>
+      <h3>
+        <a href="future.html">🔴NEWS : </a>
+      </h3>
+      <p></p>
 
-                                  <h3>
-                                      <a href="future.html">SIMK 2025 : 9ᵉ edition du Salon International Multisectoriel FICKIN25 – le DG Didier KABAMPELE fait le point.</a>
-                                  </h3>
-                                   <p>Le directeur général de la foire internationale du Congo Kinshasa a été reçu par Top Congo FM.</p>
+      <div class="news-btn">
+        <a href="future.html" class="default-btn">Lire plus</a>
+      </div> 
+    </div>
+  </div>
+</div>
 
-                                   <div class="news-btn">
-                                      <a href="future.html" class="default-btn">Lire plus</a>
-                                   </div> 
-                             </div>
-                         </div>
-                     </div>
+<!-- Une seule modale globale -->
+<div id="videoModal" class="modal">
+  <video id="modalVideo" controls autoplay>
+    <source src="" type="video/mp4">
+  </video>
+</div>
 
-                     <!-- Modal / Lightbox -->
-                     <div id="videoModal1" class="modal">
-                        <span class="close">&times;</span>
-                         <video id="modalVideo1" controls autoplay>
-                            <source src="assets/img/blog/salon25_pub.mp4" type="video/mp4">
-                         </video>
-                     </div>
+<div class="col-lg-4 col-md-6">
+  <div class="news-item">
+    <div class="image">
+      <video class="video-thumb" autoplay muted loop playsinline poster="assets/img/blog/stand-1.jpg">
+        <source src="assets/img/blog/salon25_video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
 
+    <div class="content">
+      <ul>
+        <li>20 octobre 2025</li>
+        <li><a href="future.html">Culture & Organisation</a></li>
+      </ul>
+      <h3>
+        <a href="future.html">🔴NEWS: Salon International Multisectoriel FICKIN25 – le DG Didier KABAMPELE fait le point.</a>
+      </h3>
+      <p>Du 1er au 5 novembre 2025 se tiendra à l'enceinte de la FICKIN, la 9ᵉ édition du Salon International Multisectoriel de Kinshasa (SIMK 2025), placée sous le thème :« Commerce général entre la RDC et l’Égypte : défis ou opportunités ? </p>
 
+      <div class="news-btn">
+        <a href="future.html" class="default-btn">Lire plus</a>
+      </div> 
+    </div>
+  </div>
+</div>
 
-                      <div class="col-lg-4 col-md-6">
-                         <div class="news-item">
-                             <div class="image">
-                                   <!-- Vidéo miniature, clic ouvre lightbox -->
-                                   <video id="videoThumb1" autoplay muted loop playsinline poster="assets/img/blog/stand-1.jpg">
-                                       <source src="assets/img/blog/salon25_video.mp4" type="video/mp4">
-                                             Votre navigateur ne supporte pas la vidéo.
-                                   </video>
-                             </div>
+<!-- Une seule modale globale -->
+<div id="videoModal" class="modal">
+  <video id="modalVideo" controls autoplay>
+    <source src="" type="video/mp4">
+  </video>
+</div>
 
-                             <div class="content">
-                                 <ul>
-                                     <li>18 octobre 2025</li>
-                                     <li><a href="future.html">Culture & Organisation</a></li>
-                                 </ul>
-
-                                  <h3>
-                                      <a href="future.html">SIMK 2025 : 9ᵉ edition du Salon International Multisectoriel FICKIN25 – le DG Didier KABAMPELE fait le point.</a>
-                                  </h3>
-                                   <p>Le directeur général de la foire internationale du Congo Kinshasa a été reçu par Top Congo FM.</p>
-
-                                   <div class="news-btn">
-                                      <a href="future.html" class="default-btn">Lire plus</a>
-                                   </div> 
-                             </div>
-                         </div>
-                     </div>
-
-                     <!-- Modal / Lightbox -->
-                     <div id="videoModal1" class="modal">
-                        <span class="close">&times;</span>
-                         <video id="modalVideo1" controls autoplay>
-                            <source src="assets/img/blog/salon25_video.mp4" type="video/mp4">
-                         </video>
-                     </div>
-
+            
 
                      <div class="col-lg-4 col-md-6">
                         <div class="news-item">
@@ -1920,24 +1913,29 @@
         <script src="assets/js/main.js"></script>
 
         <script>
-            const videoThumb1 = document.getElementById('videoThumb1');
-            const modal1 = document.getElementById('videoModal1');
-            const modalVideo1 = document.getElementById('modalVideo1');
+            const modal = document.getElementById('videoModal');
+            const modalVideo = document.getElementById('modalVideo');
+            const videoThumbs = document.querySelectorAll('.video-thumb');
 
-            // ouvrir modal au clic sur la miniature
-            videoThumb1.addEventListener('click', () => {
-                modal1.style.display = 'flex';
-                modalVideo1.play();
+            // Ouvrir la modal quand on clique sur une vidéo miniature
+            videoThumbs.forEach(video => {
+              video.addEventListener('click', () => {
+                 const src = video.querySelector('source').src;
+                 modalVideo.querySelector('source').src = src;
+                 modalVideo.load(); // recharge la source
+                 modalVideo.play();
+                 modal.style.display = 'flex';
+              });
             });
 
-           // fermer modal si clic sur fond (hors de la vidéo)
-           modal1.addEventListener('click', (e) => {
-              if(e.target === modal1){ // clic sur la div modal, pas la vidéo
-                 modal1.style.display = 'none';
-                 modalVideo1.pause();
-                 modalVideo1.currentTime = 0;
-             }
-           });
+            // Fermer la modal si clic en dehors de la vidéo
+            modal.addEventListener('click', (e) => {
+              if (e.target === modal) {
+                  modal.style.display = 'none';
+                  modalVideo.pause();
+                  modalVideo.currentTime = 0;
+              }
+            });
 
         </script>
     </body>
