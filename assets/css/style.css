@@ -5463,7 +5463,11 @@ News Area CSS
 Subscribe Area CSS
 =================================================*/
 .subscribe-area {
+<<<<<<< HEAD
+  background-color: #f94949;
+=======
   background-color: #745622;
+>>>>>>> 84deef75421cfde3d438bf2b88ec422e458697c8
   position: relative;
   z-index: 1;
   margin-bottom: 70px;
