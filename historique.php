@@ -1,0 +1,739 @@
+<?php include("inc/head.php") ?>
+
+        <!-- Start Page Title Area -->
+        <div class="page-title-area item-bg-6" style="background-image: url(assets/img/bg-6.jpg);">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="page-title-content">
+                            <h2>Notre Histoire</h2>
+                            <ul>
+                                <li><a href="index.html">Accueil</a></li>
+                                <li>Historique de la FICKIN</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Title Area -->
+
+        <!-- Start About Story Area -->
+        <section class="about-story-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <h2>La Foire Internationale du Congo Kinshasa</h2>
+                    <p>Découvrez le parcours exceptionnel de la FICKIN, vitrine de l'économie congolaise et carrefour des échanges internationaux depuis 1969.</p>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="story-content">
+                            <h3>Une institution nationale</h3>
+                            <p>La <strong>Foire Internationale du Congo Kinshasa (FICKIN)</strong> est une manifestation internationale à caractère commercial, industriel, agricole et artisanal, située dans la commune de Limete (entrée principale face à Lemba) à Kinshasa en République démocratique du Congo.</p>
+                            <p>La FICKIN est aussi le lieu où se déroule cette manifestation biennale. Toutes les années impaires, au mois de juillet, la FICKIN accueille des participants internationaux. Les années paires, il s'y tient une rencontre nationale.</p>
+                            <p>La première édition internationale s'est tenue du <strong>30 juin au 14 juillet 1969</strong>, marquant le début d'une longue tradition d'échanges commerciaux et culturels. Plusieurs autres manifestations internationales y ont eu lieu au fil des décennies.</p>
+                            <p>Depuis 1973, la FICKIN est fière d'être membre de l'Union des foires internationales (UFI), une reconnaissance de son rayonnement international et de la qualité de ses manifestations.</p>
+                            
+                            <div class="story-signature">
+                                <img src="assets/img/signature.png" alt="Signature">
+                                <h4>Didier Kabampele</h4>
+                                <span>Directeur Général de la FICKIN</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <div class="story-image">
+                            <img src="assets/img/history/foire-kinshasa.jpg" alt="Foire Internationale du Congo Kinshasa" class="rounded-image">
+                            <div class="year-badge">
+                                <span>1969</span>
+                                <p>1ère édition internationale</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Story Area -->
+
+        <!-- Start Timeline Area -->
+        <section class="timeline-area pt-70 pb-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Notre parcours dans le temps</h2>
+                    <p>Les moments clés qui ont marqué l'histoire de la FICKIN.</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-row">
+                        <div class="timeline-item">
+                            <div class="timeline-content left">
+                                <div class="timeline-year">1969</div>
+                                <h3>Création et première édition</h3>
+                                <p>La première édition internationale de la FICKIN se tient du 30 juin au 14 juillet 1969, marquant la naissance d'une institution devenue incontournable en RDC.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content right">
+                                <div class="timeline-year">1973</div>
+                                <h3>Adhésion à l'UFI</h3>
+                                <p>La FICKIN devient membre de l'Union des foires internationales (UFI), une reconnaissance prestigieuse qui confirme son rayonnement sur la scène mondiale.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-row">
+                        <div class="timeline-item">
+                            <div class="timeline-content left">
+                                <div class="timeline-year">1991</div>
+                                <h3>Premiers pillages</h3>
+                                <p>La FICKIN est victime des pillages qui frappent Kinshasa. L'édition nationale est gravement perturbée et les infrastructures subissent d'importants dégâts.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content right">
+                                <div class="timeline-year">1993</div>
+                                <h3>Nouveaux pillages</h3>
+                                <p>De nouveaux pillages touchent à nouveau la FICKIN, laissant le site gravement endommagé. Depuis ces événements, la Foire tourne au ralenti.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-frown"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-row">
+                        <div class="timeline-item">
+                            <div class="timeline-content left">
+                                <div class="timeline-year">2014</div>
+                                <h3>Projet de réhabilitation</h3>
+                                <p>Un projet de construction de logements sociaux est annoncé dans l'enceinte de la FICKIN, avec au moins 15 immeubles de 9 étages prévus selon la maquette présentée.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-hard-hat"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content right">
+                                <div class="timeline-year">2023</div>
+                                <h3>Lancement des travaux de réhabilitation</h3>
+                                <p>La société Milvest entame les travaux de réhabilitation de la FICKIN. Une centaine de conteneurs de matériaux de construction arrivent de Turquie. Le projet prévoit un centre d'exposition, un parc d'attraction, un centre de conférence, un centre commercial, un hôtel et un aréna multifonctionnel de 20.000 places.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-construction"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-row">
+                        <div class="timeline-item">
+                            <div class="timeline-content left">
+                                <div class="timeline-year">2024</div>
+                                <h3>Nouveaux événements</h3>
+                                <p>La FICKIN accueille des événements majeurs comme le salon d'architecture "Batiko", confirmant son rôle de plateforme pour le développement urbain et durable.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-city"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-content right">
+                                <div class="timeline-year">2025</div>
+                                <h3>Un avenir prometteur</h3>
+                                <p>La FICKIN se prépare à accueillir le Congrès international de l'Union des architectes d'Afrique (août 2025), un événement majeur qui réunira des architectes de tout le continent.</p>
+                                <div class="timeline-icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Timeline Area -->
+
+        <!-- Start Project Area -->
+        <section class="project-area pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Le projet de réhabilitation</h2>
+                    <p>Un vaste chantier pour redonner à la FICKIN son lustre d'antan et en faire un pôle d'attraction majeur.</p>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="project-content">
+                            <h3>Une transformation ambitieuse</h3>
+                            <p>Les travaux de réhabilitation de la FICKIN, confiés à la société Milvest, prévoient la construction de plusieurs infrastructures modernes :</p>
+                            
+                            <div class="project-list">
+                                <div class="project-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <div>
+                                        <h4>Centre d'exposition de 21.000 m²</h4>
+                                        <p>Représentant 8% de la superficie totale de la FICKIN, il accueillera les plus grands salons professionnels.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="project-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <div>
+                                        <h4>Aréna multifonctionnel de 20.000 places</h4>
+                                        <p>Une salle de spectacle et d'événements sportifs aux normes internationales.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="project-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <div>
+                                        <h4>Parc d'attractions</h4>
+                                        <p>Occupant 15 à 16% de la superficie, un espace de loisirs pour les familles kinoises.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="project-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <div>
+                                        <h4>Centre de conférence international</h4>
+                                        <p>Pour accueillir des séminaires et congrès de portée mondiale.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="project-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <div>
+                                        <h4>Hôtel et centre commercial</h4>
+                                        <p>Des infrastructures d'accueil et de services pour les visiteurs et exposants.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-budget">
+                                <p><strong>Budget première phase :</strong> 68 millions de dollars américains déjà décaissés pour le lancement des travaux.</p>
+                                <p><strong>Durée des travaux :</strong> 14 mois selon les prévisions du gouvernement.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-5">
+                        <div class="project-image">
+                            <img src="assets/img/history/rehabilitation.jpg" alt="Travaux de réhabilitation" class="rounded-image">
+                            <div class="image-caption">
+                                <p>Des conteneurs de matériaux de construction en provenance de Turquie sur le site de la FICKIN (juin 2023)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Project Area -->
+
+        <!-- Start Festivals Area -->
+        <section class="festivals-area pb-100"> <br> <br>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="festivals-image">
+                            <img src="assets/img/history/festival.jpg" alt="Festival de musique" class="rounded-image">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-7">
+                        <div class="festivals-content">
+                            <h3>Un haut lieu culturel</h3>
+                            <p>Malgré les difficultés, la FICKIN a su rester vivante. Durant l'été, elle accueille l'un des plus grands festivals de musique africaine, attirant des artistes et des mélomanes de tout le continent.</p>
+                            <p>Ce festival est devenu un rendez-vous incontournable pour la jeunesse kinoise et un symbole de la résilience culturelle de la RDC.</p>
+                            
+                            <div class="festivals-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>La FICKIN est le miroir de l'économie nationale où tous les Congolais se retrouvent.</p>
+                                <h4>- Didier Kabampele, DG de la FICKIN</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Festivals Area -->
+
+        <!-- Start Milestones Area -->
+        <section class="milestones-area pb-70">
+            <div class="container"> <br> <br>
+                <div class="section-title">
+                    <h2>La FICKIN en chiffres</h2>
+                    <p>Des chiffres qui témoignent de l'importance de cette institution.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="milestones-box">
+                            <div class="icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <h3 class="counter">1969</h3>
+                            <p>Année de création</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="milestones-box">
+                            <div class="icon">
+                                <i class="fas fa-flag"></i>
+                            </div>
+                            <h3 class="counter">1973</h3>
+                            <p>Adhésion à l'UFI</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="milestones-box">
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="counter">20k</h3>
+                            <p>Places assises (Aréna)</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="milestones-box">
+                            <div class="icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <h3 class="counter">68M</h3>
+                            <p>$ investis (phase 1)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Milestones Area -->
+
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/4.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/5.svg" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/6.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/7.png" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/8.png" alt="image">
+            </div>
+        </div>
+
+        <?php include("inc/footer.php") ?>
+
+<style>
+/* Styles pour la page historique FICKIN */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Story Section */
+.about-story-area {
+    background: #fafafa;
+}
+
+.story-content {
+    padding-right: 30px;
+}
+
+.story-content h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.story-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.story-signature {
+    margin-top: 30px;
+}
+
+.story-signature img {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.story-signature h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.story-signature span {
+    color: #667eea;
+    font-size: 14px;
+}
+
+.story-image {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.rounded-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.story-image:hover .rounded-image {
+    transform: scale(1.05);
+}
+
+.year-badge {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(245, 87, 108, 0.3);
+}
+
+.year-badge span {
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+}
+
+.year-badge p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Timeline */
+.timeline-area {
+    background: #fff;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.timeline-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.timeline-item {
+    width: 48%;
+    position: relative;
+}
+
+.timeline-content {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content.left {
+    margin-right: 15px;
+}
+
+.timeline-content.right {
+    margin-left: 15px;
+}
+
+.timeline-year {
+    display: inline-block;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.timeline-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.timeline-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.timeline-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5576c;
+    font-size: 18px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .timeline-row {
+        flex-direction: column;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .timeline-content.left,
+    .timeline-content.right {
+        margin: 0;
+    }
+}
+
+/* Project Section */
+.project-content h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.project-list {
+    margin: 30px 0;
+}
+
+.project-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.project-item i {
+    color: #f5576c;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.project-item h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.project-item p {
+    margin-bottom: 0;
+    color: #666;
+}
+
+.project-budget {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border-left: 4px solid #f5576c;
+}
+
+.project-budget p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-budget p:last-child {
+    margin-bottom: 0;
+}
+
+.project-image {
+    position: relative;
+}
+
+.image-caption {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+}
+
+/* Festivals Section */
+.festivals-area {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+}
+
+.festivals-content {
+    padding-left: 30px;
+}
+
+.festivals-content h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.festivals-content p {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.festivals-quote {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.festivals-quote i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.festivals-quote p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.festivals-quote h4 {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.festivals-image img {
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+    .festivals-content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+
+/* Milestones */
+.milestones-box {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+}
+
+.milestones-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.milestones-box .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.milestones-box h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.milestones-box p {
+    color: #666;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #333;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.section-title p {
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+</style>
