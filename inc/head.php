@@ -77,9 +77,8 @@
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="index.php" class="nav-link active">
                                         🏠 Accueil 
-                                        <i class='bx bx-chevron-down'></i>
                                     </a>
                                    
                                 </li>
