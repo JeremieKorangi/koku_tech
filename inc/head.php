@@ -78,14 +78,14 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a href="index.php" class="nav-link active">
-                                        🏠 Accueil 
+                                        Accueil 
                                     </a>
                                    
                                 </li>
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        ℹ️ À propos 
+                                        À propos 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -105,27 +105,14 @@
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        🎪 Événement 
-                                        <i class='bx bx-chevron-down'></i>
+                                        Événements
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Tous les événements
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Events Details
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    
                                 </li>
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        🧭 Visiter 
+                                        Visiter 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
 
@@ -157,7 +144,7 @@
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        🏢 Exposer 
+                                        Exposer 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
 
@@ -211,7 +198,7 @@
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        🗞️ Actualités 
+                                        Actualités 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -242,14 +229,14 @@
 
                                 <li class="nav-item">
                                     <a href="partenaires.php" class="nav-link">
-                                        🤝 Partenaires
+                                        Partenaires
                                     </a>
                                    
                                 </li>
 
                                 <li class="nav-item">
                                     <a href="future.html" class="nav-link">
-                                        📞 Contact
+                                         Contact
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                        <ul class="dropdown-menu">
