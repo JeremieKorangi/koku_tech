@@ -104,9 +104,23 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="evenements.php" class="nav-link">
                                         Événements
+                                        <i class='bx bx-chevron-down'></i>
                                     </a>
+                                     <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="archives.php" class="nav-link">
+                                                Edition Foraine & Conference
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="evenements.php" class="nav-link">
+                                                Activités
+                                            </a>
+                                        </li>
+                                    </ul>
                                     
                                 </li>
 
@@ -203,7 +217,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
+                                            <a href=".php" class="nav-link">
                                                 News
                                             </a>
                                         </li>

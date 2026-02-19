@@ -470,7 +470,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="coming-soon-text">
-                            <h3>Salon International Multisectoriel FICKIN 2025 __ Reporté</h3>
+                            <h3>Salon International Multisectoriel FICKIN 2025</h3>
                             <!--<p>Du 01 au 05 novembre, la capitale congolaise accueille un rendez-vous incontournable où tous les secteurs et toutes les idées se rencontrent.<br> Une occasion unique de découvrir des opportunités, partager des visions et se connecter avec des acteurs engagés pour innovation et excellence. </p>-->
                             <p>Initialement prévu du 01 au 05 novembre à Kinshasa, le Salon International Multisectoriel FICKIN 2025 a été reporté à une date ultérieure.<br>
                                Nous vous tiendrons informés dès qu’une nouvelle date sera confirmée</p>

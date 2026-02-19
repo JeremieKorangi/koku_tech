@@ -482,7 +482,7 @@
 
 .timeline-year {
     display: inline-block;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #080808 0%, #7c726b 100%);
     color: #fff;
     padding: 8px 20px;
     border-radius: 30px;
