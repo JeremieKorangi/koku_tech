@@ -110,37 +110,6 @@
                                     
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        Visiter 
-                                        <i class='bx bx-chevron-down'></i>
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Informations pratiques
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Horaires et tarifs
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Plan du site
-                                            </a>
-                                        </li>
-                                         <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Hébergement et transport
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
