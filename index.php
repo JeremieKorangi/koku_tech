@@ -233,7 +233,7 @@
         <!-- Start Top Event Area -->
         <section class="event-section pt-100">
             <div class="section-title">
-                <h2>Galerie</h2>
+                <h2>Archives</h2>
                 <p>Parce qu’une image vaut mille mots, chaque cliché raconte une histoire, un sourire, une émotion. <Br> Revivez les moments forts, authentiques et inspirants qui ont marqué notre parcours.</p>
             </div>
 
