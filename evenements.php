@@ -125,7 +125,7 @@
                                     <img src="assets/img/archives/1969-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery(1969)">Voir tout</button>
+                               <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                     <img src="assets/img/archives/img17.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery(1973)">Voir tout</button>
+                                <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                                     <img src="assets/img/archives/1993-1.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery(1991)">Voir tout</button>
+                                <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                                     <img src="assets/img/archives/festival-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery('festival')">Voir tout</button>
+                               <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                                     <img src="assets/img/archives/cinema-2014-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery(2014)">Voir tout</button>
+                               <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +270,7 @@
                                     <img src="assets/img/archives/cinema-2016-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery(2016)">Voir tout</button>
+                                <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -299,7 +299,7 @@
                                     <img src="assets/img/archives/2024-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery(2024)">Voir tout</button>
+                                <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                                     <img src="assets/img/archives/2025-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+5</span>
                                 </div>
-                                <button class="btn-view-all" onclick="openEventGallery(2025)">Voir tout</button>
+                                <a href="event.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -343,7 +343,7 @@
         </section>
         <!-- End Past Events Area -->
 
-        <!-- Start Cultural Emblem Area -->
+        <!-- Start Cultural Emblem Area 
         <section class="cultural-emblem-area pb-100">
             <div class="container">
                 <div class="emblem-card">
@@ -364,7 +364,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- End Cultural Emblem Area -->
 
         <!-- Start Lightbox Modal -->
@@ -396,7 +396,7 @@
                 <div class="notify-icon">
                     <i class="far fa-bell"></i>
                 </div>
-                <h3>Être notifié</h3>
+                <h3>Notification</h3>
                 <p>Laissez-nous votre email pour recevoir une notification dès que la nouvelle date du Salon International Multisectoriel 2025 sera annoncée.</p>
                 <form id="notify-form">
                     <input type="email" placeholder="Votre adresse email" required>

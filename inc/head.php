@@ -190,7 +190,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
+                                            <a href="event.php" class="nav-link">
                                                 Photos & vidéos
                                             </a>
                                         </li>
