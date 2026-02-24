@@ -949,7 +949,7 @@
         <li><a href="future.html">Culture & Organisation</a></li>
       </ul>
       <h3>
-        <a href="future.html">🔴SIMK25 : le rendez-vous de l’excellence congolaise !</a>
+        <a href="future.html">SIMK25 : le rendez-vous de l’excellence congolaise !</a>
       </h3>
       <p>Sous l’impulsion et la vision du Chef de l’État, Félix Antoine Tshisekedi Tshilombo, qui œuvre pour une RDC forte, moderne et compétitive, la 9ᵉ édition du Salon International Multisectoriel de Kinshasa (SIMK 2025) s’impose comme un rendez-vous stratégique de l’économie congolaise. Organisé avec l’appui du Ministère du Commerce Extérieur, ce salon rassemble les acteurs des secteurs clés..<!--— industrie, agriculture, énergie, construction, TIC et innovation — afin de promouvoir le savoir-faire national, attirer les investissements et renforcer les partenariats économiques-->.</p>
 
@@ -982,7 +982,7 @@
         <li><a href="future.html">Culture & Organisation</a></li>
       </ul>
       <h3>
-        <a href="future.html">🔴NEWS: Salon International Multisectoriel FICKIN25 – le DG  Hon. Didier KABAMPELE fait le point.</a>
+        <a href="future.html">NEWS: Salon International Multisectoriel FICKIN25 – le DG  Hon. Didier KABAMPELE fait le point.</a>
       </h3>
       <p>Du 1er au 5 novembre 2025 se tiendra à l'enceinte de la FICKIN, la 9ᵉ édition du Salon International Multisectoriel de Kinshasa (SIMK 2025), placée sous le thème :« Commerce général entre la RDC et l’Égypte : défis ou opportunités ? </p>
 
@@ -1136,7 +1136,7 @@
 <style>
 .btn-articles {
   display: inline-block;
-  background: linear-gradient(90deg, #f48907, #181818);
+  background: linear-gradient(135deg, #080808 0%, #7c726b 100%);
   color: #fff;
   padding: 12px 28px;
   border-radius: 50px;
@@ -1156,7 +1156,7 @@
 }
 
 .btn-articles:hover {
-  background: linear-gradient(90deg, #404041, #f48907);
+  background: linear-gradient(135deg, #080808 0%, #252525 100%);
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
@@ -1191,188 +1191,7 @@
         </section>
         <!-- End News Area -->
 
-        <!-- Start Register Now Area -->
-        <section class="register-section ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="register-form">
-                            <h3>Rejoignez-nous </h3>
-                            <form id="contactForm">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="Veuillez entrer votre nom" placeholder="Nom">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <input type="text" name="text" id="text" class="form-control" required data-error="Veuillez entrer votre e-mail" placeholder="Adresse e-mail ">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Veuillez entrer un objet" placeholder=" Objet">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Veuillez écrire votre message" placeholder="Message"></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="send-btn">
-                                            <button type="submit" class="default-btn">
-                                                Rejoindre
-                                                <span></span>
-                                            </button>
-                                        </div>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7">
-                        <div class="pricing-slider owl-carousel owl-theme">
-                            <div class="pricing-item">
-                                <div class="price">
-                                    <sup>$</sup>5
-                                </div>
-
-                                <div class="pricing-header">
-                                    <h3>Basic</h3>
-                                    <p>Hebdomadaire</p>
-                                </div>
-
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Accès Hebdomadaire
-                                    </li>
-
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Bracelet FICKIN
-                                    </li>
-
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Boisson
-                                    </li>
-
-                                </ul>
-
-                                <div class="price-btn">
-                                    <a href="future.html" class="default-btn">
-                                        Acheter
-                                        <span></span>
-                                    </a>
-                                </div>
-
-                                <div class="price-shape rotateme">
-                                    <img src="assets/img/shape/10.png" alt="image">
-                                </div>
-                            </div>
-
-                            <div class="pricing-item">
-                                <div class="price">
-                                    <sup>$</sup>20
-                                </div>
-
-                                <div class="pricing-header">
-                                    <h3>Semi Pro</h3>
-                                    <p>Mensuel</p>
-                                </div>
-
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Accès mensuel
-                                    </li>
-
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Kit FICKIN (bracelet, chapeau,..)
-                                    </li>
-
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Eligible TOMBOLA FICKIN26
-                                    </li>
-                                </ul>
-
-                                <div class="price-btn">
-                                    <a href="future.html" class="default-btn">
-                                        Acheter
-                                        <span></span>
-                                    </a>
-                                </div>
-
-                                <div class="price-shape">
-                                    <img src="assets/img/shape/10.png" alt="image">
-                                </div>
-                            </div>
-
-                            <div class="pricing-item">
-                                <div class="price">
-                                    <sup>$</sup>150
-                                </div>
-
-                                <div class="pricing-header">
-                                    <h3>Professionel VIP</h3>
-                                    <p>Evénementiel</p>
-                                </div>
-
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Accès 
-                                    </li>
-
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Stand personnel
-                                    </li>
-
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Surprise 
-                                    </li>
-
-                                    <li>
-                                        <i class="flaticon-tick-1"></i> 
-                                        Bond Alimentation 
-                                    </li>
-                                </ul>
-
-                                <div class="price-btn">
-                                    <a href="future.html" class="default-btn">
-                                        Acheter
-                                        <span></span>
-                                    </a>
-                                </div>
-
-                                <div class="price-shape">
-                                    <img src="assets/img/shape/10.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Register Now Area -->
+        
 
         <!-- Start Sponsorship Section -->
         <div class="sponsorship-section pt-100 pb-130">

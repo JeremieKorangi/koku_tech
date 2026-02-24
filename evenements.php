@@ -79,7 +79,7 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="featured-event-image">
-                                <img src="assets/img/archives/salon-2025.jpg" alt="Salon International Multisectoriel 2025">
+                                <img src="assets/img/archives/foraine25.jpg" alt="Salon International Multisectoriel 2025">
                                 <div class="image-overlay">
                                     <span class="overlay-text">FICKIN 2025</span>
                                 </div>
@@ -596,7 +596,7 @@
 }
 
 .btn-explore {
-    color: #667eea;
+    color: #fcb64f;
     text-decoration: none;
     font-weight: 600;
     display: inline-flex;
@@ -628,7 +628,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+    background: linear-gradient(135deg, rgba(22, 22, 22, 0.3) 0%, rgba(100, 99, 98, 0.3) 100%);
     display: flex;
     align-items: flex-end;
     padding: 30px;
@@ -1048,13 +1048,13 @@
 }
 
 .close-notify-modal:hover {
-    color: #667eea;
+    color: #b3932b;
 }
 
 .notify-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #080808 0%, #7c726b 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1094,7 +1094,7 @@
 #notify-form button {
     width: 100%;
     padding: 15px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #080808 0%, #7c726b 100%);
     color: #fff;
     border: none;
     border-radius: 10px;

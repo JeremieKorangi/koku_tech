@@ -98,7 +98,7 @@
                     <div class="copy-right-text text-two">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <p>© 2025 FICKIN – Développé par <a href="mailto:wezet@gmail.com" > Koku_tech</a></p>
+                                <p>© 2025 FICKIN –  By <a href="mailto:wezet@gmail.com" > Koku_tech</a></p>
                             </div>
 
                             <div class="col-lg-6">
