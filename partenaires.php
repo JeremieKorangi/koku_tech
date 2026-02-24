@@ -294,7 +294,7 @@
 .default-btn {
     display: inline-block;
     padding: 15px 35px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #db953a 0%, #e0761f 100%);
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
@@ -304,12 +304,12 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
+    box-shadow: 0 5px 15px rgba(214, 129, 59, 0.3);
 }
 
 .default-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(245, 87, 108, 0.4);
+    box-shadow: 0 10px 25px rgba(12, 12, 12, 0.4);
 }
 
 .benefits-quote {
@@ -317,7 +317,7 @@
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    border-left: 4px solid #f5576c;
+    border-left: 4px solid #696968;
 }
 
 .benefits-quote i {

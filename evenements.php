@@ -105,7 +105,7 @@
                     <div class="event-card">
                         <div class="event-card-media">
                             <img src="assets/img/archives/img22.jpg" alt="Première édition 1969">
-                            <div class="event-year-badge">2025</div>
+                            <!--<div class="event-year-badge">2024</div>-->
                             <div class="media-overlay">
                                 <button class="btn-view-gallery" onclick="openEventGallery(1969)">
                                     <i class="fas fa-images"></i> Voir la galerie
@@ -134,7 +134,7 @@
                     <div class="event-card">
                         <div class="event-card-media">
                             <img src="assets/img/archives/img13.jpg" alt="Adhésion UFI 1973">
-                            <div class="event-year-badge">2024</div>
+                            <!--<div class="event-year-badge">2024</div>-->
                             <div class="media-overlay">
                                 <button class="btn-view-gallery" onclick="openEventGallery(1973)">
                                     <i class="fas fa-images"></i> Voir la galerie
@@ -163,7 +163,7 @@
                     <div class="event-card">
                         <div class="event-card-media">
                             <img src="assets/img/archives/chantier2.jpg" alt="Pillages 1991-1993">
-                            <div class="event-year-badge">2024</div>
+                            <!--<div class="event-year-badge">2024</div>-->
                             <div class="media-overlay">
                                 <button class="btn-view-gallery" onclick="openEventGallery(1991)">
                                     <i class="fas fa-images"></i> Voir la galerie
@@ -192,7 +192,7 @@
                     <div class="event-card">
                         <div class="event-card-media">
                             <img src="assets/img/archives/foire_paris2.png" alt="Festivals de musique">
-                            <div class="event-year-badge">2024-10</div>
+                            <!--<div class="event-year-badge">2024</div>-->
                             <div class="media-overlay">
                                 <button class="btn-view-gallery" onclick="openEventGallery('festival')">
                                     <i class="fas fa-images"></i> Voir la galerie
@@ -221,7 +221,7 @@
                     <div class="event-card">
                         <div class="event-card-media">
                             <img src="assets/img/archives/cinema-2014-main.jpg" alt="Festival du Cinéma 2014">
-                            <div class="event-year-badge">2014</div>
+                            <!--<div class="event-year-badge">2024</div>-->
                             <div class="media-overlay">
                                 <button class="btn-view-gallery" onclick="openEventGallery(2014)">
                                     <i class="fas fa-images"></i> Voir la galerie
@@ -250,7 +250,7 @@
                     <div class="event-card">
                         <div class="event-card-media">
                             <img src="assets/img/archives/cinema-2016-main.jpg" alt="FICKIN 3 - 2016">
-                            <div class="event-year-badge">2016</div>
+                            <!--<div class="event-year-badge">2024</div>-->
                             <div class="media-overlay">
                                 <button class="btn-view-gallery" onclick="openEventGallery(2016)">
                                     <i class="fas fa-images"></i> Voir la galerie
@@ -279,7 +279,7 @@
                     <div class="event-card">
                         <div class="event-card-media">
                             <img src="assets/img/archives/2024-main.jpg" alt="Changement de nom 2024">
-                            <div class="event-year-badge">2024</div>
+                            <!--<div class="event-year-badge">2024</div>-->
                             <div class="media-overlay">
                                 <button class="btn-view-gallery" onclick="openEventGallery(2024)">
                                     <i class="fas fa-images"></i> Voir la galerie
@@ -484,7 +484,7 @@
 
 .event-badge {
     display: inline-block;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #aaa4a4 0%, #d30d0d 100%);
     color: #fff;
     padding: 8px 20px;
     border-radius: 50px;
@@ -592,7 +592,7 @@
 
 .btn-notify:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 15px rgba(214, 129, 59, 0.3);
 }
 
 .btn-explore {
@@ -606,7 +606,7 @@
 }
 
 .btn-explore:hover {
-    color: #764ba2;
+    color: #a24b4b;
 }
 
 .featured-event-image {
@@ -736,7 +736,7 @@
 }
 
 .btn-view-gallery:hover {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #db953a 0%, #e0761f 100%);
     color: #fff;
     transform: scale(1.05);
 }
@@ -821,8 +821,8 @@
 
 .btn-view-all {
     background: transparent;
-    border: 1px solid #667eea;
-    color: #667eea;
+    border: 1px solid #302f2d;
+    color: #070707;
     padding: 6px 15px;
     border-radius: 20px;
     font-size: 13px;
@@ -832,7 +832,7 @@
 }
 
 .btn-view-all:hover {
-    background: #667eea;
+    background: #070707;
     color: #fff;
 }
 
