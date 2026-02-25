@@ -18,7 +18,7 @@
         </div>
         <!-- End Page Title Area -->
 
-        <!-- Start Events Intro Area -->
+        <!-- Start Events Intro Area 
         <section class="events-intro-area pt-100 pb-50">
             <div class="container">
                 <div class="section-title">
@@ -30,7 +30,7 @@
         <!-- End Events Intro Area -->
 
         <!-- Start Featured Event Area - Salon International Multisectoriel 2025 -->
-        <section class="featured-event-area pb-50">
+        <!--<section class="featured-event-area pb-50">
             <div class="container">
                 <div class="featured-event-card">
                     <div class="row g-0">
@@ -44,7 +44,7 @@
                                 </div>
                                 <p class="event-description">Initialement prévu du 01 au 05 novembre à Kinshasa, le Salon International Multisectoriel FICKIN 2025 a été reporté à une date ultérieure. Nous vous tiendrons informés dès qu'une nouvelle date sera confirmée.</p>
                                 
-                                <!-- Countdown Timer -->
+                                 Countdown Timer 
                                 <div class="countdown-container">
                                     <h4>Nouvelle date à venir</h4>
                                     <div class="countdown-timer" id="countdown">
@@ -88,11 +88,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- End Featured Event Area -->
 
         <!-- Start Past Events Area -->
-        <section id="past-events" class="past-events-area pb-100">
+        <section id="past-events" class="past-events-area pb-100"  style="padding-top: 150px;">
             <div class="container">
                 <div class="section-title">
                     <h2>Éditions Passées</h2>
@@ -125,7 +125,7 @@
                                     <img src="assets/img/archives/1969-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                               <a href="event.php" class="btn-view-all">Voir tout</a>
+                               <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                     <img src="assets/img/archives/img17.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <a href="event.php" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                                     <img src="assets/img/archives/1993-1.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <a href="event.php" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                                     <img src="assets/img/archives/festival-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                               <a href="event.php" class="btn-view-all">Voir tout</a>
+                               <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                                     <img src="assets/img/archives/cinema-2014-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                               <a href="event.php" class="btn-view-all">Voir tout</a>
+                               <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +270,7 @@
                                     <img src="assets/img/archives/cinema-2016-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                                <a href="event.php" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -299,7 +299,7 @@
                                     <img src="assets/img/archives/2024-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <a href="event.php" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                                     <img src="assets/img/archives/2025-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+5</span>
                                 </div>
-                                <a href="event.php" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -692,7 +692,7 @@
     position: absolute;
     top: 20px;
     left: 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #f8f8fa 0%, #f9fbfd 100%);
     color: #fff;
     padding: 8px 15px;
     border-radius: 50px;
@@ -832,8 +832,8 @@
 }
 
 .btn-view-all:hover {
-    background: #070707;
-    color: #fff;
+    border: 1px solid #fcb64e;
+    color: #fcb64e;
 }
 
 /* Cultural Emblem Card */
@@ -1364,7 +1364,7 @@ document.getElementById('notify-form')?.addEventListener('submit', function(e) {
 
 // ========== PAGINATION ==========
 (function() {
-    const itemsPerPage = 6; // Nombre de cartes par page
+    const itemsPerPage = 4; // Nombre de cartes par page
     const gridContainer = document.getElementById('events-grid-container');
     if (!gridContainer) return; // Sécurité
     
