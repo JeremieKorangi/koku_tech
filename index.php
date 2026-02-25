@@ -751,15 +751,6 @@
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
-                
-                <!--<div class="text-center mt-4">
-                    <a href="galerie.php" class="btn-outline">
-                        Voir toute la galerie <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>-->
->>>>>>> daaf232b1d25e805f856960d6ae8f35306b6d611
             </div>
         </section>
         <!-- End Top Event Area -->

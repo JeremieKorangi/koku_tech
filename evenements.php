@@ -125,7 +125,7 @@
                                     <img src="assets/img/archives/1969-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                               <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                               <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                     <img src="assets/img/archives/img17.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                                     <img src="assets/img/archives/1993-1.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                                     <img src="assets/img/archives/festival-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                               <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                               <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                                     <img src="assets/img/archives/cinema-2014-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                               <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                               <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +270,7 @@
                                     <img src="assets/img/archives/cinema-2016-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+3</span>
                                 </div>
-                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -299,7 +299,7 @@
                                     <img src="assets/img/archives/2024-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+1</span>
                                 </div>
-                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                                     <img src="assets/img/archives/2025-3.jpg" alt="Preview 3" onclick="openLightbox(this)">
                                     <span class="more-images">+5</span>
                                 </div>
-                                <a href="single-blog.html" class="btn-view-all">Voir tout</a>
+                                <a href="single-blog.php" class="btn-view-all">Voir tout</a>
                             </div>
                         </div>
                     </div>
