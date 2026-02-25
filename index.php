@@ -342,39 +342,7 @@
         <!-- Start Banner Area - Version améliorée -->
         <div class="main-banner-area">
             <div class="home-sliders owl-carousel owl-theme">
-                <div class="home-item item-bg1">
-                    <div class="d-table">
-                        <div class="d-table-cell">
-                            <div class="container">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="main-banner-content">
-                                            <span class="banner-tag">🔴 À LA UNE</span>
-                                            <h1>Bonne année 2026!</h1>
-                                            <p>La Foire Internationale du Congo Kinshasa vous souhaite une excellente fin d'année et une nouvelle année pleine de succès, de joie et de prospérité !</p>
-                                            <div class="banner-btn">
-                                                <a href="actualites.php" class="default-btn">
-                                                    Voir les actualités
-                                                    <span></span>
-                                                </a>
-                                                <a href="contact.php" class="optional-btn">
-                                                    Nous contacter
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-            
-                                    <div class="col-lg-6">
-                                        <div class="banner-image">
-                                            <img src="assets/img/tamtam.png" alt="Tam-tam symbolique de la FICKIN">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+               
                 <div class="home-item item-bg2">
                     <div class="d-table">
                         <div class="d-table-cell">
@@ -390,9 +358,7 @@
                                                     Notre histoire
                                                     <span></span>
                                                 </a>
-                                                <a href="mission-vision.php" class="optional-btn">
-                                                    Mission & Vision
-                                                </a>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -423,9 +389,7 @@
                                                     Voir les événements
                                                     <span></span>
                                                 </a>
-                                                <a href="galerie.php" class="optional-btn">
-                                                    Galerie photos
-                                                </a>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -479,9 +443,7 @@
                                     Découvrir notre histoire
                                     <span></span>
                                 </a>
-                                <a href="mission-vision.php" class="optional-btn">
-                                    Mission & Vision
-                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -502,105 +464,154 @@
             </div>
         </section>
         <!-- End About Area -->
-      
-        <!-- Start Offer Area - NOUVEAU BLOC COMPLÈTEMENT INDÉPENDANT -->
-<section class="pt-100 pb-70" style="background: #f8f9fa;">
-    <div class="container">
-        <div class="text-center" style="margin-bottom: 50px;">
-            <span style="display: inline-block; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: #fff; padding: 5px 15px; border-radius: 30px; font-size: 12px; font-weight: 600; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">NOS PÔLES D'ACTIVITÉ</span>
-            <h2 style="font-size: 36px; margin-bottom: 15px; color: #333; position: relative; padding-bottom: 15px;">L'univers de la foire</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto; font-size: 16px;">Espace d'exploration, créativité, découvertes pour tous visiteurs</p>
-        </div>
+        <!-- Start Offer Area - Version uniforme blanc/orange -->
+        <section class="pt-100 pb-70" style="background: #f8f9fa;">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 50px;">
+                    <span style="display: inline-block; background: #F15A24; color: #fff; padding: 5px 15px; border-radius: 30px; font-size: 12px; font-weight: 600; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">NOS PÔLES D'ACTIVITÉ</span>
+                    <h2 style="font-size: 36px; margin-bottom: 15px; color: #333; position: relative; padding-bottom: 15px;">L'univers de la foire</h2>
+                    <p style="color: #666; max-width: 700px; margin: 0 auto; font-size: 16px;">Espace d'exploration, créativité, découvertes pour tous visiteurs</p>
+                </div>
 
-        <div class="row align-items-center">
-            <!-- Bloc Innovation -->
-            <div class="col-lg-4 col-md-6">
-                <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; transition: transform 0.3s; position: relative; overflow: hidden; color: #fff;" 
-                     onmouseover="this.style.transform='translateY(-10px)'" 
-                     onmouseout="this.style.transform='translateY(0)'">
-                    
-                    <div style="width: 70px; height: 70px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                        <i class="flaticon-network" style="color: #fff; font-size: 32px;"></i>
+                <div class="row">
+                    <!-- Bloc Innovation -->
+                    <div class="col-lg-4 col-md-6">
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #F15A24; height: 100%;" 
+                             onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
+                            
+                            <div style="width: 80px; height: 80px; background: rgba(241,90,36,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+                                <i class="flaticon-network" style="color: #F15A24; font-size: 36px;"></i>
+                            </div>
+                            
+                            <h3 style="color: #333; margin: 0 0 15px; font-size: 22px; text-align: center; font-weight: 600;">Innovation</h3>
+                            
+                            <p style="color: #666; line-height: 1.6; margin-bottom: 25px; text-align: center; font-size: 15px;">
+                                Exploration des nouvelles idées et technologies émergentes, la foire sensibilise les visiteurs aux tendances futures, présente des prototypes et stimule la créativité.
+                            </p>
+                            
+                            <div style="text-align: center;">
+                                <a href="innovation.php" style="display: inline-flex; align-items: center; gap: 8px; color: #F15A24; text-decoration: none; font-weight: 600; padding: 10px 25px; border: 2px solid #F15A24; border-radius: 50px; transition: all 0.3s; background: transparent;"
+                                   onmouseover="this.style.background='#F15A24'; this.style.color='#fff'" 
+                                   onmouseout="this.style.background='transparent'; this.style.color='#F15A24'">
+                                    Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <h3 style="color: #fff; margin: 20px 0 15px; font-size: 22px; text-align: center;">Innovation</h3>
-                    
-                    <p style="color: rgba(255,255,255,0.9); line-height: 1.6; margin-bottom: 20px; text-align: center;">
-                        Exploration des nouvelles idées et technologies émergentes, la foire sensibilise les visiteurs aux tendances futures, présente des prototypes et stimule la créativité.
-                    </p>
-                    
-                    <!-- Lien TOUJOURS visible -->
-                    <div style="text-align: center; margin-top: 20px;">
-                        <a href="innovation.php" style="display: inline-flex; align-items: center; gap: 8px; color: #fff; text-decoration: none; font-weight: 600; padding: 8px 20px; background: rgba(255,255,255,0.2); border-radius: 30px; transition: all 0.3s;">
-                            Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
-                        </a>
+
+                    <!-- Bloc Culture & loisir -->
+                    <div class="col-lg-4 col-md-6">
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #F15A24; height: 100%;"
+                             onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
+                            
+                            <div style="width: 80px; height: 80px; background: rgba(241,90,36,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+                                <i class="flaticon-confetti" style="color: #F15A24; font-size: 36px;"></i>
+                            </div>
+                            
+                            <h3 style="color: #333; margin: 0 0 15px; font-size: 22px; text-align: center; font-weight: 600;">Culture & loisir</h3>
+                            
+                            <p style="color: #666; line-height: 1.6; margin-bottom: 25px; text-align: center; font-size: 15px;">
+                                Découverte des expressions artistiques et des activités récréatives, la foire initie les visiteurs à de nouvelles expériences, propose spectacles et ateliers.
+                            </p>
+                            
+                            <div style="text-align: center;">
+                                <a href="culture.php" style="display: inline-flex; align-items: center; gap: 8px; color: #F15A24; text-decoration: none; font-weight: 600; padding: 10px 25px; border: 2px solid #F15A24; border-radius: 50px; transition: all 0.3s; background: transparent;"
+                                   onmouseover="this.style.background='#F15A24'; this.style.color='#fff'" 
+                                   onmouseout="this.style.background='transparent'; this.style.color='#F15A24'">
+                                    Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bloc Infrastructure -->
+                    <div class="col-lg-4 col-md-6">
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #F15A24; height: 100%;"
+                             onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
+                             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
+                            
+                            <div style="width: 80px; height: 80px; background: rgba(241,90,36,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px;">
+                                <i class="flaticon-call-center" style="color: #F15A24; font-size: 36px;"></i>
+                            </div>
+                            
+                            <h3 style="color: #333; margin: 0 0 15px; font-size: 22px; text-align: center; font-weight: 600;">Infrastructure</h3>
+                            
+                            <p style="color: #666; line-height: 1.6; margin-bottom: 25px; text-align: center; font-size: 15px;">
+                                Observation et expérimentation des espaces et équipements en devenir, la foire met en avant les projets d'aménagement et de construction.
+                            </p>
+                            
+                            <div style="text-align: center;">
+                                <a href="infrastructure.php" style="display: inline-flex; align-items: center; gap: 8px; color: #F15A24; text-decoration: none; font-weight: 600; padding: 10px 25px; border: 2px solid #F15A24; border-radius: 50px; transition: all 0.3s; background: transparent;"
+                                   onmouseover="this.style.background='#F15A24'; this.style.color='#fff'" 
+                                   onmouseout="this.style.background='transparent'; this.style.color='#F15A24'">
+                                    Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Bloc Culture & loisir -->
-            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; transition: transform 0.3s; position: relative; overflow: hidden; color: #fff;"
-                     onmouseover="this.style.transform='translateY(-10px)'" 
-                     onmouseout="this.style.transform='translateY(0)'">
-                    
-                    <div style="width: 70px; height: 70px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                        <i class="flaticon-confetti" style="color: #fff; font-size: 32px;"></i>
+            <div class="default-shape">
+                <div class="shape-1"><img src="assets/img/shape/4.png" alt="image"></div>
+                <div class="shape-2 rotateme"><img src="assets/img/shape/5.svg" alt="image"></div>
+                <div class="shape-3"><img src="assets/img/shape/6.svg" alt="image"></div>
+                <div class="shape-4"><img src="assets/img/shape/7.png" alt="image"></div>
+                <div class="shape-5"><img src="assets/img/shape/8.png" alt="image"></div>
+            </div>
+        </section>
+        <!-- End Offer Area -->
+    <!-- Start Counter Section -->
+        <section class="counter-area pt-100 pb-70">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-counter">
+                            <h3>
+                                <span class="odometer" data-count="1969">1969</span>
+                            </h3>
+                            <p>Année de création</p>
+                        </div>
                     </div>
-                    
-                    <h3 style="color: #fff; margin: 20px 0 15px; font-size: 22px; text-align: center;">Culture & loisir</h3>
-                    
-                    <p style="color: rgba(255,255,255,0.9); line-height: 1.6; margin-bottom: 20px; text-align: center;">
-                        Découverte des expressions artistiques et des activités récréatives, la foire initie les visiteurs à de nouvelles expériences, propose spectacles et ateliers.
-                    </p>
-                    
-                    <!-- Lien TOUJOURS visible -->
-                    <div style="text-align: center; margin-top: 20px;">
-                        <a href="culture.php" style="display: inline-flex; align-items: center; gap: 8px; color: #fff; text-decoration: none; font-weight: 600; padding: 8px 20px; background: rgba(255,255,255,0.2); border-radius: 30px; transition: all 0.3s;">
-                            Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
-                        </a>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-counter">
+                            <h3>
+                                <span class="odometer" data-count="50">50</span>
+                            </h3>
+                            <p>Exposants</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-counter">
+                            <h3>
+                                <span class="odometer" data-count="3">3</span>
+                            </h3>
+                            <p>Partenaires</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-counter">
+                            <h3>
+                                <span class="odometer" data-count="20000">200000</span>
+                            </h3>
+                            <p>Personnes attendues</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Bloc Infrastructure -->
-            <div class="col-lg-4 col-md-6">
-                <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; transition: transform 0.3s; position: relative; overflow: hidden; color: #fff;"
-                     onmouseover="this.style.transform='translateY(-10px)'" 
-                     onmouseout="this.style.transform='translateY(0)'">
-                    
-                    <div style="width: 70px; height: 70px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                        <i class="flaticon-call-center" style="color: #fff; font-size: 32px;"></i>
-                    </div>
-                    
-                    <h3 style="color: #fff; margin: 20px 0 15px; font-size: 22px; text-align: center;">Infrastructure</h3>
-                    
-                    <p style="color: rgba(255,255,255,0.9); line-height: 1.6; margin-bottom: 20px; text-align: center;">
-                        Observation et expérimentation des espaces et équipements en devenir, la foire met en avant les projets d'aménagement et de construction.
-                    </p>
-                    
-                    <!-- Lien TOUJOURS visible -->
-                    <div style="text-align: center; margin-top: 20px;">
-                        <a href="infrastructure.php" style="display: inline-flex; align-items: center; gap: 8px; color: #fff; text-decoration: none; font-weight: 600; padding: 8px 20px; background: rgba(255,255,255,0.2); border-radius: 30px; transition: all 0.3s;">
-                            Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-        </div>
-    </div>
-
-    <!-- Shapes (conservés pour le design) -->
-    <div class="default-shape">
-        <div class="shape-1"><img src="assets/img/shape/4.png" alt="image"></div>
-        <div class="shape-2 rotateme"><img src="assets/img/shape/5.svg" alt="image"></div>
-        <div class="shape-3"><img src="assets/img/shape/6.svg" alt="image"></div>
-        <div class="shape-4"><img src="assets/img/shape/7.png" alt="image"></div>
-        <div class="shape-5"><img src="assets/img/shape/8.png" alt="image"></div>
-    </div>
-</section>
-<!-- End Offer Area -->
-
+        </section>
+        <!-- End Counter Section -->
         <!-- Start Fun Facts Section - Déplacé ici pour meilleur flux -->
         <section class="fun-facts-area pt-100 pb-70">
             <div class="container">
@@ -1238,7 +1249,7 @@
     
 /* Styles additionnels pour la version améliorée */
 :root {
-    --primary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --primary-gradient: linear-gradient(135deg, #000000 0%, #F15A24 100%);
     --secondary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --text-color: #333;
     --text-light: #666;
