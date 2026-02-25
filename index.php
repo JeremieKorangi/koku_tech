@@ -751,15 +751,6 @@
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
-                
-                <!--<div class="text-center mt-4">
-                    <a href="galerie.php" class="btn-outline">
-                        Voir toute la galerie <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>-->
->>>>>>> daaf232b1d25e805f856960d6ae8f35306b6d611
             </div>
         </section>
         <!-- End Top Event Area -->
@@ -994,8 +985,93 @@
             </div>
         </section>
         <!-- End Experience Area -->
+<!-- Start News Area - Version avec config -->
+<section class="news-section pb-70">
+    <div class="container">
+        <div class="section-title">
+            <span class="section-subtitle">ACTUALITÉS</span>
+            <h2>Dernières nouvelles</h2>
+            <p>Suivez-nous et restez au cœur des nouveautés, expositions et temps forts de la FICKIN.</p>
+        </div>
 
-        <!-- Start News Area - Version améliorée -->
+        <div class="row">
+            <?php
+            require_once 'config.php';
+            
+            $conn = getDB();
+            
+            $sql = "SELECT id, titre, contenu, date_publication, categorie, type_media, chemin_media, image_apercu 
+                    FROM actualites 
+                    WHERE statut = 'publie' 
+                    ORDER BY date_publication DESC 
+                    LIMIT 3";
+            
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) {
+                    // Formatage de la date
+                    $date = new DateTime($row['date_publication']);
+                    $date_formatee = $date->format('j F Y');
+                    
+                    // Conversion en français
+                    $mois = [
+                        'January' => 'janvier', 'February' => 'février', 'March' => 'mars',
+                        'April' => 'avril', 'May' => 'mai', 'June' => 'juin',
+                        'July' => 'juillet', 'August' => 'août', 'September' => 'septembre',
+                        'October' => 'octobre', 'November' => 'novembre', 'December' => 'décembre'
+                    ];
+                    $date_formatee = strtr($date_formatee, $mois);
+                    
+                    $extrait = substr(strip_tags($row['contenu']), 0, 150) . '...';
+                    
+                    // Gestion du média
+                    if ($row['type_media'] == 'video') {
+                        $media = '
+                        <div class="image video-container">
+                            <video class="video-thumb" autoplay muted loop playsinline poster="' . $row['image_apercu'] . '">
+                                <source src="' . $row['chemin_media'] . '" type="video/mp4">
+                            </video>
+                            <div class="video-indicator"><i class="fas fa-play"></i></div>
+                        </div>';
+                    } else {
+                        $media = '<div class="image"><img src="' . $row['chemin_media'] . '" alt="' . $row['titre'] . '"></div>';
+                    }
+                    
+                    echo '
+                    <div class="col-lg-4 col-md-6">
+                        <div class="news-item">
+                            ' . $media . '
+                            <div class="content">
+                                <div class="meta">
+                                    <span class="date"><i class="far fa-calendar-alt"></i> ' . $date_formatee . '</span>
+                                    <span class="category">' . htmlspecialchars($row['categorie']) . '</span>
+                                </div>
+                                <h3><a href="actualite.php?id=' . $row['id'] . '">' . htmlspecialchars($row['titre']) . '</a></h3>
+                                <p>' . $extrait . '</p>
+                                <a href="actualite.php?id=' . $row['id'] . '" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>';
+                }
+            } else {
+                echo '<div class="col-12 text-center"><p>Aucune actualité pour le moment.</p></div>';
+            }
+            
+            $conn->close();
+            ?>
+        </div>
+        
+        <div class="text-center mt-4">
+            <a href="actualites.php" class="btn-articles">
+                Voir toutes les actualités <span>→</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- End News Area -->
+
+        <!-- Start News Area - Version améliorée -
         <section class="news-section pb-70">
             <div class="container">
                 <div class="section-title">
@@ -1005,7 +1081,7 @@
                 </div>
 
                 <div class="row">
-                    <!-- News 1 avec vidéo -->
+                    <!-- News 1 avec vidéo --
                     <div class="col-lg-4 col-md-6">
                         <div class="news-item">
                             <div class="image video-container">
@@ -1031,7 +1107,7 @@
                         </div>
                     </div>
 
-                    <!-- News 2 avec vidéo -->
+                   
                     <div class="col-lg-4 col-md-6">
                         <div class="news-item">
                             <div class="image video-container">
@@ -1057,7 +1133,7 @@
                         </div>
                     </div>
 
-                    <!-- News 3 -->
+                    
                     <div class="col-lg-4 col-md-6">
                         <div class="news-item">
                             <div class="image">
@@ -1078,7 +1154,7 @@
                         </div>
                     </div>
 
-                    <!-- News 4 -->
+                    
                     <div class="col-lg-4 col-md-6">
                         <div class="news-item">
                             <div class="image">
@@ -1099,7 +1175,7 @@
                         </div>
                     </div>
 
-                    <!-- News 5 -->
+                  
                     <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                         <div class="news-item">
                             <div class="image">
@@ -1120,7 +1196,7 @@
                         </div>
                     </div>
 
-                    <!-- News 6 -->
+                    
                     <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                         <div class="news-item">
                             <div class="image">
