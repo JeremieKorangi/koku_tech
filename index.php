@@ -612,7 +612,7 @@
             </div>
         </section>
         <!-- End Counter Section -->
-        <!-- Start Fun Facts Section - Déplacé ici pour meilleur flux -->
+        <!-- Start Fun Facts Section - Déplacé ici pour meilleur flux -
         <section class="fun-facts-area pt-100 pb-70">
             <div class="container">
                 <div class="row">
@@ -657,7 +657,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Fun Facts Section -->
+         End Fun Facts Section -->
 
         <!-- Start Top Event Area - Version améliorée -->
         <section class="event-section pt-100">
@@ -751,12 +751,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="text-center mt-4">
-                    <a href="galerie.php" class="btn-outline">
-                        Voir toute la galerie <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
             </div>
         </section>
         <!-- End Top Event Area -->
@@ -817,42 +811,27 @@
                 <div class="tab schedule-list-tab">
                     <ul class="tabs">
                         <li><a href="#"><span>Jour 01</span></a></li>
-                        <li><a href="#"><span>Jour 02</span></a></li>
-                        <li><a href="#"><span>Jour 03</span></a></li>
-                        <li><a href="#"><span>Jour 04</span></a></li>
-                        <li><a href="#"><span>Jour 05</span></a></li>
+                     
                     </ul>
 
                     <div class="tab_content">
                         <!-- Jour 01 -->
                         <div class="tabs_item">
                             <div class="schedule-time text-center">
-                                <span>01 Novembre 2025</span>
+                                <span>Date à définir</span>
                             </div>
 
                             <div class="schedule-item">
                                 <div class="schedule-time-col">
-                                    <span class="time">08:00 - 10:00</span>
+                                    <span class="time">A définir</span>
                                     <img src="assets/img/schedule/ouverture.jpg" alt="Ouverture">
                                 </div>
                                 <div class="schedule-desc-col">
-                                    <h4>Cérémonie d'ouverture du Salon International RDC & EGYPTE 2025</h4>
-                                    <p><i class="flaticon-placeholder"></i> Pavillon principal — FICKIN</p>
-                                    <p>Lancement officiel du SIMK 2025 : discours, présentations et ouverture des espaces d'exposition.</p>
+                                    <h4>A définir</h4>
                                 </div>
                             </div>
 
-                            <div class="schedule-item">
-                                <div class="schedule-time-col">
-                                    <span class="time">10:30 - 20:00</span>
-                                    <img src="assets/img/schedule/oeuvre-1.png" alt="Exposition">
-                                </div>
-                                <div class="schedule-desc-col">
-                                    <h4>Exposition - vente des produits et services</h4>
-                                    <p><i class="flaticon-placeholder"></i> Pavillon principal — FICKIN</p>
-                                    <p>Découverte des produits et services proposés, rencontres avec les professionnels.</p>
-                                </div>
-                            </div>
+                           
                         </div>
 
                         <!-- Jour 02 (simplifié) -->
@@ -984,12 +963,7 @@
                                 "Notre ambition est de faire de la FICKIN la référence incontournable des foires internationales en Afrique."
                             </blockquote>
 
-                            <div class="experience-btn">
-                                <a href="mot-directeur.php" class="default-btn">
-                                    Lire le mot du Directeur
-                                    <span></span>
-                                </a>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -1218,30 +1192,7 @@
         </div>
         <!-- End Sponsorship Section -->
 
-        <!-- Start Newsletter Section - NOUVEAU -->
-        <section class="newsletter-section pb-100">
-            <div class="container">
-                <div class="newsletter-box">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="newsletter-content">
-                                <h3>Restez informé</h3>
-                                <p>Inscrivez-vous à notre newsletter pour recevoir toutes les actualités de la FICKIN.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <form class="newsletter-form">
-                                <div class="form-group">
-                                    <input type="email" placeholder="Votre adresse email" required>
-                                    <button type="submit">S'abonner</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Newsletter Section -->
+        
 
     <?php include("inc/footer.php") ?>
 
