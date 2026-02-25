@@ -649,7 +649,7 @@
         <!-- End Fun Facts Section -->
 
         <!-- Start Top Event Area - Version améliorée -->
-        <section class="event-section pt-100">
+        <section class="event-section pt-100"  style="padding-bottom: 0px;">
             <div class="section-title">
                 <span class="section-subtitle">GALERIE</span>
                 <h2>Événements en images</h2>
@@ -741,17 +741,17 @@
                     </div>
                 </div>
                 
-                <div class="text-center mt-4">
+                <!--<div class="text-center mt-4">
                     <a href="galerie.php" class="btn-outline">
                         Voir toute la galerie <i class="fas fa-arrow-right"></i>
                     </a>
-                </div>
+                </div>-->
             </div>
         </section>
         <!-- End Top Event Area -->
 
         <!-- Start Coming Soon Area - Version améliorée -->
-        <section class="coming-soon-area">
+        <section class="coming-soon-area"  style="padding-top: 0px;">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
