@@ -167,34 +167,9 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="actualites.php" class="nav-link">
                                         Actualités 
-                                        <i class='bx bx-chevron-down'></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href=".php" class="nav-link">
-                                                News
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Communiqués
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Conférence de presse
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="event.php" class="nav-link">
-                                                Photos & vidéos
-                                            </a>
-                                        </li>
-                                    </ul>
+-                                    </a>
                                 </li>
 
                                 <li class="nav-item">
