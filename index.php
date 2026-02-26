@@ -394,11 +394,11 @@
                                         </div>
                                     </div>
             
-                                    <div class="col-lg-6">
+                                    <!--<div class="col-lg-6">
                                         <div class="banner-image">
                                             <img src="assets/img/tamtam.png" alt="Tam-tam symbolique de la FICKIN">
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -563,54 +563,60 @@
             </div>
         </section>
         <!-- End Offer Area -->
-    <!-- Start Counter Section -->
-        <section class="counter-area pt-100 pb-70">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-counter">
-                            <h3>
-                                <span class="odometer" data-count="1969">1969</span>
-                            </h3>
-                            <p>Année de création</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-counter">
-                            <h3>
-                                <span class="odometer" data-count="50">50</span>
-                            </h3>
-                            <p>Exposants</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-counter">
-                            <h3>
-                                <span class="odometer" data-count="3">3</span>
-                            </h3>
-                            <p>Partenaires</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-counter">
-                            <h3>
-                                <span class="odometer" data-count="20000">200000</span>
-                            </h3>
-                            <p>Personnes attendues</p>
-                        </div>
-                    </div>
+   <!-- Start Counter Section -->
+   
+   <section class="counter-area pt-100 pb-70" style="background-image: url('assets/img/archives/foire25.jpg');">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-counter">
+                    <h3>
+                        <span class="odometer" data-count="1969">1969</span>
+                    </h3>
+                    <p>Année de création</p>
                 </div>
             </div>
 
-            <div class="lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-counter">
+                    <h3>
+                        <span class="odometer" data-count="50">50</span>
+                    </h3>
+                    <p>Exposants</p>
+                </div>
             </div>
-        </section>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-counter">
+                    <h3>
+                        <span class="odometer" data-count="3">3</span>
+                    </h3>
+                    <p>Partenaires</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-counter">
+                    <h3>
+                        <span class="odometer" data-count="20000">20000</span>
+                    </h3>
+                    <p>Personnes attendues</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+  </section>
+
+
+
+
+<!-- End Counter Section -->
         <!-- End Counter Section -->
         <!-- Start Fun Facts Section - Déplacé ici pour meilleur flux -
         <section class="fun-facts-area pt-100 pb-70">
@@ -942,7 +948,7 @@
         </section>
         <!-- End Schedule Area -->
 
-        <!-- Start Experience Area - Version améliorée -->
+        <!-- Start Experience Area - Version améliorée 
         <section class="experience-section ptb-100">
             <div class="container">
                 <div class="row align-items-center bg-color">
@@ -1071,179 +1077,7 @@
 </section>
 <!-- End News Area -->
 
-        <!-- Start News Area - Version améliorée -
-        <section class="news-section pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <span class="section-subtitle">ACTUALITÉS</span>
-                    <h2>Dernières nouvelles</h2>
-                    <p>Suivez-nous et restez au cœur des nouveautés, expositions et temps forts de la FICKIN.</p>
-                </div>
-
-                <div class="row">
-                    <!-- News 1 avec vidéo --
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news-item">
-                            <div class="image video-container">
-                                <video class="video-thumb" autoplay muted loop playsinline poster="assets/img/blog/stand-1.jpg">
-                                    <source src="assets/img/blog/salon25_pub.mp4" type="video/mp4">
-                                </video>
-                                <div class="video-indicator">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-
-                            <div class="content">
-                                <div class="meta">
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 25 octobre 2025</span>
-                                    <span class="category">Culture & Organisation</span>
-                                </div>
-                                <h3>
-                                    <a href="actualite.php?id=1">SIMK25 : le rendez-vous de l'excellence congolaise !</a>
-                                </h3>
-                                <p>Sous l'impulsion du Chef de l'État, Félix Antoine Tshisekedi, la 9ᵉ édition du Salon International Multisectoriel de Kinshasa s'impose comme un rendez-vous stratégique de l'économie congolaise.</p>
-                                <a href="actualite.php?id=1" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                   
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news-item">
-                            <div class="image video-container">
-                                <video class="video-thumb" autoplay muted loop playsinline poster="assets/img/blog/stand-1.jpg">
-                                    <source src="assets/img/blog/salon25_video.mp4" type="video/mp4">
-                                </video>
-                                <div class="video-indicator">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                            </div>
-
-                            <div class="content">
-                                <div class="meta">
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 20 octobre 2025</span>
-                                    <span class="category">Culture & Organisation</span>
-                                </div>
-                                <h3>
-                                    <a href="actualite.php?id=2">NEWS: Salon International Multisectoriel FICKIN25 – le DG Hon. Didier KABAMPELE fait le point.</a>
-                                </h3>
-                                <p>Du 1er au 5 novembre 2025 se tiendra la 9ᵉ édition du SIMK 2025, placée sous le thème : "Commerce général entre la RDC et l'Égypte : défis ou opportunités ?"</p>
-                                <a href="actualite.php?id=2" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news-item">
-                            <div class="image">
-                                <img src="assets/img/blog/stand-1.jpg" alt="Stands modernes">
-                            </div>
-
-                            <div class="content">
-                                <div class="meta">
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 2 septembre 2025</span>
-                                    <span class="category">Innovation & Infrastructure</span>
-                                </div>
-                                <h3>
-                                    <a href="actualite.php?id=3">La modernisation de la FICKIN c'est maintenant!</a>
-                                </h3>
-                                <p>La FICKIN dispose désormais de stands modernes, conçus pour offrir un espace optimal d'exposition, de rencontre et de valorisation des produits et services.</p>
-                                <a href="actualite.php?id=3" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="news-item">
-                            <div class="image">
-                                <img src="assets/img/blog/blog-1.jpg" alt="Interview radio">
-                            </div>
-
-                            <div class="content">
-                                <div class="meta">
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 7 août 2025</span>
-                                    <span class="category">Communication</span>
-                                </div>
-                                <h3>
-                                    <a href="actualite.php?id=4">Où en sommes-nous avec la modernisation de la FICKIN?</a>
-                                </h3>
-                                <p>Le Directeur Général de la FICKIN répond et rassure l'opinion au micro de Radio Top Congo sur l'avancement des travaux.</p>
-                                <a href="actualite.php?id=4" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                  
-                    <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                        <div class="news-item">
-                            <div class="image">
-                                <img src="assets/img/blog/blog-4.jpg" alt="Ouverture FICKIN">
-                            </div>
-
-                            <div class="content">
-                                <div class="meta">
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 5 août 2025</span>
-                                    <span class="category">Culture & Organisation</span>
-                                </div>
-                                <h3>
-                                    <a href="actualite.php?id=5">FICKIN 2025 : une édition placée sous le signe de l'espoir</a>
-                                </h3>
-                                <p>Le ministre du Commerce extérieur, Julien Paluku, a placé la 47ᵉ édition de la FICKIN sous le signe de l'espoir et de l'espérance lors de l'ouverture officielle.</p>
-                                <a href="actualite.php?id=5" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                        <div class="news-item">
-                            <div class="image">
-                                <img src="assets/img/blog/blog-3.jpg" alt="Préparation FICKIN">
-                            </div>
-
-                            <div class="content">
-                                <div class="meta">
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 30 juillet 2025</span>
-                                    <span class="category">Culture & Organisation</span>
-                                </div>
-                                <h3>
-                                    <a href="actualite.php?id=6">RDC : La 47ème édition foraine de la FICKIN s'ouvre le 2 août</a>
-                                </h3>
-                                <p>Le Ministre du Commerce Extérieur a effectué une visite officielle sur le site d'exposition pour préparer l'ouverture de la 47ème édition foraine.</p>
-                                <a href="actualite.php?id=6" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="text-center mt-4">
-                    <a href="actualites.php" class="btn-articles">
-                        Voir toutes les actualités <span>→</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/4.png" alt="image">
-                </div>
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/5.svg" alt="image">
-                </div>
-                <div class="shape-3">
-                    <img src="assets/img/shape/6.svg" alt="image">
-                </div>
-                <div class="shape-4">
-                    <img src="assets/img/shape/7.png" alt="image">
-                </div>
-                <div class="shape-5">
-                    <img src="assets/img/shape/8.png" alt="image">
-                </div>
-            </div>
-        </section>
-        <!-- End News Area -->
+       
 
         <!-- Start Sponsorship Section - Version améliorée -->
         <div class="sponsorship-section pt-100 pb-130">
@@ -1277,11 +1111,29 @@
         </div>
         <!-- End Sponsorship Section -->
 
-        
+        <div class="image-separator">
+               <img src="assets/img/about/kin_panorama.png" alt="Mon illustration" class="image-bas">
+        </div>
 
+        
     <?php include("inc/footer.php") ?>
 
 <style>
+
+.single-counter h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: #d4cdc0;
+}
+.single-counter p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #b19584;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
     
 /* Styles additionnels pour la version améliorée */
 :root {
@@ -1495,13 +1347,13 @@
 
 /* Event */
 .event-slider {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 .event-item {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+   
 }
 
 .event-item img {
@@ -1742,6 +1594,7 @@
 }
 
 .sponsorship-item {
+    
     background: #f8f9fa;
     padding: 30px 40px;
     border-radius: 10px;
@@ -1754,9 +1607,22 @@
 }
 
 .sponsorship-item img {
-    max-width: 150px;
+    max-width: 250px;
     max-height: 80px;
     object-fit: contain;
+}
+
+
+.image-separator {
+    text-align: center; 
+    padding: 40px 0;    
+    width: 100%;
+}
+
+.image-bas {
+    max-width: 520px;   
+    height: auto;
+    display: inline-block; 
 }
 
 /* Responsive */

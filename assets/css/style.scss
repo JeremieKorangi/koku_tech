@@ -7422,7 +7422,8 @@ Privacy Section CSS
 Footer Area CSS
 =================================================*/
 .footer-section {
-    background-color: $black-color;
+    /*background-color: $black-color;*/
+    background: #000000;
     padding-bottom: 50px;
     position: relative;
     z-index: 1;

@@ -319,14 +319,14 @@
 }
 
 .filter-btn:hover {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: #fff;
+    background: #f8f9fa;
+    color: #666;
     border-color: transparent;
 }
 
 .filter-btn.active {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: #fff;
+    background: linear-gradient(135deg, #d35d0e 0%, #e79909 100%);
+    color: #f0efef;
     border-color: transparent;
 }
 

@@ -267,38 +267,15 @@
         }
         ?>
 
-        <!-- Start Newsletter Section -->
-        <section class="newsletter-section pb-100">
-            <div class="container">
-                <div class="newsletter-box" style="background: #F15A24;">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="newsletter-content">
-                                <h3 style="color: #fff;">Restez informé</h3>
-                                <p style="color: rgba(255,255,255,0.9);">Inscrivez-vous à notre newsletter pour recevoir toutes les actualités de la FICKIN.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <form class="newsletter-form">
-                                <div class="form-group" style="display: flex; gap: 10px;">
-                                    <input type="email" placeholder="Votre adresse email" required style="flex: 1; padding: 15px; border: none; border-radius: 5px;">
-                                    <button type="submit" style="padding: 15px 30px; background: #333; color: #fff; border: none; border-radius: 5px; font-weight: 600; cursor: pointer;">S'abonner</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Newsletter Section -->
+       
 
         <style>
         /* Styles pour la page de détail d'actualité */
         .news-detail-card {
             background: #fff;
-            border-radius: 10px;
             padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+            /*border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.07);*/
         }
 
         .news-detail-media {

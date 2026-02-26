@@ -1,8 +1,8 @@
 
         <!-- Start Footer Area -->
-        <section class="footer-section pt-100">
+        <section class="footer-section pt-100" >
             <div class="container">
-                <div class="subscribe-area">
+                <div class="subscribe-area" >
                     <div class="subscribe-title">
                         <h3>Inscrivez-vous à la newsletter</h3>
                         <p>Profitez en avant-première des tendances et événements.</p>
@@ -54,7 +54,7 @@
                         </li>
 
                         <li>
-                            <a href="future.html"" target="_blank">
+                            <a href="future.html" target="_blank">
                                 <i class="flaticon-linkedin"></i>
                             </a>
                         </li>
