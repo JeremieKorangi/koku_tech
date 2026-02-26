@@ -476,7 +476,7 @@
                 <div class="row">
                     <!-- Bloc Innovation -->
                     <div class="col-lg-4 col-md-6">
-                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #F15A24; height: 100%;" 
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #8b540b; height: 100%;" 
                              onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
                              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
                             
@@ -502,7 +502,7 @@
 
                     <!-- Bloc Culture & loisir -->
                     <div class="col-lg-4 col-md-6">
-                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #F15A24; height: 100%;"
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #8b540b; height: 100%;"
                              onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
                              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
                             
@@ -528,7 +528,7 @@
 
                     <!-- Bloc Infrastructure -->
                     <div class="col-lg-4 col-md-6">
-                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #F15A24; height: 100%;"
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #8b540b; height: 100%;"
                              onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
                              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
                             
@@ -565,7 +565,7 @@
         <!-- End Offer Area -->
    <!-- Start Counter Section -->
    
-   <section class="counter-area pt-100 pb-70" style="background-image: url('assets/img/archives/foire25.jpg');">
+   <section class="counter-area pt-100 pb-70" style="background-image: url('assets/img/archives/img13.jpg');">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -1260,62 +1260,7 @@
 }
 
 /* Offer */
-.offer-content {
-    padding: 40px 25px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    transition: transform 0.3s;
-    position: relative;
-    overflow: hidden;
-}
 
-.offer-content.bg-1 {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: #fff;
-}
-
-.offer-content.bg-2 {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    color: #fff;
-}
-
-.offer-content.bg-3 {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-    color: #fff;
-}
-
-.offer-content:hover {
-    transform: translateY(-10px);
-}
-
-.offer-content .icon i {
-    color: #fff;
-    font-size: 40px;
-}
-
-.offer-content h3 {
-    color: #fff;
-    margin: 20px 0 15px;
-}
-
-.offer-content p {
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.offer-link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 15px;
-}
-
-.offer-link:hover {
-    color: #fff;
-    text-decoration: underline;
-}
 
 /* Fun Facts */
 .single-fun-fact {
@@ -1408,7 +1353,7 @@
 }
 
 .coming-soon-notif i {
-    color: #f5576c;
+    color: #9c8f71;
     font-size: 20px;
 }
 
@@ -1442,7 +1387,7 @@
 .schedule-time-col .time {
     display: block;
     font-weight: 700;
-    color: #f5576c;
+    color: #131313;
     margin-bottom: 10px;
     font-size: 18px;
 }
@@ -1471,7 +1416,7 @@
     border-radius: 10px;
     margin: 20px 0;
     font-style: italic;
-    border-left: 4px solid #f5576c;
+    border-left: 4px solid #8b540b;
 }
 
 .director-quote i {
