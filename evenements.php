@@ -424,6 +424,15 @@
             </div>
         </div>
 
+        <div class="schedule-shape">
+                <div class="shape-1">
+                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/schedule/shape-1.png" alt="image">
+                </div>
+        </div>
+
         <?php include("inc/footer.php") ?>
 
 <style>

@@ -205,30 +205,6 @@
         </section>
         <!-- End News Grid Area -->
 
-        <!-- Start Newsletter Area -->
-        <section class="newsletter-area pb-100">
-            <div class="container">
-                <div class="newsletter-box">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="newsletter-content">
-                                <h3>Restez informé</h3>
-                                <p>Inscrivez-vous à notre newsletter pour recevoir toutes les actualités de la FICKIN directement dans votre boîte mail.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="newsletter-form">
-                                <form id="newsletterForm">
-                                    <input type="email" placeholder="Votre adresse email" required>
-                                    <button type="submit">S'abonner</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Newsletter Area -->
 
         <div class="default-shape">
             <div class="shape-1">
@@ -252,6 +228,14 @@
             </div>
         </div>
 
+        <div class="schedule-shape">
+                <div class="shape-1">
+                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/schedule/shape-1.png" alt="image">
+                </div>
+        </div>
         <?php include("inc/footer.php") ?>
 
 <style>
