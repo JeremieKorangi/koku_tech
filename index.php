@@ -455,11 +455,19 @@
                 <div class="shape-1">
                     <img src="assets/img/about/1.png" alt="image">
                 </div>
-                <div class="shape-2">
+                <div class="shape-2" style="z-index:10">
                     <img src="assets/img/tamtam.png" alt="image">
                 </div>
-                <div class="shape-3">
+                <!--<div class="shape-3">
                     <img src="assets/img/about/3.png" alt="image">
+                </div>-->
+            </div>
+             <div class="schedule-shape">
+                <div class="shape-1">
+                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/schedule/shape-1.png" alt="image">
                 </div>
             </div>
         </section>
@@ -476,7 +484,7 @@
                 <div class="row">
                     <!-- Bloc Innovation -->
                     <div class="col-lg-4 col-md-6">
-                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #8b540b; height: 100%;" 
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid  #9c8f71; height: 100%;" 
                              onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
                              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
                             
@@ -502,7 +510,7 @@
 
                     <!-- Bloc Culture & loisir -->
                     <div class="col-lg-4 col-md-6">
-                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #8b540b; height: 100%;"
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid  #9c8f71; height: 100%;"
                              onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
                              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
                             
@@ -528,7 +536,7 @@
 
                     <!-- Bloc Infrastructure -->
                     <div class="col-lg-4 col-md-6">
-                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid #8b540b; height: 100%;"
+                        <div style="background: #fff; padding: 40px 25px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s; border-bottom: 4px solid  #9c8f71; height: 100%;"
                              onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(241,90,36,0.1)'" 
                              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.05)'">
                             
@@ -1124,12 +1132,12 @@
     font-family: 'Arial', sans-serif;
     font-weight: 300;
     font-size: 45px;
-    color: #d4cdc0;
+    color: #faf9f8;
 }
 .single-counter p {
     font-family: 'Arial', sans-serif;
     font-size: 14px;
-    color: #b19584;
+    color: #dfd9d6;
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
@@ -1208,7 +1216,7 @@
     padding: 25px;
     border-radius: 10px;
     margin: 25px 0;
-    border-left: 4px solid #f5576c;
+    border-left: 4px solid  #9c8f71;
 }
 
 .highlight-text {
@@ -1238,7 +1246,7 @@
 }
 
 .feature-item i {
-    color: #f5576c;
+    color:  #d87e16;
     font-size: 20px;
 }
 
@@ -1420,7 +1428,7 @@
 }
 
 .director-quote i {
-    color: #f5576c;
+    color: #9c8f71;
     font-size: 20px;
     margin-right: 10px;
     opacity: 0.5;

@@ -21,7 +21,7 @@
     width: 80px;
     height: 80px;
     line-height: 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #413827 0%, #a27c4b 100%);
     border-radius: 50%;
     margin: 0 auto 25px;
     color: #fff;
@@ -41,7 +41,7 @@
 }
 
 .contact-info-box a {
-    color: #667eea;
+    color: #a19c92;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -106,7 +106,7 @@
 }
 
 .emergency-contact {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d35d0e 0%, #e79909 100%);
     padding: 30px;
     border-radius: 10px;
     color: #fff;
@@ -286,6 +286,14 @@
                             <p class="info-note">Réponse sous 24h</p>
                         </div>
                     </div>
+                </div>
+            </div>
+             <div class="schedule-shape">
+                <div class="shape-1">
+                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/schedule/shape-1.png" alt="image">
                 </div>
             </div>
         </section>

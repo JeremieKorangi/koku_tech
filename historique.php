@@ -272,7 +272,7 @@
 
         <!-- Start Milestones Area -->
         <section class="milestones-area pb-70">
-            <div class="container"> <br> <br>
+            <!--<div class="container"> <br> <br>
                 <div class="section-title">
                     <h2>La FICKIN en chiffres</h2>
                     <p>Des chiffres qui témoignent de l'importance de cette institution.</p>
@@ -319,7 +319,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>->
         </section>
         <!-- End Milestones Area -->
 
