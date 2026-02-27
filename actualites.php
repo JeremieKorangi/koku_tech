@@ -29,7 +29,7 @@
         </section>
         <!-- End News Intro Area -->
 
-        <!-- Start News Filter Area -->
+        <!-- Start News Filter Area -
         <section class="news-filter-area pb-40">
             <div class="container">
                 <div class="news-filter">
@@ -57,190 +57,167 @@
         <section class="news-grid-area pb-100">
             <div class="container">
                 <div class="row" id="newsContainer">
-                    <!-- News Item 1 -->
-                    <div class="col-lg-4 col-md-6 news-item" data-category="culture">
+                    <?php
+                    // Connexion à la base de données
+                    require_once 'config.php';
+                    $conn = getDB();
+                    
+                    // Pagination
+                    $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+                    $limit = 6;
+                    $offset = ($page - 1) * $limit;
+                    
+                    // Compter le nombre total d'actualités
+                    $count_sql = "SELECT COUNT(*) as total FROM actualites WHERE statut = 'publie'";
+                    $count_result = $conn->query($count_sql);
+                    $total_row = $count_result->fetch_assoc();
+                    $total_news = $total_row['total'];
+                    $total_pages = ceil($total_news / $limit);
+                    
+                    // Récupérer les actualités avec pagination - CORRECTION: on garde type_media et image_apercu
+                    $sql = "SELECT id, titre, contenu, date_publication, categorie, type_media, chemin_media, image_apercu 
+                            FROM actualites 
+                            WHERE statut = 'publie' 
+                            ORDER BY date_publication DESC 
+                            LIMIT ? OFFSET ?";
+                    
+                    $stmt = $conn->prepare($sql);
+                    $stmt->bind_param("ii", $limit, $offset);
+                    $stmt->execute();
+                    $result = $stmt->get_result();
+                    
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            // Formatage de la date
+                            $date = new DateTime($row['date_publication']);
+                            $jour = $date->format('d');
+                            $mois = $date->format('M');
+                            $annee = $date->format('Y');
+                            
+                            // Extraire un extrait du contenu (120 caractères)
+                            $extrait = substr(strip_tags($row['contenu']), 0, 120) . '...';
+                            
+                            // Déterminer la classe de catégorie
+                            $categorie_class = strtolower(str_replace(' & ', '-', $row['categorie']));
+                            
+                            // Gestion du média - CORRECTION: on utilise la même logique que la page d'accueil
+                            if ($row['type_media'] == 'video') {
+                                $media_html = '
+                                <div class="news-image video-container">
+                                    <video class="video-thumb" autoplay muted loop playsinline poster="' . htmlspecialchars($row['image_apercu']) . '">
+                                        <source src="' . htmlspecialchars($row['chemin_media']) . '" type="video/mp4">
+                                    </video>
+                                    <div class="video-indicator"><i class="fas fa-play"></i></div>
+                                    <div class="news-date">
+                                        <span class="day">' . $jour . '</span>
+                                        <span class="month">' . $mois . '</span>
+                                        <span class="year">' . $annee . '</span>
+                                    </div>
+                                    <div class="news-category">' . htmlspecialchars($row['categorie']) . '</div>
+                                </div>';
+                            } else {
+                                $media_html = '
+                                <div class="news-image">
+                                    <img src="' . htmlspecialchars($row['chemin_media']) . '" alt="' . htmlspecialchars($row['titre']) . '">
+                                    <div class="news-date">
+                                        <span class="day">' . $jour . '</span>
+                                        <span class="month">' . $mois . '</span>
+                                        <span class="year">' . $annee . '</span>
+                                    </div>
+                                    <div class="news-category">' . htmlspecialchars($row['categorie']) . '</div>
+                                </div>';
+                            }
+                    ?>
+                    <!-- News Item Dynamique -->
+                    <div class="col-lg-4 col-md-6 news-item" data-category="<?php echo $categorie_class; ?>">
                         <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/img/news/simk25.jpg" alt="SIMK25">
-                                <div class="news-date">
-                                    <span class="day">25</span>
-                                    <span class="month">Oct</span>
-                                    <span class="year">2025</span>
-                                </div>
-                                <div class="news-category">Culture & Organisation</div>
-                            </div>
+                            <?php echo $media_html; ?>
                             <div class="news-content">
-                                <h3><a href="news-detail.php?id=1">SIMK25 : le rendez-vous de l'excellence congolaise !</a></h3>
-                                <p>Sous l'impulsion et la vision du Chef de l'État, Félix Antoine Tshisekedi Tshilombo, qui œuvre pour une RDC forte, moderne et compétitive, la 9ᵉ édition du Salon International Multisectoriel de Kinshasa (SIMK 2025) s'impose comme un rendez-vous stratégique de l'économie congolaise...</p>
-                                <a href="news-detail.php?id=1" class="read-more">
+                                <h3><a href="actualite.php?id=<?php echo $row['id']; ?>"><?php echo htmlspecialchars($row['titre']); ?></a></h3>
+                                <p><?php echo $extrait; ?></p>
+                                <a href="actualite.php?id=<?php echo $row['id']; ?>" class="read-more">
                                     Lire la suite <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-
-                    <!-- News Item 2 -->
-                    <div class="col-lg-4 col-md-6 news-item" data-category="culture">
-                        <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/img/news/dg-interview.jpg" alt="DG FICKIN">
-                                <div class="news-date">
-                                    <span class="day">20</span>
-                                    <span class="month">Oct</span>
-                                    <span class="year">2025</span>
-                                </div>
-                                <div class="news-category">Culture & Organisation</div>
-                            </div>
-                            <div class="news-content">
-                                <h3><a href="news-detail.php?id=2">NEWS: Salon International Multisectoriel FICKIN25 – le DG Hon. Didier KABAMPELE fait le point.</a></h3>
-                                <p>Du 1er au 5 novembre 2025 se tiendra à l'enceinte de la FICKIN, la 9ᵉ édition du Salon International Multisectoriel de Kinshasa (SIMK 2025), placée sous le thème : « Commerce général entre la RDC et l'Égypte : défis ou opportunités ? »</p>
-                                <a href="news-detail.php?id=2" class="read-more">
-                                    Lire la suite <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- News Item 3 -->
-                    <div class="col-lg-4 col-md-6 news-item" data-category="innovation">
-                        <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/img/news/stands-modernes.jpg" alt="Stands modernes">
-                                <div class="news-date">
-                                    <span class="day">02</span>
-                                    <span class="month">Sept</span>
-                                    <span class="year">2025</span>
-                                </div>
-                                <div class="news-category">Innovation & Infrastructure</div>
-                            </div>
-                            <div class="news-content">
-                                <h3><a href="news-detail.php?id=3">La modernisation de la FICKIN c'est maintenant!</a></h3>
-                                <p>La FICKIN dispose désormais de stands modernes, conçus pour offrir un espace optimal d'exposition, de rencontre et de valorisation des produits et services. Ces installations favorisent la visibilité des exposants, encouragent les échanges professionnels et créent une expérience immersive pour les visiteurs.</p>
-                                <a href="news-detail.php?id=3" class="read-more">
-                                    Lire la suite <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- News Item 4 -->
-                    <div class="col-lg-4 col-md-6 news-item" data-category="communication">
-                        <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/img/news/top-congo.jpg" alt="Interview Radio Top Congo">
-                                <div class="news-date">
-                                    <span class="day">07</span>
-                                    <span class="month">Août</span>
-                                    <span class="year">2025</span>
-                                </div>
-                                <div class="news-category">Communication</div>
-                            </div>
-                            <div class="news-content">
-                                <h3><a href="news-detail.php?id=4">Où en sommes-nous avec la modernisation de la Foire Internationale du Congo Kinshasa?</a></h3>
-                                <p>Le Directeur Général de la FICKIN répond et rassure l'opinion au micro de Radio Top Congo, affirmant que les travaux avancent à grands pas et que tout se met en place pour faire de cette...</p>
-                                <a href="news-detail.php?id=4" class="read-more">
-                                    Lire la suite <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- News Item 5 -->
-                    <div class="col-lg-4 col-md-6 news-item" data-category="culture">
-                        <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/img/news/ouverture-fickin.jpg" alt="Ouverture FICKIN 2025">
-                                <div class="news-date">
-                                    <span class="day">05</span>
-                                    <span class="month">Août</span>
-                                    <span class="year">2025</span>
-                                </div>
-                                <div class="news-category">Culture & Organisation</div>
-                            </div>
-                            <div class="news-content">
-                                <h3><a href="news-detail.php?id=5">FICKIN 2025 : une édition placée sous le signe de l'espoir et de l'espérance</a></h3>
-                                <p>Le ministre du Commerce extérieur, Julien Paluku, a placé la 47ᵉ édition de la Foire internationale du Congo-Kinshasa (FICKIN) sous le signe de l'espoir et de l'espérance, marquant ainsi la relance des activités foraines en RDC lors de l'ouverture officielle de la foire, samedi 2 août...</p>
-                                <a href="news-detail.php?id=5" class="read-more">
-                                    Lire la suite <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- News Item 6 -->
-                    <div class="col-lg-4 col-md-6 news-item" data-category="culture">
-                        <div class="news-card">
-                            <div class="news-image">
-                                <img src="assets/img/news/preparation-fickin.jpg" alt="Préparation FICKIN">
-                                <div class="news-date">
-                                    <span class="day">30</span>
-                                    <span class="month">Juil</span>
-                                    <span class="year">2025</span>
-                                </div>
-                                <div class="news-category">Culture & Organisation</div>
-                            </div>
-                            <div class="news-content">
-                                <h3><a href="news-detail.php?id=6">RDC : La 47ème édition foraine de la FICKIN s'ouvre le samedi 2 août 2025</a></h3>
-                                <p>À l'issue de la visite officielle qu'il a effectuée le mardi 29 juillet 2025 sur le site d'exposition pour la 47ème édition foraine à la Foire Internationale du Congo-Kinshasa (FICKIN), le Ministre du Commerce Extérieur...</p>
-                                <a href="news-detail.php?id=6" class="read-more">
-                                    Lire la suite <i class="fas fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php 
+                        }
+                    } else {
+                        echo '<div class="col-12 text-center"><p>Aucune actualité trouvée.</p></div>';
+                    }
+                    
+                    $stmt->close();
+                    $conn->close();
+                    ?>
                 </div>
 
-                <!-- Load More Button -->
+                <!-- Pagination -->
+                <?php if ($total_pages > 1): ?>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="load-more-btn text-center">
-                            <button id="loadMoreBtn" class="default-btn">
-                                Charger plus d'actualités
-                                <span></span>
-                            </button>
+                        <div class="pagination-area text-center">
+                            <ul class="pagination">
+                                <!-- Bouton Précédent -->
+                                <li class="page-item <?php echo ($page <= 1) ? 'disabled' : ''; ?>">
+                                    <a class="page-link" href="?page=<?php echo $page - 1; ?>" <?php echo ($page <= 1) ? 'tabindex="-1" aria-disabled="true"' : ''; ?>>
+                                        <i class="fas fa-chevron-left"></i>
+                                    </a>
+                                </li>
+                                
+                                <!-- Numéros de page -->
+                                <?php for ($i = 1; $i <= $total_pages; $i++): ?>
+                                <li class="page-item <?php echo ($i == $page) ? 'active' : ''; ?>">
+                                    <a class="page-link" href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
+                                </li>
+                                <?php endfor; ?>
+                                
+                                <!-- Bouton Suivant -->
+                                <li class="page-item <?php echo ($page >= $total_pages) ? 'disabled' : ''; ?>">
+                                    <a class="page-link" href="?page=<?php echo $page + 1; ?>" <?php echo ($page >= $total_pages) ? 'tabindex="-1" aria-disabled="true"' : ''; ?>>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <div class="pagination-info">
+                                Page <?php echo $page; ?> sur <?php echo $total_pages; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <?php endif; ?>
             </div>
         </section>
         <!-- End News Grid Area -->
 
+        
 
         <div class="default-shape">
-            <div class="shape-1">
-                <img src="assets/img/shape/4.png" alt="image">
-            </div>
-
-            <div class="shape-2 rotateme">
-                <img src="assets/img/shape/5.svg" alt="image">
-            </div>
-
-            <div class="shape-3">
-                <img src="assets/img/shape/6.svg" alt="image">
-            </div>
-
-            <div class="shape-4">
-                <img src="assets/img/shape/7.png" alt="image">
-            </div>
-
-            <div class="shape-5">
-                <img src="assets/img/shape/8.png" alt="image">
-            </div>
+            <div class="shape-1"><img src="assets/img/shape/4.png" alt="image"></div>
+            <div class="shape-2 rotateme"><img src="assets/img/shape/5.svg" alt="image"></div>
+            <div class="shape-3"><img src="assets/img/shape/6.svg" alt="image"></div>
+            <div class="shape-4"><img src="assets/img/shape/7.png" alt="image"></div>
+            <div class="shape-5"><img src="assets/img/shape/8.png" alt="image"></div>
         </div>
 
-        <div class="schedule-shape">
-                <div class="shape-1">
-                    <img src="assets/img/schedule/shape-2.png" alt="image">
-                </div>
-                <div class="shape-2">
-                    <img src="assets/img/schedule/shape-1.png" alt="image">
-                </div>
-        </div>
         <?php include("inc/footer.php") ?>
 
 <style>
-/* Styles pour la page Actualités FICKIN */
+/* ===== STYLES MODERNISÉS POUR LA PAGE ACTUALITÉS ===== */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+:root {
+    --primary-gradient: linear-gradient(135deg, #000000 0%, #F15A24 100%);
+    --primary-color: #F15A24;
+    --dark-color: #000000;
+    --text-color: #333;
+    --text-light: #666;
+    --bg-light: #f8f9fa;
+    --white: #ffffff;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    --shadow-hover: 0 20px 40px rgba(241, 90, 36, 0.15);
+}
 
 /* Section Title */
 .section-title {
@@ -248,12 +225,25 @@
     margin-bottom: 50px;
 }
 
+.section-subtitle {
+    display: inline-block;
+    background: var(--primary-gradient);
+    color: var(--white);
+    padding: 6px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
 .section-title h2 {
     font-size: 36px;
     margin-bottom: 15px;
-    color: #333;
+    color: var(--dark-color);
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .section-title h2:after {
@@ -264,14 +254,16 @@
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: var(--primary-gradient);
+    border-radius: 3px;
 }
 
 .section-title p {
-    color: #666;
+    color: var(--text-light);
     max-width: 700px;
     margin: 0 auto;
     font-size: 16px;
+    line-height: 1.8;
 }
 
 /* Filter Area */
@@ -291,27 +283,29 @@
 }
 
 .filter-btn {
-    padding: 10px 20px;
-    background: #f8f9fa;
+    padding: 12px 24px;
+    background: var(--white);
     border: 1px solid #e0e0e0;
-    border-radius: 30px;
-    color: #666;
+    border-radius: 50px;
+    color: var(--text-light);
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
 }
 
 .filter-btn:hover {
-    background: #f8f9fa;
-    color: #666;
-    border-color: transparent;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transform: translateY(-2px);
 }
 
 .filter-btn.active {
-    background: linear-gradient(135deg, #d35d0e 0%, #e79909 100%);
-    color: #f0efef;
+    background: var(--primary-gradient);
+    color: var(--white);
     border-color: transparent;
+    box-shadow: 0 5px 15px rgba(241, 90, 36, 0.3);
 }
 
 .filter-dropdown {
@@ -320,37 +314,44 @@
 
 .filter-select {
     padding: 12px 25px;
-    background: #f8f9fa;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    color: #666;
+    background: var(--white);
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    color: var(--text-light);
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
     width: 250px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.filter-select:focus {
+    border-color: var(--primary-color);
 }
 
 /* News Cards */
 .news-card {
-    background: #fff;
-    border-radius: 10px;
+    background: var(--white);
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: var(--shadow);
     transition: all 0.3s ease;
     margin-bottom: 30px;
     height: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .news-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--shadow-hover);
 }
 
 .news-image {
     position: relative;
-    height: 220px;
+    height: 240px;
     overflow: hidden;
 }
 
@@ -365,53 +366,89 @@
     transform: scale(1.1);
 }
 
+/* Styles spécifiques pour les vidéos */
+.news-image.video-container {
+    background: #000;
+}
+
+.video-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(241, 90, 36, 0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+}
+
+.video-indicator:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    background: var(--primary-color);
+}
+
 .news-date {
     position: absolute;
-    top: 15px;
-    left: 15px;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 10px 15px;
-    border-radius: 5px;
+    top: 20px;
+    left: 20px;
+    background: var(--white);
+    padding: 12px 15px;
+    border-radius: 10px;
     text-align: center;
-    min-width: 60px;
+    min-width: 70px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     z-index: 2;
 }
 
 .news-date .day {
     display: block;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
-    color: #f5576c;
+    color: var(--primary-color);
     line-height: 1;
 }
 
 .news-date .month {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
-    color: #666;
+    color: var(--text-color);
     text-transform: uppercase;
 }
 
 .news-date .year {
     display: block;
-    font-size: 10px;
-    color: #999;
+    font-size: 11px;
+    color: var(--text-light);
 }
 
 .news-category {
     position: absolute;
-    bottom: 15px;
-    right: 15px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: #fff;
-    padding: 5px 15px;
-    border-radius: 20px;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary-gradient);
+    color: var(--white);
+    padding: 8px 20px;
+    border-radius: 50px;
     font-size: 12px;
     font-weight: 500;
     z-index: 2;
-    box-shadow: 0 5px 10px rgba(245, 87, 108, 0.3);
+    box-shadow: 0 5px 10px rgba(241, 90, 36, 0.3);
 }
 
 .news-content {
@@ -424,36 +461,37 @@
 .news-content h3 {
     font-size: 18px;
     margin-bottom: 15px;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .news-content h3 a {
-    color: #333;
+    color: var(--dark-color);
     text-decoration: none;
     transition: color 0.3s;
+    font-weight: 600;
 }
 
 .news-content h3 a:hover {
-    color: #f5576c;
+    color: var(--primary-color);
 }
 
 .news-content p {
-    color: #666;
-    line-height: 1.6;
+    color: var(--text-light);
+    line-height: 1.7;
     margin-bottom: 20px;
     font-size: 14px;
     flex-grow: 1;
 }
 
 .read-more {
-    color: #333;
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    transition: color 0.3s;
+    transition: all 0.3s;
     margin-top: auto;
 }
 
@@ -463,59 +501,95 @@
 }
 
 .read-more:hover {
-    color: #f5576c;
+    color: var(--dark-color);
+    gap: 12px;
 }
 
 .read-more:hover i {
     transform: translateX(5px);
 }
 
-/* Load More Button */
-.load-more-btn {
-    margin-top: 30px;
+/* Pagination */
+.pagination-area {
+    margin-top: 50px;
 }
 
-.default-btn {
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.page-item {
     display: inline-block;
-    padding: 15px 35px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
 }
 
-.default-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(245, 87, 108, 0.4);
+.page-item.disabled .page-link {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
-/* Newsletter Area */
-.newsletter-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    padding: 50px;
+.page-item.active .page-link {
+    background: var(--primary-gradient);
+    color: var(--white);
+    border-color: transparent;
+    box-shadow: 0 5px 15px rgba(241, 90, 36, 0.3);
+}
+
+.page-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: var(--white);
+    border: 2px solid #e0e0e0;
     border-radius: 10px;
-    color: #fff;
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.page-link:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.pagination-info {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+/* Newsletter Section */
+.newsletter-box {
+    padding: 60px;
+    border-radius: 20px;
+    color: var(--white);
+    box-shadow: 0 20px 40px rgba(241, 90, 36, 0.2);
 }
 
 .newsletter-content h3 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
-    color: #fff;
+    color: var(--white);
 }
 
 .newsletter-content p {
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 0;
+    font-size: 16px;
 }
 
-.newsletter-form form {
+.newsletter-form .form-group {
     display: flex;
     gap: 10px;
 }
@@ -524,24 +598,28 @@
     flex: 1;
     padding: 15px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .newsletter-form button {
-    padding: 15px 30px;
-    background: #fff;
-    color: #333;
+    padding: 15px 35px;
+    background: var(--dark-color);
+    color: var(--white);
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .newsletter-form button:hover {
-    background: #f8f9fa;
+    background: #222;
     transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 /* Responsive */
@@ -560,7 +638,7 @@
     }
     
     .newsletter-box {
-        padding: 30px;
+        padding: 40px 30px;
     }
     
     .newsletter-content {
@@ -568,8 +646,12 @@
         text-align: center;
     }
     
-    .newsletter-form form {
+    .newsletter-form .form-group {
         flex-direction: column;
+    }
+    
+    .newsletter-form button {
+        width: 100%;
     }
     
     .section-title h2 {
@@ -577,32 +659,68 @@
     }
     
     .news-image {
-        height: 180px;
+        height: 200px;
+    }
+    
+    .pagination {
+        gap: 5px;
+    }
+    
+    .page-link {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .video-indicator {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .news-card {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .page-link {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    .video-indicator {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
     }
 }
 </style>
 
 <script>
-// Filtrage des actualités
+// Filtrage des actualités avec animation
 document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const filterSelect = document.getElementById('categorySelect');
     const newsItems = document.querySelectorAll('.news-item');
     
-    // Fonction de filtrage
+    // Fonction de filtrage avec animation
     function filterNews(category) {
-        newsItems.forEach(item => {
+        newsItems.forEach((item, index) => {
             if (category === 'all' || item.dataset.category === category) {
+                // Animation d'apparition
                 item.style.display = 'block';
+                setTimeout(() => {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }, index * 50);
             } else {
-                item.style.display = 'none';
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    item.style.display = 'none';
+                }, 300);
             }
         });
         
@@ -621,6 +739,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
+    // Initialiser les styles pour l'animation
+    newsItems.forEach(item => {
+        item.style.transition = 'opacity 0.3s, transform 0.3s';
+    });
+    
     // Event listeners pour les boutons
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -637,15 +760,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Load More (simulation - à connecter avec PHP plus tard)
-    const loadMoreBtn = document.getElementById('loadMoreBtn');
-    let currentItems = 6;
+    // Animation au scroll pour les cartes
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
     
-    if (loadMoreBtn) {
-        loadMoreBtn.addEventListener('click', function() {
-            // Ici, vous ajouterez la logique AJAX pour charger plus d'articles
-            alert('Fonctionnalité à venir : chargement de plus d\'actualités via AJAX');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
         });
-    }
+    }, observerOptions);
+    
+    newsItems.forEach(item => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(30px)';
+        observer.observe(item);
+    });
 });
 </script>
