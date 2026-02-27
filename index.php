@@ -939,7 +939,7 @@
                 </div>
 
                 <div class="text-center mt-4">
-                    <a href="programme-complet.php" class="btn-outline">
+                    <a href="future.html" class="btn-outline">
                         Voir le programme complet <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>

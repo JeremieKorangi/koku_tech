@@ -2,7 +2,7 @@
         <!-- Start Footer Area -->
         <section class="footer-section pt-100" >
             <div class="container">
-                <div class="subscribe-area" >
+                <div class="subscribe-area" style="background: linear-gradient(135deg, #000000 0%, #F15A24 100%);">
                     <div class="subscribe-title">
                         <h3>Inscrivez-vous à la newsletter</h3>
                         <p>Profitez en avant-première des tendances et événements.</p>

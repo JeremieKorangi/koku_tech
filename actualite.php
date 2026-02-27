@@ -99,7 +99,7 @@
                                 <?php echo nl2br($row['contenu']); ?>
                             </div>
 
-                            <!-- Footer avec partage -->
+                            <!-- Footer avec partage 
                             <div class="news-detail-footer">
                                 <div class="tags">
                                     <span>Tags:</span>
@@ -120,7 +120,7 @@
                                         <i class="fab fa-whatsapp" style="color: #25d366;"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -196,11 +196,11 @@
                                 <?php endwhile; ?>
                             </div>
 
-                            <!-- Widget Archives -->
+                            <!-- Widget Archives 
                             <div class="sidebar-widget archives-widget">
                                 <h3 class="widget-title">Archives</h3>
                                 <ul>
-                                    <?php
+                                    php
                                     // Récupérer les archives par mois
                                     $archive_sql = "SELECT DATE_FORMAT(date_publication, '%Y-%m') as mois, 
                                                            DATE_FORMAT(date_publication, '%M %Y') as mois_nom,
@@ -220,19 +220,11 @@
                                             <span>(<?php echo $archive['nombre']; ?>)</span>
                                         </a>
                                     </li>
-                                    <?php endwhile; ?>
+                                    php endwhile; ?>
                                 </ul>
-                            </div>
+                            </div> -->
 
-                            <!-- Widget Newsletter -->
-                            <div class="sidebar-widget newsletter-widget" style="background: linear-gradient(135deg, #F15A24 0%, #f37b4f 100%);">
-                                <h3 class="widget-title" style="color: #fff;">Newsletter</h3>
-                                <p style="color: rgba(255,255,255,0.9); margin-bottom: 20px;">Recevez nos dernières actualités directement dans votre boîte mail.</p>
-                                <form class="sidebar-newsletter">
-                                    <input type="email" placeholder="Votre email" required style="width: 100%; padding: 12px; border: none; border-radius: 5px; margin-bottom: 10px;">
-                                    <button type="submit" style="width: 100%; padding: 12px; background: #333; color: #fff; border: none; border-radius: 5px; font-weight: 600; cursor: pointer;">S'abonner</button>
-                                </form>
-                            </div>
+                           
                         </aside>
                     </div>
                 </div>
