@@ -473,7 +473,7 @@
         </section>
         <!-- End About Area -->
         <!-- Start Offer Area - Version uniforme blanc/orange -->
-        <section class="pt-100 pb-70" style="background: #f8f9fa;">
+        <section class="pt-100 pb-70" style="background: #f8f9fa;  z-index:10;">
             <div class="container">
                 <div class="text-center" style="margin-bottom: 50px;">
                     <span style="display: inline-block; background: #F15A24; color: #fff; padding: 5px 15px; border-radius: 30px; font-size: 12px; font-weight: 600; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">NOS PÔLES D'ACTIVITÉ</span>
@@ -580,7 +580,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 pl-0">
                                 <div class="image">
-                                    <img src="assets/img/testimonial/min19.jpg" alt="image">
+                                    <img src="assets/img/testimonial/min18.png" alt="image">
                                 </div>
                             </div>
 
@@ -624,7 +624,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 pl-0">
                                 <div class="image">
-                                    <img src="assets/img/testimonial/img3.jpg" alt="image">
+                                    <img src="assets/img/testimonial/img3.png" alt="image">
                                 </div>
                             </div>
 
@@ -665,13 +665,13 @@
                     <img src="assets/img/shape/8.png" alt="image">
                 </div>
             </div>
-             <div class="schedule-shape">
+             <!--<div class="schedule-shape" style=" z-index:0;">
                 <div class="shape-1">
                     <img src="assets/img/schedule/shape-2.png" alt="image">
                 </div>
                 <div class="shape-2">
                     <img src="assets/img/schedule/shape-1.png" alt="image">
-                </div>
+                </div>-->
             </div>
         </section>
         <!-- End Testimonial Area -->
@@ -728,10 +728,6 @@
             </div>
         </section>
         <!-- End Fun Facts Section -->
-
-
-
-
 
         <!-- Start Top Event Area - Version améliorée -->
         <section class="event-section pt-100"  style="padding-bottom: 0px;">
@@ -836,7 +832,7 @@
                     <div class="col-lg-5">
                         <div class="coming-soon-text">
                             <span class="sub-title">PROCHAINEMENT</span>
-                            <h3>Salon International Multisectoriel FICKIN 2025</h3>
+                            <h3>Edition Foraine FICKIN 2026</h3>
                             <p>Initialement prévu du 01 au 05 novembre à Kinshasa, le Salon International Multisectoriel FICKIN 2025 a été reporté à une date ultérieure. Nous vous tiendrons informés dès qu'une nouvelle date sera confirmée.</p>
                             <div class="coming-soon-notif">
                                 <i class="fas fa-bell"></i>
