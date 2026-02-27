@@ -571,107 +571,167 @@
             </div>
         </section>
         <!-- End Offer Area -->
-   <!-- Start Counter Section -->
-   
-   <section class="counter-area pt-100 pb-70" style="background-image: url('assets/img/archives/img13.jpg');">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-counter">
-                    <h3>
-                        <span class="odometer" data-count="1969">1969</span>
-                    </h3>
-                    <p>Année de création</p>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-counter">
-                    <h3>
-                        <span class="odometer" data-count="50">50</span>
-                    </h3>
-                    <p>Exposants</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-counter">
-                    <h3>
-                        <span class="odometer" data-count="3">3</span>
-                    </h3>
-                    <p>Partenaires</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-counter">
-                    <h3>
-                        <span class="odometer" data-count="20000">20000</span>
-                    </h3>
-                    <p>Personnes attendues</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-  </section>
-
-
-
-
-<!-- End Counter Section -->
-        <!-- End Counter Section -->
-        <!-- Start Fun Facts Section - Déplacé ici pour meilleur flux -
-        <section class="fun-facts-area pt-100 pb-70">
+        <!-- Start Testimonial Area -->
+        <section class="testimonial-section pt-100" style="padding-bottom:100px">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-fun-fact">
-                            <h3>
-                                <span class="odometer" data-count="1969">1969</span>
-                            </h3>
-                            <p>Année de création</p>
+                <div class="testimonial-slider owl-carousel owl-theme">
+                    <div class="testimonial-items">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pl-0">
+                                <div class="image">
+                                    <img src="assets/img/testimonial/min19.jpg" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="testimonial-content">
+                                    <h3>Testimonial</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+
+                                    <div class="text">
+                                        <h4>Edmond Halley</h4>
+                                        <p>Founder</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-fun-fact">
-                            <h3>
-                                <span class="odometer" data-count="50">50</span>
-                                <span class="sign-icon">+</span>
-                            </h3>
-                            <p>Exposants</p>
+                    <div class="testimonial-items">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pl-0">
+                                <div class="image">
+                                    <img src="assets/img/testimonial/img6.jpg" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="testimonial-content">
+                                    <h3>Testimonial</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+
+                                    <div class="text">
+                                        <h4>Louis Pasteur</h4>
+                                        <p>Project Manager</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-fun-fact">
-                            <h3>
-                                <span class="odometer" data-count="3">3</span>
-                                <span class="sign-icon">+</span>
-                            </h3>
-                            <p>Partenaires</p>
-                        </div>
-                    </div>
+                    <div class="testimonial-items">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pl-0">
+                                <div class="image">
+                                    <img src="assets/img/testimonial/img3.jpg" alt="image">
+                                </div>
+                            </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-fun-fact">
-                            <h3>
-                                <span class="odometer" data-count="20000">20000</span>
-                                <span class="sign-icon">+</span>
-                            </h3>
-                            <p>Personnes attendues</p>
+                            <div class="col-lg-6">
+                                <div class="testimonial-content">
+                                    <h3>Testimonial</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+
+                                    <div class="text">
+                                        <h4>Joseph Priestley</h4>
+                                        <p>Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="default-shape">
+                <div class="shape-1">
+                    <img src="assets/img/shape/4.png" alt="image">
+                </div>
+
+                <div class="shape-2 rotateme">
+                    <img src="assets/img/shape/5.svg" alt="image">
+                </div>
+
+                <div class="shape-3">
+                    <img src="assets/img/shape/6.svg" alt="image">
+                </div>
+
+                <div class="shape-4">
+                    <img src="assets/img/shape/7.png" alt="image">
+                </div>
+
+                <div class="shape-5">
+                    <img src="assets/img/shape/8.png" alt="image">
+                </div>
+            </div>
+             <div class="schedule-shape">
+                <div class="shape-1">
+                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/schedule/shape-1.png" alt="image">
                 </div>
             </div>
         </section>
-         End Fun Facts Section -->
+        <!-- End Testimonial Area -->
+   
+        <!-- Start Fun Facts Section -->
+        <section class="fun-facts-area pt-100 pb-70" >
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-fact">
+                            <h3>
+                                <span class="odometer" data-count="820">00</span>
+                                <span class="sign-icon">+</span>
+                            </h3>
+                            <p>Total Topics</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-fact">
+                            <h3>
+                                <span class="odometer" data-count="150">00</span>
+                                <span class="sign-icon">+</span>
+                            </h3>
+                            <p>Total Speakers</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-fact">
+                            <h3>
+                                <span class="odometer" data-count="20">00</span>
+                                <span class="sign-icon">+</span>
+                            </h3>
+                            <p>Sponsors</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-fact">
+                            <h3>
+                                <span class="odometer" data-count="999">00</span>
+                                <span class="sign-icon">+</span>
+                            </h3>
+                            <p>Total Attendance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lines">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+        </section>
+        <!-- End Fun Facts Section -->
+
+
+
+
 
         <!-- Start Top Event Area - Version améliorée -->
         <section class="event-section pt-100"  style="padding-bottom: 0px;">
@@ -956,49 +1016,7 @@
         </section>
         <!-- End Schedule Area -->
 
-        <!-- Start Experience Area - Version améliorée 
-        <section class="experience-section ptb-100">
-            <div class="container">
-                <div class="row align-items-center bg-color">
-                    <div class="col-lg-6 p-0">
-                        <div class="experience-image">
-                            <img src="assets/img/archives/img9.jpg" alt="Hon. Didier KABAMPELE NGABUL">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 p-0">
-                        <div class="experience-content">
-                            <span class="sub-title">DIRECTION GÉNÉRALE</span>
-                            <h3>Hon. Didier KABAMPELE NGABUL</h3>
-                            <p>La Foire Internationale du Congo Kinshasa (FICKIN) connaît un nouvel élan sous la direction de son Directeur Général. Son enthousiasme et sa vision stratégique visent à moderniser nos espaces, renforcer notre attractivité et faire de la FICKIN un véritable catalyseur d'opportunités pour exposants, visiteurs et partenaires.</p>
-                            
-                            <blockquote class="director-quote">
-                                <i class="fas fa-quote-left"></i>
-                                "Notre ambition est de faire de la FICKIN la référence incontournable des foires internationales en Afrique."
-                            </blockquote>
-
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="experience-shape">
-                <div class="shape-1">
-                    <img src="assets/img/experience/1.png" alt="image">
-                </div>
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/experience/2.png" alt="image">
-                </div>
-                <div class="shape-3">
-                    <img src="assets/img/shape/4.png" alt="image">
-                </div>
-                <div class="shape-4 rotateme">
-                    <img src="assets/img/shape/5.svg" alt="image">
-                </div>
-            </div>
-        </section>
-        <!-- End Experience Area -->
+      
 <!-- Start News Area - Version avec config -->
 <section class="news-section pb-70">
     <div class="container">
@@ -1274,7 +1292,7 @@
 .single-fun-fact {
     text-align: center;
     padding: 30px;
-    background: #f8f9fa;
+    
     border-radius: 10px;
     transition: transform 0.3s;
     margin-bottom: 30px;
@@ -1288,7 +1306,7 @@
 .single-fun-fact h3 {
     font-size: 48px;
     font-weight: 700;
-    color: #f5576c;
+    color: #d3cdce;
     margin-bottom: 10px;
 }
 

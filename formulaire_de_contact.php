@@ -116,6 +116,14 @@ J'accepte les conditions générales et la politique de confidentialité        
                     <img src="assets/img/shape/8.png" alt="image">
                 </div>
             </div>
+             <div class="schedule-shape">
+                <div class="shape-1">
+                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/schedule/shape-1.png" alt="image">
+                </div>
+            </div>
         </section>
         <!-- End Contact Area -->
      <?php include("inc/footer.php") ?>
