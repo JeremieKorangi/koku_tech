@@ -19,327 +19,65 @@
         <!-- End Page Title Area -->
 
         <!-- Start About Story Area -->
-        <section class="about-story-area pt-100 pb-70">
+        <section class="about-story-area pt-100 pb-70" style="padding-bottom:150px;">
             <div class="container">
                 <div class="section-title">
-                    <h2>La Foire Internationale du Congo Kinshasa</h2>
+                    <h2>Foire Internationale du Congo-Kinshasa «FICKIN» ex FIKIN</h2>
                     <p>Découvrez le parcours exceptionnel de la FICKIN, vitrine de l'économie congolaise et carrefour des échanges internationaux depuis 1969.</p>
                 </div>
 
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+        
+                    <div class="col-lg-14">
                         <div class="story-content">
-                            <h3>Une institution nationale</h3>
-                            <p>La <strong>Foire Internationale du Congo Kinshasa (FICKIN)</strong> est une manifestation internationale à caractère commercial, industriel, agricole et artisanal, située dans la commune de Limete (entrée principale face à Lemba) à Kinshasa en République démocratique du Congo.</p>
-                            <p>La FICKIN est aussi le lieu où se déroule cette manifestation biennale. Toutes les années impaires, au mois de juillet, la FICKIN accueille des participants internationaux. Les années paires, il s'y tient une rencontre nationale.</p>
-                            <p>La première édition internationale s'est tenue du <strong>30 juin au 14 juillet 1969</strong>, marquant le début d'une longue tradition d'échanges commerciaux et culturels. Plusieurs autres manifestations internationales y ont eu lieu au fil des décennies.</p>
-                            <p>Depuis 1973, la FICKIN est fière d'être membre de l'Union des foires internationales (UFI), une reconnaissance de son rayonnement international et de la qualité de ses manifestations.</p>
                             
-                            <div class="story-signature">
-                                <img src="assets/img/signature.png" alt="Signature">
-                                <h4>Didier Kabampele</h4>
-                                <span>Directeur Général de la FICKIN</span>
-                            </div>
+                            <p>Ouverte officiellement, le dimanche 29 juin 1969 par le feu président de la République Démocratique du Congo (Zaïre à l'époque), Joseph Désiré Mobutu, la Foire Internationale du Congo Kinshasa, la FICKIN est une manifestation internationale à caractère commercial, industriel, agricole et artisanal, située dans la commune de Limete à Kinshasa.</p>
+
+                            <p>La première édition internationale s'est tenue du 30 juin au 14 juillet 1969. Plusieurs autres manifestations internationales y ont eu lieu. La FICKIN est membre de l'Union des foires internationales (UFI) depuis 1973.</p>
+
+                            <p>Depuis son Inauguration jusqu'à ce jour, la FICKIN a comme référence le « Batteur de tam tam », réalisé par le célèbre sculpteur congolais André Lufwa Mawidi.</p>
+
+                            <p>En 1991, et ensuite en 1993, la FICKIN, dans son édition nationale, est victime des pillages dans la ville de Kinshasa, mais aussi des spoliations de son patrimoine. Depuis ces pillages, elle tourne au ralenti.</p>
+
+                            <p>Appelée depuis sa création Foire Internationale de Kinshasa,FIKIN, elle devient la Foire Internationale du Congo Kinshasa, FICKIN, le 22 novembre 2024.</p>
+
+                            <p>En effet, le gouvernement congolais avait officialisé, lors de sa 23e réunion du Conseil des ministres tenue le vendredi 22 novembre 2024, un projet de décret transformant la Foire Internationale de Kinshasa (FIKIN). Ce texte vise à élargir le champ d'action de cet établissement public au-delà de la capitale.</p>
+
+                            <p>Cette nouvelle appellation, Foire Internationale du Congo Kinshasa (FICKIN), répond à deux enjeux majeurs : élargir le champ d'action de Kinshasa et préserver la résonance culturelle présente dans notre jargon ».</p>
+
+                            <p>Cette initiative s'inscrit dans le cadre d'un projet de relance et de modernisation de la FIKIN. Lors du 15e réunion du Conseil des ministres, le Ministre du Commerce Extérieur, Julien Paluku Kahongya, avait fait état des défis administratifs, financiers, sociaux et infrastructurels auxquels l'établissement fait face.</p>
+
+                            <p>Sa mission est de reconstruire et moderniser la FICKIN en 36 mois, grâce à des partenariats publics-privés, avec l'objectif de réguler toutes les activités foraines à travers la République.</p>
+
                         </div>
                     </div>
-                    
-                    <div class="col-lg-6">
-                        <div class="story-image">
-                            <img src="assets/img/history/foire-kinshasa.jpg" alt="Foire Internationale du Congo Kinshasa" class="rounded-image">
-                            <div class="year-badge">
-                                <span>1969</span>
-                                <p>1ère édition internationale</p>
-                            </div>
-                        </div>
-                    </div>
+                                
+                </div>
+            </div>
+            <div class="schedule-shape">
+                <div class="shape-1">
+                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/schedule/shape-1.png" alt="image">
                 </div>
             </div>
         </section>
         <!-- End About Story Area -->
-
-        <!-- Start Timeline Area -->
-        <section class="timeline-area pt-70 pb-100">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Notre parcours dans le temps</h2>
-                    <p>Les moments clés qui ont marqué l'histoire de la FICKIN.</p>
-                </div>
-
-                <div class="timeline">
-                    <div class="timeline-row">
-                        <div class="timeline-item">
-                            <div class="timeline-content left">
-                                <div class="timeline-year">1969</div>
-                                <h3>Création et première édition</h3>
-                                <p>La première édition internationale de la FICKIN se tient du 30 juin au 14 juillet 1969, marquant la naissance d'une institution devenue incontournable en RDC.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-rocket"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-content right">
-                                <div class="timeline-year">1973</div>
-                                <h3>Adhésion à l'UFI</h3>
-                                <p>La FICKIN devient membre de l'Union des foires internationales (UFI), une reconnaissance prestigieuse qui confirme son rayonnement sur la scène mondiale.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-award"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-row">
-                        <div class="timeline-item">
-                            <div class="timeline-content left">
-                                <div class="timeline-year">1991</div>
-                                <h3>Premiers pillages</h3>
-                                <p>La FICKIN est victime des pillages qui frappent Kinshasa. L'édition nationale est gravement perturbée et les infrastructures subissent d'importants dégâts.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-exclamation-triangle"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-content right">
-                                <div class="timeline-year">1993</div>
-                                <h3>Nouveaux pillages</h3>
-                                <p>De nouveaux pillages touchent à nouveau la FICKIN, laissant le site gravement endommagé. Depuis ces événements, la Foire tourne au ralenti.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-frown"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-row">
-                        <div class="timeline-item">
-                            <div class="timeline-content left">
-                                <div class="timeline-year">2014</div>
-                                <h3>Projet de réhabilitation</h3>
-                                <p>Un projet de construction de logements sociaux est annoncé dans l'enceinte de la FICKIN, avec au moins 15 immeubles de 9 étages prévus selon la maquette présentée.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-hard-hat"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-content right">
-                                <div class="timeline-year">2023</div>
-                                <h3>Lancement des travaux de réhabilitation</h3>
-                                <p>La société Milvest entame les travaux de réhabilitation de la FICKIN. Une centaine de conteneurs de matériaux de construction arrivent de Turquie. Le projet prévoit un centre d'exposition, un parc d'attraction, un centre de conférence, un centre commercial, un hôtel et un aréna multifonctionnel de 20.000 places.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-construction"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-row">
-                        <div class="timeline-item">
-                            <div class="timeline-content left">
-                                <div class="timeline-year">2024</div>
-                                <h3>Nouveaux événements</h3>
-                                <p>La FICKIN accueille des événements majeurs comme le salon d'architecture "Batiko", confirmant son rôle de plateforme pour le développement urbain et durable.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-city"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-content right">
-                                <div class="timeline-year">2025</div>
-                                <h3>Un avenir prometteur</h3>
-                                <p>La FICKIN se prépare à accueillir le Congrès international de l'Union des architectes d'Afrique (août 2025), un événement majeur qui réunira des architectes de tout le continent.</p>
-                                <div class="timeline-icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Timeline Area -->
-
-        <!-- Start Project Area -->
-        <section class="project-area pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Le projet de réhabilitation</h2>
-                    <p>Un vaste chantier pour redonner à la FICKIN son lustre d'antan et en faire un pôle d'attraction majeur.</p>
-                </div>
-
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="project-content">
-                            <h3>Une transformation ambitieuse</h3>
-                            <p>Les travaux de réhabilitation de la FICKIN, confiés à la société Milvest, prévoient la construction de plusieurs infrastructures modernes :</p>
-                            
-                            <div class="project-list">
-                                <div class="project-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <div>
-                                        <h4>Centre d'exposition de 21.000 m²</h4>
-                                        <p>Représentant 8% de la superficie totale de la FICKIN, il accueillera les plus grands salons professionnels.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="project-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <div>
-                                        <h4>Aréna multifonctionnel de 20.000 places</h4>
-                                        <p>Une salle de spectacle et d'événements sportifs aux normes internationales.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="project-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <div>
-                                        <h4>Parc d'attractions</h4>
-                                        <p>Occupant 15 à 16% de la superficie, un espace de loisirs pour les familles kinoises.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="project-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <div>
-                                        <h4>Centre de conférence international</h4>
-                                        <p>Pour accueillir des séminaires et congrès de portée mondiale.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="project-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <div>
-                                        <h4>Hôtel et centre commercial</h4>
-                                        <p>Des infrastructures d'accueil et de services pour les visiteurs et exposants.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="project-budget">
-                                <p><strong>Budget première phase :</strong> 68 millions de dollars américains déjà décaissés pour le lancement des travaux.</p>
-                                <p><strong>Durée des travaux :</strong> 14 mois selon les prévisions du gouvernement.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-5">
-                        <div class="project-image">
-                            <img src="assets/img/history/rehabilitation.jpg" alt="Travaux de réhabilitation" class="rounded-image">
-                            <div class="image-caption">
-                                <p>Des conteneurs de matériaux de construction en provenance de Turquie sur le site de la FICKIN (juin 2023)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Project Area -->
-
-        <!-- Start Festivals Area -->
-        <section class="festivals-area pb-100"> <br> <br>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="festivals-image">
-                            <img src="assets/img/history/festival.jpg" alt="Festival de musique" class="rounded-image">
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-7">
-                        <div class="festivals-content">
-                            <h3>Un haut lieu culturel</h3>
-                            <p>Malgré les difficultés, la FICKIN a su rester vivante. Durant l'été, elle accueille l'un des plus grands festivals de musique africaine, attirant des artistes et des mélomanes de tout le continent.</p>
-                            <p>Ce festival est devenu un rendez-vous incontournable pour la jeunesse kinoise et un symbole de la résilience culturelle de la RDC.</p>
-                            
-                            <div class="festivals-quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>La FICKIN est le miroir de l'économie nationale où tous les Congolais se retrouvent.</p>
-                                <h4>- Didier Kabampele, DG de la FICKIN</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Festivals Area -->
-
-        <!-- Start Milestones Area -->
-        <section class="milestones-area pb-70">
-            <!--<div class="container"> <br> <br>
-                <div class="section-title">
-                    <h2>La FICKIN en chiffres</h2>
-                    <p>Des chiffres qui témoignent de l'importance de cette institution.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="milestones-box">
-                            <div class="icon">
-                                <i class="fas fa-calendar-alt"></i>
-                            </div>
-                            <h3 class="counter">1969</h3>
-                            <p>Année de création</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="milestones-box">
-                            <div class="icon">
-                                <i class="fas fa-flag"></i>
-                            </div>
-                            <h3 class="counter">1973</h3>
-                            <p>Adhésion à l'UFI</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="milestones-box">
-                            <div class="icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <h3 class="counter">20k</h3>
-                            <p>Places assises (Aréna)</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="milestones-box">
-                            <div class="icon">
-                                <i class="fas fa-dollar-sign"></i>
-                            </div>
-                            <h3 class="counter">68M</h3>
-                            <p>$ investis (phase 1)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>->
-        </section>
-        <!-- End Milestones Area -->
-
+   
         <div class="default-shape">
             <div class="shape-1">
                 <img src="assets/img/shape/4.png" alt="image">
             </div>
-
             <div class="shape-2 rotateme">
                 <img src="assets/img/shape/5.svg" alt="image">
             </div>
-
             <div class="shape-3">
                 <img src="assets/img/shape/6.svg" alt="image">
             </div>
-
             <div class="shape-4">
                 <img src="assets/img/shape/7.png" alt="image">
             </div>
-
             <div class="shape-5">
                 <img src="assets/img/shape/8.png" alt="image">
             </div>
@@ -348,6 +86,7 @@
         <?php include("inc/footer.php") ?>
 
 <style>
+
 /* Styles pour la page historique FICKIN */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
@@ -603,7 +342,7 @@
     font-style: italic;
 }
 
-/* Festivals Section */
+/* Festivals Section 
 .festivals-area {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: #fff;
@@ -662,7 +401,7 @@
     }
 }
 
-/* Milestones */
+/* Milestones 
 .milestones-box {
     text-align: center;
     padding: 30px;

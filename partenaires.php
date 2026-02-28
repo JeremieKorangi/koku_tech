@@ -96,17 +96,10 @@
                         <div class="benefits-content">
                             <h3>Devenir partenaire de la FICKIN</h3>
                             <p>La FICKIN offre à ses partenaires une visibilité exceptionnelle et l'opportunité de contribuer au développement économique de la RDC. Si vous souhaitez rejoindre ces institutions prestigieuses, contactez-nous.</p>
-                            <a href="contact.php" class="default-btn">
+                            <a href="formulaire_de_contact.php" class="default-btn">
                                 Devenir partenaire
                                 <span></span>
                             </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="benefits-quote">
-                            <i class="fas fa-quote-left"></i>
-                            <p>La force de la FICKIN réside dans la qualité de ses partenariats.</p>
-                            <h4>- Direction de la FICKIN</h4>
                         </div>
                     </div>
                 </div>

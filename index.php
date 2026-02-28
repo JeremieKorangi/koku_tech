@@ -602,13 +602,35 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 pl-0">
                                 <div class="image">
+                                    <img src="assets/img/testimonial/img4.jpg" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="testimonial-content">
+                                    <h3>Exposition</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+
+                                    <div class="text">
+                                        <h4>Louis Pasteur</h4>
+                                        <p>Project Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="testimonial-items">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pl-0">
+                                <div class="image">
                                     <img src="assets/img/testimonial/img6.jpg" alt="image">
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="testimonial-content">
-                                    <h3>Testimonial</h3>
+                                    <h3>Un haut lieu culturel</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
 
                                     <div class="text">
@@ -630,7 +652,7 @@
 
                             <div class="col-lg-6">
                                 <div class="testimonial-content">
-                                    <h3>Testimonial</h3>
+                                    <h3>Edition Foraine FICKIN 2026</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
 
                                     <div class="text">
@@ -665,14 +687,14 @@
                     <img src="assets/img/shape/8.png" alt="image">
                 </div>
             </div>
-             <!--<div class="schedule-shape" style=" z-index:0;">
+            <div class="schedule-shape" style=" z-index:0;">
                 <div class="shape-1">
-                    <img src="assets/img/schedule/shape-2.png" alt="image">
+                    <img src="assets/img/subscribe/shape-2.png" alt="image">
                 </div>
                 <div class="shape-2">
                     <img src="assets/img/schedule/shape-1.png" alt="image">
-                </div>-->
-            </div>
+                </div>
+             </div>
         </section>
         <!-- End Testimonial Area -->
    
@@ -683,10 +705,10 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact">
                             <h3>
-                                <span class="odometer" data-count="820">00</span>
-                                <span class="sign-icon">+</span>
+                                <span class="odometer" data-count="1969">00</span>
+                                <span class="sign-icon"></span>
                             </h3>
-                            <p>Total Topics</p>
+                            <p>Création</p>
                         </div>
                     </div>
 

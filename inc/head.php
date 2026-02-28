@@ -180,7 +180,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="future.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                          Contact
                                         <i class='bx bx-chevron-down'></i>
                                     </a>

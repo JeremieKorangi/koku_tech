@@ -260,8 +260,7 @@
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <h3>Adresse</h3>
-                            <p>Avenue de la foire, Commune de Limete | KINSHASA RD CONGO
-</p>
+                            <p>Avenue de la foire, Commune de Limete | KINSHASA RD CONGO</p>
                         </div>
                     </div>
 
