@@ -101,7 +101,7 @@
                                             </a>
                                         </li>
                                          <li class="nav-item">
-                                            <a href="mission_et_valeur.php" class="nav-link">
+                                            <a href="rehabilitation.php" class="nav-link">
                                                 Rehabilitation
                                             </a>
                                         </li>

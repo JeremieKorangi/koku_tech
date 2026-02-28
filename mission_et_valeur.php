@@ -19,356 +19,48 @@
         <!-- End Page Title Area -->
 
         <!-- Start Mission Vision Intro Area -->
-        <section class="mission-vision-intro-area pt-100 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Notre raison d'être</h2>
-                    <p>Découvrez les valeurs et les objectifs qui guident la FICKIN au quotidien dans sa mission de développement économique et commercial de la RDC.</p>
+       <!-- Start Conditions Area -->
+		<section class="conditions-section pt-100 pb-160">
+			<div class="container">
+				<div class="single-privacy">
+					<h3 class="mt-0">Welcome to Wezet Terms & Conditions</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+
+					<h3>Welcome to Wezet Terms & Conditions</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+
+					<h3>Welcome to Wezet Terms & Conditions</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+				</div>
+            </div>
+            
+            <div class="default-shape">
+                <div class="shape-1">
+                    <img src="assets/img/shape/4.png" alt="image">
                 </div>
 
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="intro-content">
-                            <h3>La FICKIN, moteur de l'économie congolaise</h3>
-                            <p>Depuis sa création en 1969, la Foire Internationale du Congo Kinshasa s'est imposée comme un acteur incontournable du développement économique de la République Démocratique du Congo. Notre institution œuvre sans relâche pour promouvoir les échanges commerciaux, industriels et culturels, tant au niveau national qu'international.</p>
-                            <p>Membre de l'Union des foires internationales (UFI) depuis 1973, nous nous engageons à respecter les standards les plus élevés en matière d'organisation d'événements professionnels et de promotion des affaires.</p>
-                            <p>Notre ambition est de faire de la FICKIN la plateforme de référence pour les échanges économiques en Afrique centrale, tout en contribuant activement au rayonnement de la RDC sur la scène internationale.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6">
-                        <div class="intro-image">
-                            <img src="assets/img/mission/ficcin-aerial.jpg" alt="Vue aérienne de la FICKIN" class="rounded-image">
-                            <div class="badge-ufi">
-                                <span>Membre UFI</span>
-                                <p>Depuis 1973</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Mission Vision Intro Area -->
-
-        <!-- Start Mission Area -->
-        <section class="mission-area pt-70 pb-70">
-            <div class="container">
-                <div class="row align-items-center">
-                   
-                    
-                    <div class="col-lg-12">
-                        <div class="mission-content">
-                            <div class="section-title-left">
-                                <span class="sub-title">NOTRE MISSION</span>
-                                <h2>Ce que nous faisons au quotidien</h2>
-                            </div>
-                            
-                            <p>La mission de la FICKIN est de créer un environnement propice aux échanges économiques et commerciaux, en offrant une plateforme d'exposition et de rencontres professionnelles de premier plan. Nous nous engageons à :</p>
-                            
-                            <div class="mission-list">
-                                <div class="mission-item">
-                                    <div class="mission-icon">
-                                        <i class="fas fa-handshake"></i>
-                                    </div>
-                                    <div class="mission-text">
-                                        <h4>Favoriser les échanges commerciaux</h4>
-                                        <p>Faciliter la mise en relation entre les entreprises congolaises et internationales pour développer le commerce et les investissements.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="mission-item">
-                                    <div class="mission-icon">
-                                        <i class="fas fa-chart-line"></i>
-                                    </div>
-                                    <div class="mission-text">
-                                        <h4>Promouvoir le savoir-faire local</h4>
-                                        <p>Valoriser les produits et services congolais, qu'ils soient agricoles, industriels, artisanaux ou technologiques.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="mission-item">
-                                    <div class="mission-icon">
-                                        <i class="fas fa-globe-africa"></i>
-                                    </div>
-                                    <div class="mission-text">
-                                        <h4>Renforcer l'intégration régionale</h4>
-                                        <p>Contribuer au développement des économies de l'Afrique centrale et favoriser l'intégration économique régionale.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="mission-item">
-                                    <div class="mission-icon">
-                                        <i class="fas fa-graduation-cap"></i>
-                                    </div>
-                                    <div class="mission-text">
-                                        <h4>Former et informer</h4>
-                                        <p>Organiser des conférences, séminaires et ateliers pour partager les connaissances et les bonnes pratiques professionnelles.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Mission Area -->
-
-        <!-- Start Vision Area -->
-        <section class="vision-area pt-70 pb-70">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="vision-content">
-                            <div class="section-title-left">
-                                <span class="sub-title">NOTRE VISION</span>
-                                <h2>L'avenir que nous construisons</h2>
-                            </div>
-                            
-                            <p>Notre vision est de faire de la FICKIN le poumon économique de la RDC et une référence incontournable des foires internationales en Afrique. Nous aspirons à :</p>
-                            
-                            <div class="vision-list">
-                                <div class="vision-item">
-                                    <div class="vision-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="vision-text">
-                                        <h4>Un centre d'excellence régional</h4>
-                                        <p>Devenir la plateforme d'exposition la plus moderne et la plus prisée d'Afrique centrale, attirant les plus grands acteurs économiques mondiaux.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="vision-item">
-                                    <div class="vision-icon">
-                                        <i class="fas fa-city"></i>
-                                    </div>
-                                    <div class="vision-text">
-                                        <h4>Un pôle d'attraction multifonctionnel</h4>
-                                        <p>Grâce à notre vaste programme de réhabilitation, transformer la FICKIN en un espace moderne alliant centre d'exposition, parc d'attractions, centre de conférence, hôtel et aréna multifonctionnel.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="vision-item">
-                                    <div class="vision-icon">
-                                        <i class="fas fa-leaf"></i>
-                                    </div>
-                                    <div class="vision-text">
-                                        <h4>Un modèle de développement durable</h4>
-                                        <p>Intégrer les principes du développement durable dans toutes nos activités et contribuer à la croissance économique responsable de la RDC.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="vision-item">
-                                    <div class="vision-icon">
-                                        <i class="fas fa-robot"></i>
-                                    </div>
-                                    <div class="vision-text">
-                                        <h4>L'innovation au service de l'économie</h4>
-                                        <p>Être à la pointe des technologies événementielles et offrir des expériences innovantes aux exposants et visiteurs.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-5">
-                        <div class="vision-image">
-                            <img src="assets/img/mission/vv.jpg" alt="Notre vision" class="rounded-image">
-                            <div class="vision-quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Faire de la FICKIN la vitrine de l'excellence congolaise et le carrefour des affaires en Afrique centrale.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Vision Area -->
-
-        <!-- Start Values Area -->
-        <section class="values-area pt-70 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Nos valeurs fondamentales</h2>
-                    <p>Les principes qui guident chacune de nos actions et décisions.</p>
+                <div class="shape-2 rotateme">
+                    <img src="assets/img/shape/5.svg" alt="image">
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="value-box">
-                            <div class="value-icon">
-                                <i class="fas fa-diamond"></i>
-                            </div>
-                            <h3>Excellence</h3>
-                            <p>Nous visons l'excellence dans l'organisation de nos événements et la qualité des services offerts à nos exposants et visiteurs.</p>
-                        </div>
-                    </div>
+                <div class="shape-3">
+                    <img src="assets/img/shape/6.svg" alt="image">
+                </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="value-box">
-                            <div class="value-icon">
-                                <i class="fas fa-balance-scale"></i>
-                            </div>
-                            <h3>Intégrité</h3>
-                            <p>Nous agissons avec transparence, honnêteté et éthique dans toutes nos relations professionnelles.</p>
-                        </div>
-                    </div>
+                <div class="shape-4">
+                    <img src="assets/img/shape/7.png" alt="image">
+                </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="value-box">
-                            <div class="value-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <h3>Collaboration</h3>
-                            <p>Nous croyons en la force du partenariat et travaillons main dans la main avec tous les acteurs économiques.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="value-box">
-                            <div class="value-icon">
-                                <i class="fas fa-lightbulb"></i>
-                            </div>
-                            <h3>Innovation</h3>
-                            <p>Nous encourageons la créativité et l'innovation pour répondre aux défis économiques de demain.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="value-box">
-                            <div class="value-icon">
-                                <i class="fas fa-hand-holding-heart"></i>
-                            </div>
-                            <h3>Engagement</h3>
-                            <p>Nous nous engageons pleinement envers notre mission et envers le développement économique de la RDC.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="value-box">
-                            <div class="value-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <h3>Ouverture</h3>
-                            <p>Nous sommes ouverts au monde et aux partenariats internationaux pour enrichir notre offre et notre rayonnement.</p>
-                        </div>
-                    </div>
+                <div class="shape-5">
+                    <img src="assets/img/shape/8.png" alt="image">
                 </div>
             </div>
-        </section>
-        <!-- End Values Area -->
+		</section>
+        <!-- End Conditions Area -->
 
-        <!-- Start Strategic Objectives Area -->
-        <section class="strategic-objectives-area pt-70 pb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="objectives-content">
-                            <div class="section-title-left">
-                                <span class="sub-title">OBJECTIFS STRATÉGIQUES</span>
-                                <h2>Nos priorités pour 2025-2030</h2>
-                            </div>
-                            
-                            <p>Pour concrétiser notre vision et remplir notre mission, nous avons défini cinq objectifs stratégiques majeurs :</p>
-                            
-                            <div class="objectives-list">
-                                <div class="objective-item">
-                                    <span class="objective-number">01</span>
-                                    <div class="objective-text">
-                                        <h4>Modernisation des infrastructures</h4>
-                                        <p>Achever le programme de réhabilitation pour offrir des installations aux normes internationales.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="objective-item">
-                                    <span class="objective-number">02</span>
-                                    <div class="objective-text">
-                                        <h4>Augmentation de la fréquentation</h4>
-                                        <p>Attirer 500 000 visiteurs et 2000 exposants par édition d'ici 2028.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="objective-item">
-                                    <span class="objective-number">03</span>
-                                    <div class="objective-text">
-                                        <h4>Diversification des événements</h4>
-                                        <p>Organiser des salons spécialisés tout au long de l'année, au-delà des éditions biennales.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="objective-item">
-                                    <span class="objective-number">04</span>
-                                    <div class="objective-text">
-                                        <h4>Renforcement de la présence internationale</h4>
-                                        <p>Accroître le nombre de pays participants et développer des partenariats avec d'autres foires membres de l'UFI.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="objective-item">
-                                    <span class="objective-number">05</span>
-                                    <div class="objective-text">
-                                        <h4>Développement durable et RSE</h4>
-                                        <p>Mettre en place une politique environnementale ambitieuse et des actions sociales impactantes.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6">
-                        <div class="objectives-image">
-                            <div class="testimonial-small">
-                                <p>"La FICKIN est plus qu'une foire, c'est un catalyseur du développement économique national."</p>
-                                <h4>- Comité de Direction</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Strategic Objectives Area -->
-
-        <!-- Start Call To Action Area -->
-        <section class="call-to-action-area">
-            <div class="container">
-                <div class="cta-content">
-                    <h2>Prêt à rejoindre l'aventure FICKIN ?</h2>
-                    <p>Que vous soyez exposant, visiteur ou partenaire, contribuez avec nous au rayonnement économique de la RDC.</p>
-                    <div class="cta-buttons">
-                        <a href="contact.php" class="default-btn">
-                            Devenir exposant
-                            <span></span>
-                        </a>
-                        <a href="coordonnees.php" class="default-btn secondary">
-                            Nous contacter
-                            <span></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Call To Action Area -->
-
-        <div class="default-shape">
-            <div class="shape-1">
-                <img src="assets/img/shape/4.png" alt="image">
-            </div>
-
-            <div class="shape-2 rotateme">
-                <img src="assets/img/shape/5.svg" alt="image">
-            </div>
-
-            <div class="shape-3">
-                <img src="assets/img/shape/6.svg" alt="image">
-            </div>
-
-            <div class="shape-4">
-                <img src="assets/img/shape/7.png" alt="image">
-            </div>
-
-            <div class="shape-5">
-                <img src="assets/img/shape/8.png" alt="image">
-            </div>
-        </div>
 
         <?php include("inc/footer.php") ?>
 
