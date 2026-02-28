@@ -1,6 +1,6 @@
 
         <!-- Start Footer Area -->
-        <section class="footer-section pt-100" >
+        <section class="footer-section pt-100"  style="background: linear-gradient(135deg, #02010e 0%, #2a2a2b 100%);" >
             <div class="container">
                 <div class="subscribe-area" style="background: linear-gradient(135deg, #000000 0%, #F15A24 100%);">
                     <div class="subscribe-title">
@@ -39,7 +39,7 @@
                 <div class="footer-area-content">
                     <img src="assets/img/logo.png" alt="image">
 
-                    <p> La Foire Internationale du Congo Kinshasa <br> Une vitrine qui valorise innovation, culture et savoir-faire congolais</p>
+                    <p> La Foire Internationale du Congo Kinshasa <br> La vitrine qui valorise innovation, culture et savoir-faire congolais</p>
                     <ul class="footer-list">
                         <li>
                             <a href="future.html" target="_blank">
@@ -87,10 +87,10 @@
 
                     <ul class="copy-right-list">
                         <li>
-                            <p>Contact: <a href="future.html">+243 999 900 748</a></p>
+                            <p>Contact: <a href="#">+243 999 900 748</a></p>
                         </li>
                         <li>
-                            <p>E-mail: <a href="future.html">fikinrdc1969@gmail.com</a></p>
+                            <p>E-mail: <a href="#">fikinrdc1969@gmail.com</a></p>
                         </li>
 
                     </ul>
@@ -98,7 +98,7 @@
                     <div class="copy-right-text text-two">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <p>© 2025 FICKIN –  By <a href="mailto:wezet@gmail.com" > Koku_tech</a></p>
+                                <p>© 2025 FICKIN –  By <a href="#" > Koku_tech</a></p>
                             </div>
 
                             <div class="col-lg-6">
@@ -118,11 +118,11 @@
 
             <div class="footer-shape">
                 <div class="shape-1">
-                    <img src="assets/img/footer/1.png" alt="image">
+                    <img src="assets/img/footer/4.png" alt="image">
                 </div>
 
                 <div class="shape-2">
-                    <img src="assets/img/footer/2.png" alt="image">
+                    <img src="assets/img/footer/3.png" alt="image">
                 </div>
             </div>
 
