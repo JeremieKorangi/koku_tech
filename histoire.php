@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 <?php include("inc/head.php") ?>
 
 <style>
@@ -255,17 +265,7 @@ body {
 <!-- End About Story Area -->
 
 
-
-
-
-
 <?php include("inc/footer.php") ?> 
-
-
-
-
-
-
 
 
 

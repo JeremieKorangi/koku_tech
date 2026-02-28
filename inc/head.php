@@ -91,7 +91,7 @@
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="historique.php" class="nav-link">
-                                                Historique de la fickin
+                                                Notre Histoire
                                             </a>
                                         </li>
 
