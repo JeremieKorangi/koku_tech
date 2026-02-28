@@ -97,7 +97,12 @@
 
                                         <li class="nav-item">
                                             <a href="mission_et_valeur.php" class="nav-link">
-                                                Mission et vision
+                                                Mission
+                                            </a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a href="mission_et_valeur.php" class="nav-link">
+                                                Rehabilitation
                                             </a>
                                         </li>
                                     </ul>
@@ -169,7 +174,7 @@
                                 <li class="nav-item">
                                     <a href="actualites.php" class="nav-link">
                                         Actualités 
--                                    </a>
+                                    </a>
                                 </li>
 
                                 <li class="nav-item">

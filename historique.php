@@ -4,7 +4,8 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f6f9;
+    background-color: #f8f8f8;
+    
     color: #333;
 }
 
@@ -56,7 +57,19 @@ body {
     /*border-radius: 12px;*/
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+/*.......*/
 
+.section-title h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #140d01;
+}
+
+.section-title p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+}
 /* Responsive */
 @media (max-width: 900px) {
     .history-row {
