@@ -185,6 +185,9 @@ $result = $conn->query($sql);
                 <div class="sidebar">
                     <h4><i class="fas fa-cog"></i> Administration</h4>
                     <a href="admin-evenements.php" class="active"><i class="fas fa-calendar-alt"></i> Événements</a>
+                                        <a href="admin-newsletter.php" class="active"><i class="fas fa-calendar-alt"></i> Newsletter</a>
+                                                                                <a href="admin-contact.php" class="active"><i class="fas fa-calendar-alt"></i> Messages du formulaire de contact</a>
+
                     <a href="admin-logout.php"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
                 </div>
             </div>

@@ -504,13 +504,7 @@
                                 Exploration des nouvelles idées et technologies émergentes, la foire sensibilise les visiteurs aux tendances futures, présente des prototypes et stimule la créativité.
                             </p>
                             
-                            <div style="text-align: center;">
-                                <a href="innovation.php" style="display: inline-flex; align-items: center; gap: 8px; color: #F15A24; text-decoration: none; font-weight: 600; padding: 10px 25px; border: 2px solid #F15A24; border-radius: 50px; transition: all 0.3s; background: transparent;"
-                                   onmouseover="this.style.background='#F15A24'; this.style.color='#fff'" 
-                                   onmouseout="this.style.background='transparent'; this.style.color='#F15A24'">
-                                    Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
-                                </a>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -530,13 +524,7 @@
                                 Découverte des expressions artistiques et des activités récréatives, la foire initie les visiteurs à de nouvelles expériences, propose spectacles et ateliers.
                             </p>
                             
-                            <div style="text-align: center;">
-                                <a href="culture.php" style="display: inline-flex; align-items: center; gap: 8px; color: #F15A24; text-decoration: none; font-weight: 600; padding: 10px 25px; border: 2px solid #F15A24; border-radius: 50px; transition: all 0.3s; background: transparent;"
-                                   onmouseover="this.style.background='#F15A24'; this.style.color='#fff'" 
-                                   onmouseout="this.style.background='transparent'; this.style.color='#F15A24'">
-                                    Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
-                                </a>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -556,13 +544,7 @@
                                 Observation et expérimentation des espaces et équipements en devenir, la foire met en avant les projets d'aménagement et de construction.
                             </p>
                             
-                            <div style="text-align: center;">
-                                <a href="infrastructure.php" style="display: inline-flex; align-items: center; gap: 8px; color: #F15A24; text-decoration: none; font-weight: 600; padding: 10px 25px; border: 2px solid #F15A24; border-radius: 50px; transition: all 0.3s; background: transparent;"
-                                   onmouseover="this.style.background='#F15A24'; this.style.color='#fff'" 
-                                   onmouseout="this.style.background='transparent'; this.style.color='#F15A24'">
-                                    Découvrir <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
-                                </a>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

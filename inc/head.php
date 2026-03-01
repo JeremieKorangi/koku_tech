@@ -119,59 +119,7 @@
 
                            
 
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        Exposer 
-                                        <i class='bx bx-chevron-down'></i>
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Pourquoi participer?
-                                            </a>
-
-                                           
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Inscription exposants
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Règlement de participation
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="future.html" class="nav-link">
-                                                Services aux exposants
-                                            </a>
-                                        </li>
-
-                                       <!-- <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                User 
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="log-in.html" class="nav-link">
-                                                        Log In
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="sign-up.html" class="nav-link">
-                                                        Sign Up
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li> -->
-
-                                    </ul>
-                                </li>
+                            
 
                                 <li class="nav-item">
                                     <a href="actualites.php" class="nav-link">

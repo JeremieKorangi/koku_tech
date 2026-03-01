@@ -51,6 +51,11 @@
                     'October' => 'octobre', 'November' => 'novembre', 'December' => 'décembre'
                 ];
                 $date_formatee = strtr($date_formatee, $mois);
+                
+                // Déterminer le type de média
+                $type_media = isset($row['type_media']) ? $row['type_media'] : 'image';
+                $chemin_media = $row['chemin_media'];
+                $image_apercu = isset($row['image_apercu']) ? $row['image_apercu'] : 'assets/img/default-news.jpg';
         ?>
 
         <!-- Start News Detail Area -->
@@ -59,17 +64,21 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
                         <div class="news-detail-card">
-                            <!-- Media (Image ou Vidéo) -->
+                            <!-- Media (Image ou Vidéo avec aperçu) -->
                             <div class="news-detail-media">
-                                <?php if ($row['type_media'] == 'video'): ?>
+                                <?php if ($type_media == 'video'): ?>
                                 <div class="video-container">
-                                    <video class="detail-video" controls poster="<?php echo htmlspecialchars($row['image_apercu']); ?>">
-                                        <source src="<?php echo htmlspecialchars($row['chemin_media']); ?>" type="video/mp4">
+                                    <video class="detail-video" controls poster="<?php echo htmlspecialchars($image_apercu); ?>">
+                                        <source src="<?php echo htmlspecialchars($chemin_media); ?>" type="video/mp4">
                                         Votre navigateur ne supporte pas la lecture de vidéos.
                                     </video>
+                                    <!-- Afficher l'image d'aperçu si la vidéo ne charge pas -->
+                                    <noscript>
+                                        <img src="<?php echo htmlspecialchars($image_apercu); ?>" alt="<?php echo htmlspecialchars($row['titre']); ?>" class="detail-image fallback-image">
+                                    </noscript>
                                 </div>
                                 <?php else: ?>
-                                <img src="<?php echo htmlspecialchars($row['chemin_media']); ?>" alt="<?php echo htmlspecialchars($row['titre']); ?>" class="detail-image">
+                                <img src="<?php echo htmlspecialchars($chemin_media); ?>" alt="<?php echo htmlspecialchars($row['titre']); ?>" class="detail-image">
                                 <?php endif; ?>
                             </div>
 
@@ -77,7 +86,7 @@
                             <div class="news-detail-meta">
                                 <div class="meta-left">
                                     <span class="meta-date">
-                                        <i class="far fa-calendar-alt" style="color: #667eea;;"></i> 
+                                        <i class="far fa-calendar-alt" style="color: #F15A24;"></i> 
                                         <?php echo $date_formatee; ?>
                                     </span>
                                     <span class="meta-category" style="background: rgba(241,90,36,0.1); color: #F15A24;">
@@ -86,7 +95,7 @@
                                 </div>
                                 <div class="meta-right">
                                     <span class="meta-views">
-                                        <i class="far fa-eye"></i> 1254 vues
+                                        <i class="far fa-eye"></i> <?php echo isset($row['vues']) ? $row['vues'] : '0'; ?> vues
                                     </span>
                                 </div>
                             </div>
@@ -99,7 +108,7 @@
                                 <?php echo nl2br($row['contenu']); ?>
                             </div>
 
-                            <!-- Footer avec partage 
+                            <!-- Footer avec partage -->
                             <div class="news-detail-footer">
                                 <div class="tags">
                                     <span>Tags:</span>
@@ -120,7 +129,7 @@
                                         <i class="fab fa-whatsapp" style="color: #25d366;"></i>
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
 
@@ -163,7 +172,7 @@
                                 <h3 class="widget-title">Articles récents</h3>
                                 <?php
                                 // Récupérer les 3 dernières actualités (sauf l'actuelle)
-                                $recent_sql = "SELECT id, titre, date_publication, chemin_media, type_media 
+                                $recent_sql = "SELECT id, titre, date_publication, chemin_media, type_media, image_apercu 
                                                FROM actualites 
                                                WHERE statut = 'publie' AND id != ? 
                                                ORDER BY date_publication DESC 
@@ -176,55 +185,27 @@
                                 while($recent = $recent_result->fetch_assoc()):
                                     $recent_date = new DateTime($recent['date_publication']);
                                     $recent_date_formatee = $recent_date->format('d M Y');
+                                    $image_a_afficher = ($recent['type_media'] == 'video' && !empty($recent['image_apercu'])) ? $recent['image_apercu'] : $recent['chemin_media'];
                                 ?>
                                 <article class="recent-post-item">
                                     <a href="actualite.php?id=<?php echo $recent['id']; ?>" class="recent-post-thumb">
                                         <?php if ($recent['type_media'] == 'video'): ?>
-                                        <i class="fas fa-play-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #F15A24; font-size: 24px;"></i>
+                                        <i class="fas fa-play-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #F15A24; font-size: 24px; z-index: 2;"></i>
                                         <?php endif; ?>
-                                        <img src="<?php echo htmlspecialchars($recent['chemin_media']); ?>" alt="<?php echo htmlspecialchars($recent['titre']); ?>">
+                                        <img src="<?php echo htmlspecialchars($image_a_afficher); ?>" alt="<?php echo htmlspecialchars($recent['titre']); ?>">
                                     </a>
                                     <div class="recent-post-info">
                                         <h4>
                                             <a href="actualite.php?id=<?php echo $recent['id']; ?>"><?php echo htmlspecialchars(substr($recent['titre'], 0, 60)) . '...'; ?></a>
                                         </h4>
                                         <span class="post-date">
-                                            <i class="far fa-calendar-alt" style="color: #667eea;"></i> <?php echo $recent_date_formatee; ?>
+                                            <i class="far fa-calendar-alt" style="color: #F15A24;"></i> <?php echo $recent_date_formatee; ?>
                                         </span>
                                     </div>
                                 </article>
                                 <?php endwhile; ?>
+                                <?php $recent_stmt->close(); ?>
                             </div>
-
-                            <!-- Widget Archives 
-                            <div class="sidebar-widget archives-widget">
-                                <h3 class="widget-title">Archives</h3>
-                                <ul>
-                                    php
-                                    // Récupérer les archives par mois
-                                    $archive_sql = "SELECT DATE_FORMAT(date_publication, '%Y-%m') as mois, 
-                                                           DATE_FORMAT(date_publication, '%M %Y') as mois_nom,
-                                                           COUNT(*) as nombre 
-                                                    FROM actualites 
-                                                    WHERE statut = 'publie' 
-                                                    GROUP BY mois 
-                                                    ORDER BY mois DESC 
-                                                    LIMIT 6";
-                                    $archive_result = $conn->query($archive_sql);
-                                    while($archive = $archive_result->fetch_assoc()):
-                                        $mois_nom = strtr($archive['mois_nom'], $mois);
-                                    ?>
-                                    <li>
-                                        <a href="actualites.php?mois=<?php echo $archive['mois']; ?>">
-                                            <?php echo $mois_nom; ?>
-                                            <span>(<?php echo $archive['nombre']; ?>)</span>
-                                        </a>
-                                    </li>
-                                    php endwhile; ?>
-                                </ul>
-                            </div> -->
-
-                           
                         </aside>
                     </div>
                 </div>
@@ -249,7 +230,6 @@
             }
             
             $stmt->close();
-            $recent_stmt->close();
             $conn->close();
             
         } else {
@@ -259,24 +239,21 @@
         }
         ?>
 
-       
-
         <style>
         /* Styles pour la page de détail d'actualité */
         .news-detail-card {
             background: #fff;
             padding: 30px;
-            /*border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.07);*/
         }
 
         .news-detail-media {
             margin-bottom: 30px;
             border-radius: 10px;
             overflow: hidden;
+            position: relative;
         }
 
-        .detail-image, .detail-video {
+        .detail-image {
             width: 100%;
             height: auto;
             max-height: 500px;
@@ -284,14 +261,31 @@
             border-radius: 10px;
         }
 
+        .detail-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
         .video-container {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 */
             height: 0;
             overflow: hidden;
+            border-radius: 10px;
+            background: #f0f0f0; /* Fond gris pendant le chargement */
         }
 
         .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .fallback-image {
             position: absolute;
             top: 0;
             left: 0;
@@ -322,7 +316,6 @@
 
         .meta-date i {
             margin-right: 5px;
-            color: #667eea;
         }
 
         .meta-category {
@@ -562,6 +555,11 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .recent-post-thumb:hover img {
+            transform: scale(1.1);
         }
 
         .recent-post-info {
@@ -591,47 +589,6 @@
 
         .post-date i {
             margin-right: 5px;
-        }
-
-        /* Widget archives */
-        .archives-widget ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .archives-widget ul li {
-            margin-bottom: 10px;
-        }
-
-        .archives-widget ul li a {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #666;
-            text-decoration: none;
-            padding: 8px 0;
-            transition: color 0.3s;
-        }
-
-        .archives-widget ul li a:hover {
-            color: #F15A24;
-        }
-
-        .archives-widget ul li a span {
-            color: #999;
-            font-size: 12px;
-        }
-
-        /* Widget newsletter */
-        .newsletter-widget {
-            background: linear-gradient(135deg, #F15A24 0%, #f37b4f 100%);
-            color: #fff;
-        }
-
-        .newsletter-widget .widget-title {
-            color: #fff;
-            border-bottom-color: rgba(255,255,255,0.3);
         }
 
         /* Responsive */
