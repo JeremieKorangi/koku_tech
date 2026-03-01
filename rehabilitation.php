@@ -504,7 +504,7 @@
 .objective-number {
     font-size: 32px;
     font-weight: 700;
-    color: #f5576c;
+    color: #554620;
     opacity: 0.5;
     line-height: 1;
     min-width: 50px;

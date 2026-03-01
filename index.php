@@ -582,28 +582,34 @@
         <section class="testimonial-section pt-100" style="padding-bottom:100px">
             <div class="container">
                 <div class="testimonial-slider owl-carousel owl-theme">
-                    <div class="testimonial-items">
+
+                     <div class="testimonial-items">
                         <div class="row align-items-center">
                             <div class="col-lg-6 pl-0">
                                 <div class="image">
-                                    <img src="assets/img/testimonial/min18.png" alt="image">
+                                    <img src="assets/img/testimonial/img3.png" alt="image">
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="testimonial-content">
-                                    <h3>Testimonial</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+                                    <h3>Edition Foraine FICKIN 2026</h3>
+                                    <p>
+                                        À l’approche de la 48ᵉ édition foraine de la FICKIN 2026, la Foire Internationale du Congo-Kinshasa réaffirme son rôle stratégique en tant que vitrine de l’économie nationale et plateforme majeure d’échanges commerciaux, culturels et technologiques.
+                                    </p>
+
+                                    <p>
+                                        Depuis sa création, la FICKIN s’est imposée comme un rendez-vous incontournable pour les opérateurs économiques, les investisseurs, les institutions publiques et privées ainsi que pour le grand public. Cette nouvelle édition s’inscrit dans une dynamique de modernisation, d’innovation et d’ouverture accrue vers les marchés régionaux et internationaux.</p>
+                                    </p>
 
                                     <div class="text">
-                                        <h4>Edmond Halley</h4>
-                                        <p>Founder</p>
+                                        <h4>Communiqué</h4>
+                                        <p>Direction Générale</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="testimonial-items">
                         <div class="row align-items-center">
                             <div class="col-lg-6 pl-0">
@@ -615,12 +621,13 @@
                             <div class="col-lg-6">
                                 <div class="testimonial-content">
                                     <h3>Exposition</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
-
-                                    <div class="text">
+                                    <p>L’expo FICKIN est bien plus qu’un simple salon : c’est un environnement unique dédié aux acteurs innovants de votre secteur. </p>
+                                    
+                                    <p>Pour les exposants comme pour les visiteurs, notre foire offre une vitrine exceptionnelle où se mêlent découverte, échanges et opportunités d’affaires.</p>
+                                    <!--<div class="text">
                                         <h4>Louis Pasteur</h4>
                                         <p>Project Manager</p>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -636,39 +643,19 @@
 
                             <div class="col-lg-6">
                                 <div class="testimonial-content">
-                                    <h3>Un haut lieu culturel</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
-
-                                    <div class="text">
+                                    <h3>Un Haut Lieu Culturel et Économique</h3>
+                                    <p>Bien plus qu’un espace d’exposition commerciale, la Foire Internationale du Congo-Kinshasa s’affirme comme un véritable haut lieu culturel et un symbole du rayonnement national. Depuis plusieurs décennies, elle constitue un espace privilégié où se rencontrent traditions, modernité et créativité.</p>
+                                    <p>À travers ses pavillons, ses expositions thématiques, ses spectacles artistiques et ses manifestations culturelles, la FICKIN célèbre la richesse et la diversité du patrimoine congolais. Artisans, artistes, créateurs, opérateurs économiques et institutions y trouvent un cadre d’expression unique favorisant le dialogue interculturel et la promotion des talents nationaux.</p>
+                                     <!--<div class="text">
                                         <h4>Louis Pasteur</h4>
                                         <p>Project Manager</p>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="testimonial-items">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 pl-0">
-                                <div class="image">
-                                    <img src="assets/img/testimonial/img3.png" alt="image">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="testimonial-content">
-                                    <h3>Edition Foraine FICKIN 2026</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
-
-                                    <div class="text">
-                                        <h4>Joseph Priestley</h4>
-                                        <p>Web Developer</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
 
@@ -731,8 +718,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact">
                             <h3>
-                                <span class="odometer" data-count="20">00</span>
-                                <span class="sign-icon">+</span>
+                                <span class="odometer" data-count="3">00</span>
+                                <!--<span class="sign-icon">+</span>-->
                             </h3>
                             <p>Sponsors</p>
                         </div>
@@ -1374,8 +1361,8 @@
     display: inline-block;
     padding: 12px 30px;
     background: transparent;
-    color: #f5576c;
-    border: 2px solid #f5576c;
+    color: #d67d42;
+    border: 2px solid #d67d42;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
