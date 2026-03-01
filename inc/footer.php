@@ -42,37 +42,37 @@
                     <p> La Foire Internationale du Congo Kinshasa <br> La vitrine qui valorise innovation, culture et savoir-faire congolais</p>
                     <ul class="footer-list">
                         <li>
-                            <a href="future.html" target="_blank">
+                            <a href="" target="_blank">
                                 <i class="flaticon-facebook"></i>
                             </a>
                         </li>
 
                         <li>
-                            <a href="future.html" target="_blank">
+                            <a href="" target="_blank">
                                 <i class="flaticon-twitter"></i>
                             </a>
                         </li>
 
                         <li>
-                            <a href="future.html" target="_blank">
+                            <a href="" target="_blank">
                                 <i class="flaticon-linkedin"></i>
                             </a>
                         </li>
 
                         <li>
-                            <a href="future.html" target="_blank">
+                            <a href="" target="_blank">
                                 <i class="flaticon-envelope"></i>
                             </a>
                         </li>
 
                         <li>
-                            <a href="future.html" target="_blank">
+                            <a href="" target="_blank">
                                 <i class="flaticon-instagram"></i>
                             </a>
                         </li>
 
                         <li>
-                            <a href="future.html" target="_blank">
+                            <a href="" target="_blank">
                                 <i class="flaticon-pinterest"></i>
                             </a>
                         </li>
@@ -98,19 +98,10 @@
                     <div class="copy-right-text text-two">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <p>© 2025 FICKIN –  By <a href="#" > Koku_tech</a></p>
+                                <p>© 2026 FICKIN –  By <a href="#" > Koku_tech</a></p>
                             </div>
 
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li>
-                                        <p>Termes & Conditions</p>
-                                    </li>
-                                    <li>
-                                        <p>Politique de confidentialité<p>
-                                    </li>
-                                </ul>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
