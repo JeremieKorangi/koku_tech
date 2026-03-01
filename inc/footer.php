@@ -7,19 +7,19 @@
                         <h3>Inscrivez-vous à la newsletter</h3>
                         <p>Profitez en avant-première des tendances et événements.</p>
                     </div>
-                    <form class="newsletter-form">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <input type="email" class="form-control" placeholder="Entrez votre e-mail " name="EMAIL" required autocomplete="off">
-                            </div>
+                   <form class="newsletter-form" id="newsletterForm" method="POST">
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <input type="email" class="form-control" id="newsletterEmail" placeholder="Entrez votre e-mail" name="EMAIL" required autocomplete="off">
+        </div>
 
-                            <div class="col-lg-6 col-md-6">
-                                <button type="submit">S'inscrire</button>
+        <div class="col-lg-6 col-md-6">
+            <button type="submit" id="newsletterSubmitBtn">S'inscrire</button>
+            <div id="validator-newsletter" class="form-result"></div>
+        </div>
+    </div>
+</form>
 
-                                <div id="validator-newsletter" class="form-result"></div>
-                            </div>
-                        </div>
-                    </form>
 
                     <div class="default-shape">
                         <div class="shape-1">
@@ -208,5 +208,71 @@
             });
 
         </script>
+        <script>
+document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    var email = document.getElementById('newsletterEmail').value;
+    var resultDiv = document.getElementById('validator-newsletter');
+    var submitBtn = document.getElementById('newsletterSubmitBtn');
+    var originalText = submitBtn.textContent;
+    
+    // Désactiver le bouton pendant l'envoi
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Envoi en cours...';
+    resultDiv.innerHTML = '';
+    
+    // Envoyer la requête AJAX
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'newsletter-subscribe.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    
+    xhr.onload = function() {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+        
+        try {
+            var response = JSON.parse(xhr.responseText);
+            resultDiv.innerHTML = response.message;
+            
+            if (response.success) {
+                resultDiv.style.color = 'green';
+                document.getElementById('newsletterEmail').value = '';
+                
+                // Optionnel : Ajouter une classe de succès
+                resultDiv.className = 'form-result success-message';
+            } else {
+                resultDiv.style.color = 'red';
+                resultDiv.className = 'form-result error-message';
+            }
+        } catch(e) {
+            resultDiv.innerHTML = 'Une erreur est survenue. Veuillez réessayer.';
+            resultDiv.style.color = 'red';
+        }
+    };
+    
+    xhr.onerror = function() {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+        resultDiv.innerHTML = 'Erreur réseau. Veuillez réessayer.';
+        resultDiv.style.color = 'red';
+    };
+    
+    xhr.send('EMAIL=' + encodeURIComponent(email));
+});
+</script>
+
+<style>
+.success-message {
+    color: green;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+</style>
     </body>
 </html>
