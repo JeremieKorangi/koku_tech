@@ -91,6 +91,9 @@
         </section>-->
         <!-- End Featured Event Area -->
 
+        
+
+
         <!-- Start Past Events Area -->
         <section id="past-events" class="past-events-area pb-100"  style="padding-top: 150px;">
             <div class="container">
