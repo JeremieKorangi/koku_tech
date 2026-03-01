@@ -1,6 +1,6 @@
 
         <!-- Start Footer Area -->
-        <section class="footer-section pt-100"  style="background: linear-gradient(135deg, #02010e 0%, #2a2a2b 100%);" >
+        <section class="footer-section pt-100"  style="background: linear-gradient(135deg, #02010e 0%, #16161f 100%);" >
             <div class="container">
                 <div class="subscribe-area" style="background: linear-gradient(135deg, #000000 0%, #F15A24 100%);">
                     <div class="subscribe-title">
