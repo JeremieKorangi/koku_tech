@@ -77,7 +77,7 @@
                             <div class="news-detail-meta">
                                 <div class="meta-left">
                                     <span class="meta-date">
-                                        <i class="far fa-calendar-alt" style="color: #F15A24;"></i> 
+                                        <i class="far fa-calendar-alt" style="color: #667eea;;"></i> 
                                         <?php echo $date_formatee; ?>
                                     </span>
                                     <span class="meta-category" style="background: rgba(241,90,36,0.1); color: #F15A24;">
@@ -189,7 +189,7 @@
                                             <a href="actualite.php?id=<?php echo $recent['id']; ?>"><?php echo htmlspecialchars(substr($recent['titre'], 0, 60)) . '...'; ?></a>
                                         </h4>
                                         <span class="post-date">
-                                            <i class="far fa-calendar-alt" style="color: #F15A24;"></i> <?php echo $recent_date_formatee; ?>
+                                            <i class="far fa-calendar-alt" style="color: #667eea;"></i> <?php echo $recent_date_formatee; ?>
                                         </span>
                                     </div>
                                 </article>
@@ -322,6 +322,7 @@
 
         .meta-date i {
             margin-right: 5px;
+            color: #667eea;
         }
 
         .meta-category {
