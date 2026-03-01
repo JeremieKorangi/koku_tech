@@ -59,7 +59,7 @@
                 <div class="container">
                     <div class="wezet-responsive-menu">
                         <div class="logo">
-                            <a href="future.html">
+                            <a href="">
                                 <img src="assets/img/fickin-blanc.png" class="white-logo" alt="logo">
                                 <img src="assets/img/black-logo.png" class="black-logo" alt="logo">
                             </a>
@@ -258,27 +258,27 @@
     
                             <ul class="social">
                                 <li>
-                                   <a href="future.html" target="_blank">
+                                   <a href="" target="_blank">
                                         <i class="flaticon-facebook"></i>
                                    </a>
                                 </li>
                                 <li>
-                                   <a href="future.html" target="_blank">
+                                   <a href="" target="_blank">
                                         <i class="flaticon-twitter"></i>
                                    </a>
                                 </li>
                                 <li>
-                                   <a href="future.html" target="_blank">
+                                   <a href="" target="_blank">
                                         <i class="flaticon-instagram"></i>
                                    </a>
                                 </li>
                                 <li>
-                                   <a href="future.html" target="_blank">
+                                   <a href="" target="_blank">
                                         <i class="flaticon-linkedin"></i>
                                    </a>
                                 </li>
                                 <li>
-                                    <a href="future.html" target="_blank">
+                                    <a href="" target="_blank">
                                         <i class="flaticon-pinterest"></i>
                                     </a>
                                 </li>

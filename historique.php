@@ -88,7 +88,7 @@ body {
 </style>
 
  <!-- Start Page Title Area -->
-        <div class="page-title-area item-bg-6" style="background-image: url(assets/img/bg-6.jpg);">
+        <div class="page-title-area item-bg-6" style="background-image: url(assets/img/about/kin_panorama.png);">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
