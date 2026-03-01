@@ -1169,19 +1169,6 @@
 
 <style>
 
-.single-counter h3 {
-    font-family: 'Arial', sans-serif;
-    font-weight: 300;
-    font-size: 45px;
-    color: #faf9f8;
-}
-.single-counter p {
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    color: #dfd9d6;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
 
     
 /* Styles additionnels pour la version améliorée */
@@ -1222,6 +1209,21 @@
 .optional-btn:hover {
     background: #fff;
     color: #333;
+}
+
+/*......................*/
+.single-counter h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: #faf9f8;
+}
+.single-counter p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #dfd9d6;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 /* Section Title amélioré */
@@ -1486,14 +1488,14 @@
 
 .meta .date i {
     margin-right: 5px;
-    color: #f5576c;
+    color: #667eea;
 }
 
 .meta .category {
     background: #f8f9fa;
     padding: 3px 10px;
     border-radius: 30px;
-    color: #f5576c;
+    color: #e79d58;
     font-weight: 600;
 }
 
@@ -1501,25 +1503,9 @@
     position: relative;
 }
 
-.video-indicator {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50px;
-    height: 50px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f5576c;
-    font-size: 20px;
-    cursor: pointer;
-}
 
 .read-more {
-    color: #f5576c;
+    color: #443e3f;
     text-decoration: none;
     font-weight: 600;
     display: inline-flex;

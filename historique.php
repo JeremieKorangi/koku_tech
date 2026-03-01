@@ -60,7 +60,7 @@ body {
 /*.......*/
 
 .section-title h2 {
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 20px;
     color: #140d01;
 }

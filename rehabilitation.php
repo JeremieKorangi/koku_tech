@@ -227,6 +227,7 @@
                 <img src="assets/img/shape/8.png" alt="image">
             </div>
         </div>
+    </section>
 
         <?php include("inc/footer.php") ?>
 
