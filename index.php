@@ -1128,11 +1128,6 @@
             </div>
         </div>
         <!-- End Sponsorship Section -->
-
-        <div class="image-separator">
-               <img src="assets/img/about/kin_panorama.png" alt="Mon illustration" class="image-bas">
-        </div>
-
         
     <?php include("inc/footer.php") ?>
 

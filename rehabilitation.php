@@ -139,7 +139,7 @@
         <section class="strategic-objectives-area pt-70 pb-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="objectives-content">
                             <div class="section-title-left">
                                 <span class="sub-title">OBJECTIFS STRATÉGIQUES</span>
