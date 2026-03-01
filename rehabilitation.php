@@ -347,6 +347,20 @@
     align-items: flex-start;
 }
 
+.mission-icon,
+.vision-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    flex-shrink: 0;
+    box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
+}
 
 .mission-text h4,
 .vision-text h4 {

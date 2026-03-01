@@ -125,7 +125,7 @@ body {
             <!-- SECTION 2 -->
             <div class="history-row reverse">
                 <div class="history-text">
-                    <h2>Transition démocratique (1997–2006)</h2>
+                    <h2>Création et préparation de la Foire (1967–1969)</h2>
                     <p>
                         La Foire internationale de Kinshasa (FIKIN) a ouvert ses portes le jour 
                         de l'indépendance du Congo, le 30 juin 1969. Située dans la commune de 
@@ -146,7 +146,7 @@ body {
             <!-- SECTION 1 -->
             <div class="history-row">
                 <div class="history-text">
-                    <h2>Ère du Zaïre (1971–1997)</h2>
+                    <h2>Première édition et succès initial (1969–1970)</h2>
                     <p>
                         L'événement visait à présenter une image nouvelle et positive du Congo 
                         sous la direction du Président Mobutu. Son organisation symbolisait 
@@ -170,7 +170,7 @@ body {
              <!-- SECTION 2 -->
             <div class="history-row reverse">
                 <div class="history-text">
-                    <h2>Transition démocratique (1997–2006)</h2>
+                    <h2>Institutionnalisation et développement sous Président Mobutu (1971–1973)</h2>
                     <p>
                        L'idée d'organiser une foire commerciale à Kinshasa fut proposée lors des réunions de l'OUA qui se tinrent dans la capitale en septembre 1967, quelques semaines seulement après qu'une seconde rébellion de mercenaires à Kisangani et Bukavu eut de nouveau terni la réputation internationale du Congo.  
                      </p> 
@@ -195,7 +195,7 @@ body {
             <!-- SECTION 1 -->
             <div class="history-row">
                 <div class="history-text">
-                    <h2>Ère du Zaïre (1971–1997)</h2>
+                    <h2>Foires nationales et internationales dans les années 1970–1990</h2>
                     <p>
                        Le succès inattendu de la Foire internationale de 1969 (FIKIN'69) incita les autorités à la formaliser et à instaurer un programme d'alternance bisannuelle de foires internationales et nationales.   La Foire nationale, qui se tint du 24 juin au 12 juillet 1970, à l' occasion du 10e anniversaire de l'indépendance, avait pour thème « Le Congo au travail ».   Le complexe fut agrandi de deux hectares et un parc d'attractions y fut aménagé.   
                     </p>   
@@ -215,7 +215,7 @@ body {
              <!-- SECTION 2 -->
             <div class="history-row reverse">
                 <div class="history-text">
-                    <h2>Transition démocratique (1997–2006)</h2>
+                    <h2>Crises et ralentissement (1991–1993)</h2>
                     <p>
                          L'Exposition internationale de 1971 a surpassé les éditions précédentes.   Cinquante pays étaient représentés, avec 2 500 exposants, et en moyenne 48 000 visiteurs par jour s'acquittaient de 30 makutas pour y assister.   La surface d'exposition, tant couverte qu'en plein air, a été agrandie, dont 4 000 m² réservés aux participants congolais.   Le pavillon des États-Unis, d'une superficie de 1 000 m², présentait des expositions organisées par les ministères du Commerce et de l'Agriculture, ainsi que par l'Agence d'information des États-Unis.  
                     </p>    
@@ -235,6 +235,12 @@ body {
           
             </div>
 
+
+
+              <!-- SECTION 2 -->
+            <div class="history-row reverse">
+                <div class="history-text">
+                    <h2>Relance et transformation en FICKIN (2024–aujourd’hui)</h2>
              <p>     
                  Reflet de l'évolution des politiques économiques et politiques du pays, la République populaire de Chine, l'Argentine et le Brésil étaient présents pour la première fois.   La Chine et les États-Unis disposaient des plus grands pavillons, celui de ces derniers présentant Texaco, Gulf, Mobil, Westinghouse, Goodyear et Constructors Inga-Shaba, qui construisait la ligne de transport d'électricité de 1700 kilomètres reliant le barrage d'Inga à la région productrice de cuivre de Shaba.ngo.  
              </p> 
@@ -250,7 +256,12 @@ body {
 
               <p>Sa mission est de reconstruire et moderniser la FICKIN en 36 mois, grâce à des partenariats publics-privés, avec l'objectif de réguler toutes les activités foraines à travers la République.</p>
 
-                    
+                  
+                </div>
+
+            
+          
+            </div>
 
         </div>
 
