@@ -1,3 +1,4 @@
+<?php require "config.php" ?>
 <!DOCTYPE html>
 <html lang="zxx">
     <head>
@@ -1051,7 +1052,6 @@
 
         <div class="row">
             <?php
-            require_once 'config.php';
             
             $conn = getDB();
             

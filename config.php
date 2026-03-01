@@ -1,5 +1,7 @@
 <?php
 // config.php
+session_start();
+
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
@@ -12,9 +14,12 @@ function getDB() {
         die("Connexion échouée: " . $conn->connect_error);
     }
     
-    // Définir l'encodage UTF-8
     $conn->set_charset("utf8mb4");
     
     return $conn;
+}
+
+function isAdmin() {
+    return isset($_SESSION['admin_id']);
 }
 ?>
