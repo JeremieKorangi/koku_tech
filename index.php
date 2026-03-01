@@ -736,7 +736,7 @@
 
             <div class="container-fluid p-0">
                 <div class="event-slider owl-carousel owl-theme">
-                    <!-- Sélection unique des images (sans doublons) -->
+                    <!-- Sélection unique des images (sans doublons) 
                     <div class="event-item">
                         <img src="assets/img/archives/min18.webp" alt="Événement FICKIN 1">
                         <div class="event-shape">
@@ -744,7 +744,7 @@
                                 <img src="assets/img/event/colant-2.png" alt="Voir la galerie">
                             </a>
                         </div>
-                    </div>
+                    </div>-->
 
                     <div class="event-item">
                         <img src="assets/img/archives/img24.webp" alt="Événement FICKIN 2">

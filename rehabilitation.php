@@ -23,16 +23,14 @@
             <div class="container">
                 <div class="section-title">
                     <h2>Construction</h2>
-                    <p>Découvrez les valeurs et les objectifs qui guident la FICKIN au quotidien dans sa mission de développement économique et commercial de la RDC.</p>
+                    <p>Développement et réhabilitation des infrastructures pour accompagner l’expansion et le rayonnement de la FICKIN.</p>
                 </div>
 
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="intro-content">
                             <h3>Projet d'expansion et rehabilitation de la FICKIN</h3>
-                            <p>Depuis sa création en 1969, la Foire Internationale du Congo Kinshasa s'est imposée comme un acteur incontournable du développement économique de la République Démocratique du Congo. Notre institution œuvre sans relâche pour promouvoir les échanges commerciaux, industriels et culturels, tant au niveau national qu'international.</p>
-                            <p>Membre de l'Union des foires internationales (UFI) depuis 1973, nous nous engageons à respecter les standards les plus élevés en matière d'organisation d'événements professionnels et de promotion des affaires.</p>
-                            <p>Notre ambition est de faire de la FICKIN la plateforme de référence pour les échanges économiques en Afrique centrale, tout en contribuant activement au rayonnement de la RDC sur la scène internationale.</p>
+                            <p>Dans le cadre de sa vision stratégique de modernisation et de développement durable, la FICKIN s’engage dans un ambitieux projet d’expansion et de réhabilitation de ses infrastructures. Cette initiative vise à renforcer sa capacité d’accueil, améliorer les espaces d’exposition et adapter ses installations aux standards internationaux des foires et salons professionnels. À travers ce programme, la FICKIN entend consolider son rôle de moteur du développement économique et commercial de la République Démocratique du Congo, tout en offrant aux exposants, partenaires et visiteurs un environnement moderne, sécurisé et propice aux échanges d’affaires et aux manifestations culturelles.</p>
                         </div>
                     </div>
                     
@@ -51,8 +49,8 @@
         <section class="we-are-section pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
-                    <h2>Tout Savoir</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
+                    <h2>Infos</h2>
+                    <p>Explorez nos initiatives structurantes</p>
                 </div>
 
                 <div class="row">
@@ -65,15 +63,15 @@
                             </div>
                             <div class="we-content">
                                 
-                                <h3>Build Communication</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididunt ut labore</p>
+                                <h3>Infrastructure</h3>
+                                <p>Modernisation continue des installations pour répondre aux standards internationaux et améliorer l’expérience des exposants et visiteurs.</p>
 
-                                <div class="we-area-btn">
+                                <!--<div class="we-area-btn">
                                     <a href="single-events.html" class="we-area-btn-one">
                                         Voir
                                         <i class="flaticon-right"></i>
                                     </a>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -87,15 +85,15 @@
                             </div>
                             <div class="we-content">
                                 
-                                <h3>Great Information</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididunt ut labore</p>
+                                <h3>Innovation</h3>
+                                <p>Intégration de solutions modernes et numériques pour dynamiser les échanges commerciaux et promouvoir la compétitivité.</p>
 
-                                <div class="we-area-btn">
+                                <!--<div class="we-area-btn">
                                     <a href="single-events.html" class="we-area-btn-one">
                                         Voir
                                         <i class="flaticon-right"></i>
                                     </a>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -109,15 +107,15 @@
                             </div>
                             <div class="we-content">
                                 
-                                <h3>Meet New People</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididunt ut labore</p>
+                                <h3>Supervision</h3>
+                                <p>Encadrement rigoureux et gestion stratégique garantissant transparence, efficacité et performance organisationnelle.e</p>
 
-                                <div class="we-area-btn">
+                                <!--<div class="we-area-btn">
                                     <a href="single-events.html" class="we-area-btn-one">
                                         Voir
                                         <i class="flaticon-right"></i>
                                     </a>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -194,14 +192,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-6">
-                        <div class="objectives-image">
-                            <div class="testimonial-small">
-                                <p>"La FICKIN est plus qu'une foire, c'est un catalyseur du développement économique national."</p>
-                                <h4>- Comité de Direction</h4>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
  
@@ -278,7 +269,7 @@
     position: absolute;
     bottom: 30px;
     left: 30px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #db953a 0%, #e0761f 100%);
     color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -306,7 +297,7 @@
 
 .section-title-left .sub-title {
     display: inline-block;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #f7a559 0%, #111111 100%);
     color: #fff;
     padding: 5px 15px;
     border-radius: 30px;
@@ -356,20 +347,6 @@
     align-items: flex-start;
 }
 
-.mission-icon,
-.vision-icon {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 24px;
-    flex-shrink: 0;
-    box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
-}
 
 .mission-text h4,
 .vision-text h4 {
