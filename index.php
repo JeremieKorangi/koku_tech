@@ -379,8 +379,7 @@
                         </div>
                     </div>
                 </div>
-
-                 <div class="home-item item-bg3">
+                  <div class="home-item item-bg3">
                     <div class="d-table">
                         <div class="d-table-cell">
                             <div class="container">
@@ -846,8 +845,6 @@
                                 <div id="minu"></div>
                                 <div id="seco"></div>
                             </div>
-                            <p class="timer-label">Temps restant avant l'événement</p>
-                        </div>
                     </div>
                 </div>
             </div>

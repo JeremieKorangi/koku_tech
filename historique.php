@@ -235,18 +235,20 @@ body {
           
             </div>
 
+         
+              <p>     
+                 Reflet de l'évolution des politiques économiques et politiques du pays, la République populaire de Chine, l'Argentine et le Brésil étaient présents pour la première fois.   La Chine et les États-Unis disposaient des plus grands pavillons, celui de ces derniers présentant Texaco, Gulf, Mobil, Westinghouse, Goodyear et Constructors Inga-Shaba, qui construisait la ligne de transport d'électricité de 1700 kilomètres reliant le barrage d'Inga à la région productrice de cuivre de Shaba.ngo.  
+              </p> 
 
+              <p>En 1991, et ensuite en 1993, la FICKIN, dans son édition nationale, est victime des pillages dans la ville de Kinshasa, mais aussi des spoliations de son patrimoine. Depuis ces pillages, elle tourne au ralenti.</p>
+                  
+            
 
               <!-- SECTION 2 -->
             <div class="history-row reverse">
                 <div class="history-text">
                     <h2>Relance et transformation en FICKIN (2024–aujourd’hui)</h2>
-             <p>     
-                 Reflet de l'évolution des politiques économiques et politiques du pays, la République populaire de Chine, l'Argentine et le Brésil étaient présents pour la première fois.   La Chine et les États-Unis disposaient des plus grands pavillons, celui de ces derniers présentant Texaco, Gulf, Mobil, Westinghouse, Goodyear et Constructors Inga-Shaba, qui construisait la ligne de transport d'électricité de 1700 kilomètres reliant le barrage d'Inga à la région productrice de cuivre de Shaba.ngo.  
-             </p> 
-
-              <p>En 1991, et ensuite en 1993, la FICKIN, dans son édition nationale, est victime des pillages dans la ville de Kinshasa, mais aussi des spoliations de son patrimoine. Depuis ces pillages, elle tourne au ralenti.</p>
-
+             
               <p>Appelée depuis sa création Foire Internationale de Kinshasa,FIKIN, elle devient la Foire Internationale du Congo Kinshasa, FICKIN, le 22 novembre 2024.</p>
 
               <p>En effet, le gouvernement congolais avait officialisé, lors de sa 23e réunion du Conseil des ministres tenue le vendredi 22 novembre 2024, un projet de décret transformant la Foire Internationale de Kinshasa (FIKIN). Ce texte vise à élargir le champ d'action de cet établissement public au-delà de la capitale.</p>
@@ -257,7 +259,7 @@ body {
               <p>Sa mission est de reconstruire et moderniser la FICKIN en 36 mois, grâce à des partenariats publics-privés, avec l'objectif de réguler toutes les activités foraines à travers la République.</p>
 
                   
-                </div>
+            </div>
 
             
           
