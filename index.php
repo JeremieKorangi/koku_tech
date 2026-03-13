@@ -380,6 +380,36 @@
                     </div>
                 </div>
 
+                <div class="home-item item-bg1" style="background-image: url(assets/img/home-one/kin-7);">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="main-banner-content">
+                            <span class="banner-tag">👥 JEUNESSE ET ENTREPRENEURIAT</span>
+                            <h1>La FICKIN, tremplin pour la jeunesse congolaise</h1>
+                            <p>Conformément à la vision du Chef de l'État, la foire offre une plateforme unique aux jeunes entrepreneurs pour exposer leur savoir-faire et innover.</p>
+                            <div class="banner-btn">
+                                <a href="rehabilitation.php" class="default-btn">
+                                    Découvrir les initiatives
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="banner-image">
+                            <img src="assets/img/home-one/felix.png" alt="Jeunesse congolaise">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                  <div class="home-item item-bg3">
                     <div class="d-table">
                         <div class="d-table-cell">
@@ -569,7 +599,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 pl-0">
                                 <div class="image">
-                                    <img src="assets/img/testimonial/img3.png" alt="image">
+                                    <img src="assets/img/testimonial/img3.jpg" alt="image">
                                 </div>
                             </div>
 
@@ -596,7 +626,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 pl-0">
                                 <div class="image">
-                                    <img src="assets/img/testimonial/img4.jpg" alt="image">
+                                    <img src="assets/img/testimonial/img8.jpg" alt="image">
                                 </div>
                             </div>
 
@@ -870,55 +900,100 @@
         <section class="schedule-section ptb-100">
             <div class="container">
                 <div class="section-title">
-                    <span class="section-subtitle">PROGRAMME</span>
+                    <span class="section-subtitle">PROGRAMME ANNUEL</span>
                     <h2>Programme prévisionnel</h2>
                     <p>Le calendrier des rendez-vous qui feront vibrer cet événement.</p>
                 </div>
 
                 <div class="tab schedule-list-tab">
                     <ul class="tabs">
-                        <li><a href="#"><span>Jour 01</span></a></li>
-                     
+                        <li><a href="#"><span>Du 23 au 28 Mars</span></a></li>
+                         <li><a href="#"><span>Du 26 au 30 Mai</span></a></li>
+                        <li><a href="#"><span>Du 06 Juillet au 09 Aout</span></a>
+                        <li><a href="#"><span>Du 19 au 24 Octobre</span></a>
+
                     </ul>
 
                     <div class="tab_content">
                         <!-- Jour 01 -->
                         <div class="tabs_item">
                             <div class="schedule-time text-center">
-                                <span>Date à définir</span>
+                                <span>Type: Salon de l'Entrepreneuriat, des PME et de l'Agriculture</span>
                             </div>
 
                             <div class="schedule-item">
                                 <div class="schedule-time-col">
-                                    <span class="time">A définir</span>
-                                    <img src="assets/img/schedule/ouverture.jpg" alt="Ouverture">
+                                    <span class="time">Secteur Industrie <br> Entrepreneuriat, PME et Associations</span>
+                                    <p>Lieux: A KINSHASA Enceinte (Foire internationale du congo Kinshasa)</p>
                                 </div>
                                 <div class="schedule-desc-col">
-                                    <h4>A définir</h4>
+                                    <h4>Objectifs principaux: <br> Promotion de l'innovation, accompagnement des jeunes entreprises, réseautage B2B "Business to Business", promotion de l'artisanat local
+                                         </h4> <br> Détails: <br> Conférence sur le financement et la croissance des PME <br> Présentation des projets, innovation et produits <br> Ateliers de formation et coaching
+                                   
                                 </div>
                             </div>
 
                            
                         </div>
 
-                        <!-- Jour 02 (simplifié) -->
+
+                         <!-- Jour 01 -->
                         <div class="tabs_item">
                             <div class="schedule-time text-center">
-                                <span>02 Novembre 2025</span>
+                                <span>Type: Salon des Banques et Institutions Financières</span>
                             </div>
 
                             <div class="schedule-item">
                                 <div class="schedule-time-col">
-                                    <span class="time">08:00 - 20:00</span>
-                                    <img src="assets/img/schedule/stand-1.jpg" alt="Exposition">
+                                    <span class="time">Secteur Bancaire <br> Banque, Micro-finance, Assurances fintech(Technologie financière)
+                                    <p>Lieux: A KINSHASA Enceinte (Foire internationale du congo Kinshasa)</p>
                                 </div>
                                 <div class="schedule-desc-col">
-                                    <h4>Journée EXPLO</h4>
-                                    <p><i class="flaticon-placeholder"></i> Pavillon principal — FICKIN</p>
-                                    <p>Visites guidées des stands, démonstrations et animations commerciales.</p>
+                                    <h4>Objectif principaux: <br> Inclusion financière, financement des projets, digitalisation des services bancaires et assurances
+                                         </h4> <br> Détails: <br> Exposition des services bancaires et fintech (Technologie financière), <br> Forums sur l'Assurances & le financement de projet ainsi que microcrédit <br> Démonstration d'outils digitaux et mobile bancking (les services de la banque)
                                 </div>
                             </div>
                         </div>
+
+
+                                 <!-- Jour 01 -->
+                        <div class="tabs_item">
+                            <div class="schedule-time text-center">
+                                <span>Type: Grandes Foire Internationale du congo Kinshasa (Fickin 2026) </span>
+                            </div>
+
+                            <div class="schedule-item">
+                                <div class="schedule-time-col">
+                                    <span class="time">Tous les secteurs
+                                    <p>Lieux: A KINSHASA Enceinte (Foire internationale du congo Kinshasa)</p>
+                                </div>
+                                <div class="schedule-desc-col">
+                                    <h4>Objectif principaux: <br> Plateforme pour tous les secteurs, exposition nationale et internationale
+                                         </h4> <br> Détails: <br> Expositions et ventes <br> Animations culturelles et récréatives <br> Activités promotionnelles et commerciales <br> Rencontres instituionnelles et internationales
+                            </div>
+                        </div>
+
+                              <!-- Jour 01 -->
+                        <div class="tabs_item">
+                            <div class="schedule-time text-center">
+                                <span>Type: Salon International Multisectoriel des Mines et Ressources Minières & des Hydrocarbures et Energies</span>
+                            </div>
+
+                            <div class="schedule-item">
+                                <div class="schedule-time-col">
+                                    <span class="time">Secteur Minier <br> (Mine, géologie et exploitation minière) Chambre de Commerce Mine</span>
+                                    <p>Lieux: A KOLWEZI</p>
+                                </div>
+                                <div class="schedule-desc-col">
+                                    <h4>Objectifs principaux: <br> Promotion des investissements, partenariats public-privé, valorisation locale des ressources minières
+                                         </h4> <br> Détails: <br> Présentation des opportunités investissement <br> Ateliers techniques et démonstration <br> Conférences sur la gestion durable des ressources
+                                   
+                                </div>
+                            </div>
+
+                           
+                        </div>
+          
 
                         <!-- Jour 03 -->
                         <div class="tabs_item">
