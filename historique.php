@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     
     color: #333;
 }
@@ -139,7 +139,7 @@ body {
                 <div class="history-image">
                     <img src="assets/img/history/fikin_69.jpg" 
                          alt="Transition"
-                         style="width:300px; height:auto; display:block; margin:auto;">
+                         style="width:320px; height:auto; display:block; margin:auto;">
                 </div>
             </div>
 
@@ -236,9 +236,7 @@ body {
             </div>
 
          
-              <p>     
-                 Reflet de l'évolution des politiques économiques et politiques du pays, la République populaire de Chine, l'Argentine et le Brésil étaient présents pour la première fois.   La Chine et les États-Unis disposaient des plus grands pavillons, celui de ces derniers présentant Texaco, Gulf, Mobil, Westinghouse, Goodyear et Constructors Inga-Shaba, qui construisait la ligne de transport d'électricité de 1700 kilomètres reliant le barrage d'Inga à la région productrice de cuivre de Shaba.ngo.  
-              </p> 
+              <p>Reflet de l'évolution des politiques économiques et politiques du pays, la République populaire de Chine, l'Argentine et le Brésil étaient présents pour la première fois.   La Chine et les États-Unis disposaient des plus grands pavillons, celui de ces derniers présentant Texaco, Gulf, Mobil, Westinghouse, Goodyear et Constructors Inga-Shaba, qui construisait la ligne de transport d'électricité de 1700 kilomètres reliant le barrage d'Inga à la région productrice de cuivre de Shaba.ngo.  </p> 
 
               <p>En 1991, et ensuite en 1993, la FICKIN, dans son édition nationale, est victime des pillages dans la ville de Kinshasa, mais aussi des spoliations de son patrimoine. Depuis ces pillages, elle tourne au ralenti.</p>
                   
@@ -249,16 +247,17 @@ body {
                 <div class="history-text">
                     <h2>Relance et transformation en FICKIN (2024–aujourd’hui)</h2>
              
-              <p>Appelée depuis sa création Foire Internationale de Kinshasa,FIKIN, elle devient la Foire Internationale du Congo Kinshasa, FICKIN, le 22 novembre 2024.</p>
+                    <p>Appelée depuis sa création Foire Internationale de Kinshasa,FIKIN, elle devient la Foire Internationale du Congo Kinshasa, FICKIN, le 22 novembre 2024.</p>
 
-              <p>En effet, le gouvernement congolais avait officialisé, lors de sa 23e réunion du Conseil des ministres tenue le vendredi 22 novembre 2024, un projet de décret transformant la Foire Internationale de Kinshasa (FIKIN). Ce texte vise à élargir le champ d'action de cet établissement public au-delà de la capitale.</p>
-              <p>Cette nouvelle appellation, Foire Internationale du Congo Kinshasa (FICKIN), répond à deux enjeux majeurs : élargir le champ d'action de Kinshasa et préserver la résonance culturelle présente dans notre jargon ».</p>
-
-              <p>Cette initiative s'inscrit dans le cadre d'un projet de relance et de modernisation de la FIKIN. Lors du 15e réunion du Conseil des ministres, le Ministre du Commerce Extérieur, Julien Paluku Kahongya, avait fait état des défis administratifs, financiers, sociaux et infrastructurels auxquels l'établissement fait face.</p>
-
-              <p>Sa mission est de reconstruire et moderniser la FICKIN en 36 mois, grâce à des partenariats publics-privés, avec l'objectif de réguler toutes les activités foraines à travers la République.</p>
-
-                  
+                    <p style="padding-bottom:45px"> En effet, le gouvernement congolais avait officialisé, lors de sa 23e réunion du Conseil des ministres tenue le vendredi 22 novembre 2024, un projet de décret transformant la Foire Internationale de Kinshasa (FIKIN). Ce texte vise à élargir le champ d'action de cet établissement public au-delà de la capitale.</p>
+            
+                  <div class="history-image">
+                    <img src="assets/img/history/presi.jpg" 
+                         alt="Transition"
+                         style="width:500px; height:450px; display:block; margin-bottom: 20px; margin:auto;">
+                 </div>
+                 
+                 <p style="padding-top:45px">Cette initiative s’inscrit dans le cadre du projet de relance et de modernisation de la FICKIN, dans le souci du Chef de l’État, Son Excellence Félix-Antoine Tshisekedi Tshilombo, de redynamiser les infrastructures économiques stratégiques et de renforcer le rôle de la Foire Internationale du Congo-Kinshasa comme moteur du développement économique et commercial. Elle vise à répondre aux défis administratifs, financiers, sociaux et infrastructurels auxquels l’établissement est confronté, à travers une dynamique de reconstruction, de modernisation et de partenariats publics-privés, afin de faire de celui-ci un espace moderne de promotion, d’organisation et de régulation des activités foraines à l’échelle nationale et internationale.</p>
             </div>
 
             
