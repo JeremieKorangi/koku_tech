@@ -380,7 +380,7 @@
                     </div>
                 </div>
 
-                <div class="home-item item-bg1" style="background-image: url(assets/img/home-one/kin-7);">
+                <div class="home-item item-bg1" style="background-image: url(assets/img/preso.jpeg);">
     <div class="d-table">
         <div class="d-table-cell">
             <div class="container">
@@ -410,7 +410,7 @@
     </div>
 </div>
 
-                 <div class="home-item item-bg3">
+                <!-- <div class="home-item item-bg1" style="background-image: url(assets/img/home-one/kin-10.png">
                     <div class="d-table">
                         <div class="d-table-cell">
                             <div class="container">
@@ -430,16 +430,16 @@
                                         </div>
                                     </div>
             
-                                    <!--<div class="col-lg-6">
+                                    -<div class="col-lg-6">
                                         <div class="banner-image">
                                             <img src="assets/img/tamtam.png" alt="Tam-tam symbolique de la FICKIN">
                                         </div>
-                                    </div>-->
+                                    </div>--
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- End Banner Area -->
@@ -903,7 +903,7 @@
                     <p><p>Les rendez-vous majeurs de l’année.</p></p>
                 </div>
 
-                <div class="tab schedule-list-tab">
+                <div class="tab schedule-list-tab" style="padding: 70px 70px;">
                     <ul class="tabs">
                         <li><a href="#"><span>Du 23 au 28 Mars</span></a></li>
                         <li><a href="#"><span>Du 26 au 30 Mai</span></a></li>
@@ -1096,7 +1096,7 @@
                 </div>
 
                 <div class="text-center mt-4">
-                    <a href="future.html" class="btn-outline">
+                    <a href="assets/img/programme_annuel.pdf" class="btn-outline">
                         Voir le programme complet <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
